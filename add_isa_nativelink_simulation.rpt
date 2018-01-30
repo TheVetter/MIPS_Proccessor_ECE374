@@ -7,7 +7,7 @@ Sim Mode              :  RTL
 Family                :  cycloneive
 Quartus root          :  c:/altera/13.0/quartus/bin64/
 Quartus sim root      :  c:/altera/13.0/quartus/eda/sim_lib
-Simulation Tool       :  modelsim-altera
+Simulation Tool       :  modelsim
 Simulation Language   :  vhdl
 Version               :  93
 Simulation Mode       :  GUI
@@ -17,7 +17,7 @@ Sim dir               :  simulation\modelsim
 
 =======================================================
 
-Info: Starting NativeLink simulation with ModelSim-Altera software
+Info: Starting NativeLink simulation with ModelSim software
 Sourced NativeLink script c:/altera/13.0/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File add_isa_run_msim_rtl_vhdl.do already exists - backing up current file as add_isa_run_msim_rtl_vhdl.do.bak1
-Info: Spawning ModelSim-Altera Simulation software 
+Warning: File add_isa_run_msim_rtl_vhdl.do already exists - backing up current file as add_isa_run_msim_rtl_vhdl.do.bak11
+Info: Spawning ModelSim Simulation software 

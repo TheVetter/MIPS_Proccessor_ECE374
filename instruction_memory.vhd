@@ -15,11 +15,11 @@ architecture struc_behaviour of instruction_memory is
 	constant NOP : std_logic_vector(31 downto 0) := (others => '1');
 	
 	constant im0 : std_logic_vector(31 downto 0) := NOP;
-	constant im1 : std_logic_vector(31 downto 0) := ""00000000001000010000000000100000";
-	constant im2 : std_logic_vector(31 downto 0) := "00000000010000100000100000100010";
-	constant im3 : std_logic_vector(31 downto 0) := "00000000011000110000100000100010";
-	constant im4 : std_logic_vector(31 downto 0) := "00000000100001000001100000100000";
-	constant im5 : std_logic_vector(31 downto 0) := "00000000101001010001100000100010";
+	constant im1 : std_logic_vector(31 downto 0) := "00000000001000000000100000100000";
+	constant im2 : std_logic_vector(31 downto 0) := "00000000010000010001000000100010";
+	constant im3 : std_logic_vector(31 downto 0) := "00000000011000010001100000100010";
+	constant im4 : std_logic_vector(31 downto 0) := "00000000100000110010000000100000";
+	constant im5 : std_logic_vector(31 downto 0) := "00000000101001000010100000100010";
 	constant im6 : std_logic_vector(31 downto 0) := NOP;
 	constant im7 : std_logic_vector(31 downto 0) := NOP;
 	constant im8 : std_logic_vector(31 downto 0) := NOP;

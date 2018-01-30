@@ -1,145 +1,554 @@
 m255
-K3
+K4
+z2
 13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
 cModel Technology
-Z0 dC:\Users\ashiq.sakib.AD\Desktop\test\simulation\modelsim
-Efulladd
-Z1 w1484688616
-Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z4 dC:\Users\ashiq.sakib.AD\Desktop\test\simulation\modelsim
-Z5 8C:/Users/ashiq.sakib.AD/Desktop/test/fulladd.vhd
-Z6 FC:/Users/ashiq.sakib.AD/Desktop/test/fulladd.vhd
-l0
-L6
-V[8zX_Ln?R_5VZaW::ojC60
-!s100 <QJ9>XjQ91YJR?kC<m>d:2
-Z7 OV;C;10.1d;51
-31
-!i10b 1
-Z8 !s108 1484863806.743000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ashiq.sakib.AD/Desktop/test/fulladd.vhd|
-Z10 !s107 C:/Users/ashiq.sakib.AD/Desktop/test/fulladd.vhd|
-Z11 o-93 -work work -O0
-Z12 tExplicit 1
-Alogicfunc
-R2
-R3
-DEx4 work 7 fulladd 0 22 [8zX_Ln?R_5VZaW::ojC60
-l12
-L11
-VIAV6E`@RYzCnnndfX6]?O3
-!s100 >EH0eIze;e5;aMLKGga280
-R7
-31
-!i10b 1
-R8
-R9
-R10
-R11
-R12
-Emux2to1
-R1
-R2
-R3
-R4
-Z13 8C:/Users/ashiq.sakib.AD/Desktop/test/mux2to1.vhd
-Z14 FC:/Users/ashiq.sakib.AD/Desktop/test/mux2to1.vhd
-l0
-L6
-ViQPM`IERMH7K2`MOZ1CS50
-R7
-31
-Z15 !s108 1484863806.543000
-Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/ashiq.sakib.AD/Desktop/test/mux2to1.vhd|
-Z17 !s107 C:/Users/ashiq.sakib.AD/Desktop/test/mux2to1.vhd|
-R11
-R12
-!s100 2?TlOWek4L^bW0fRn3J1@2
-!i10b 1
-Alogicfunc
-R2
-R3
-DEx4 work 7 mux2to1 0 22 iQPM`IERMH7K2`MOZ1CS50
-l15
-L13
-VfHW]cz=1i5kTJbe1KZK_[1
-R7
-31
-R15
-R16
-R17
-R11
-R12
-!s100 nDEJ2k=f]MOnGz?:oQiPD1
-!i10b 1
-Eregn
-R1
-R2
-R3
-R4
-Z18 8C:/Users/ashiq.sakib.AD/Desktop/test/regN.vhd
-Z19 FC:/Users/ashiq.sakib.AD/Desktop/test/regN.vhd
+Z0 dE:/ECE374_Comp_org/mips-add-vhdl/simulation/modelsim
+T_opt
+!s110 1517325939
+VMMTcW@471=:4;:KdCg]NU2
+04 7 9 work add_isa behaviour 1
+=1-00224d7eddee-5a708e72-de-1854
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5c;63
+Eadd_isa
+Z1 w1484710218
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z4 DPx4 work 10 components 0 22 nH?`9LCf^SmXQMD?1K@@]3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8E:/ECE374_Comp_org/mips-add-vhdl/add_isa.vhd
+Z8 FE:/ECE374_Comp_org/mips-add-vhdl/add_isa.vhd
 l0
 L5
-VG8@HMNL_Sad_z9No=TYTW1
-R7
+VAfhd;maWGN4kA8hM2ik<a3
+!s100 zAfA7zeBVW0GbN;[Af0ZD1
+Z9 OL;C;10.5c;63
 31
-Z20 !s108 1484863806.336000
-Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/ashiq.sakib.AD/Desktop/test/regN.vhd|
-Z22 !s107 C:/Users/ashiq.sakib.AD/Desktop/test/regN.vhd|
-R11
-R12
-!s100 WWBF=<HmzYG=]I47O=7OI1
+Z10 !s110 1517325931
 !i10b 1
-Abehavior
+Z11 !s108 1517325931.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/add_isa.vhd|
+Z13 !s107 E:/ECE374_Comp_org/mips-add-vhdl/add_isa.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abehaviour
 R2
 R3
-DEx4 work 4 regn 0 22 G8@HMNL_Sad_z9No=TYTW1
-l13
-L12
-V^^cg1PmzUD^i9nL`e=bIW1
-R7
+R4
+R5
+R6
+DEx4 work 7 add_isa 0 22 Afhd;maWGN4kA8hM2ik<a3
+l16
+L10
+VIO`28SA?ncl^[j[bSiK;]1
+!s100 Io_5BTXOei9M3UJ4H?VEd1
+R9
 31
-R20
-R21
-R22
+R10
+!i10b 1
 R11
 R12
-!s100 UQj=Jc4WK74lkXCWh=b5Q3
+R13
+!i113 0
+R14
+R15
+Pcomponents
+R2
+R3
+R5
+R6
+R1
+R0
+8E:/ECE374_Comp_org/mips-add-vhdl/components.vhd
+FE:/ECE374_Comp_org/mips-add-vhdl/components.vhd
+l0
+L5
+VnH?`9LCf^SmXQMD?1K@@]3
+!s100 m4RhkgHbaD_0oS[l76N`Y0
+R9
+31
+Z16 !s110 1517325927
 !i10b 1
-Etrin
+Z17 !s108 1517325927.000000
+!s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/components.vhd|
+!s107 E:/ECE374_Comp_org/mips-add-vhdl/components.vhd|
+!i113 0
+R14
+R15
+Edec2to4
+R1
+R5
+R6
+R0
+Z18 8E:/ECE374_Comp_org/mips-add-vhdl/dec2to4.vhd
+Z19 FE:/ECE374_Comp_org/mips-add-vhdl/dec2to4.vhd
+l0
+L6
+V7obXTbi9S>EeXNbj1:@Bf2
+!s100 NbZK8dGF6nXNm>[=`JC>_0
+R9
+31
+Z20 !s110 1517325926
+!i10b 1
+Z21 !s108 1517325926.000000
+Z22 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/dec2to4.vhd|
+Z23 !s107 E:/ECE374_Comp_org/mips-add-vhdl/dec2to4.vhd|
+!i113 0
+R14
+R15
+Alogicfunc
+R5
+R6
+DEx4 work 7 dec2to4 0 22 7obXTbi9S>EeXNbj1:@Bf2
+l13
+L12
+VhN8DPKlKgnC?VE[1n^h@G0
+!s100 LmmfXEm2d@d@EW5E?AC=j3
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R14
+R15
+Edec4to16
 R1
 R2
 R3
 R4
-Z23 8C:/Users/ashiq.sakib.AD/Desktop/test/trin.vhd
-Z24 FC:/Users/ashiq.sakib.AD/Desktop/test/trin.vhd
+R5
+R6
+R0
+Z24 8E:/ECE374_Comp_org/mips-add-vhdl/dec4to16.vhd
+Z25 FE:/ECE374_Comp_org/mips-add-vhdl/dec4to16.vhd
 l0
-L6
-VCL9a=Od=BmR^2Lnj@NoK<2
-R7
+L7
+V0YDY9ROXNa`nXSJLmbm1m0
+!s100 :9aj>2=0mEkm@@Obl_l_h0
+R9
 31
-Z25 !s108 1484863805.982000
-Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/ashiq.sakib.AD/Desktop/test/trin.vhd|
-Z27 !s107 C:/Users/ashiq.sakib.AD/Desktop/test/trin.vhd|
-R11
-R12
-!s100 [>:K?IZ;CN75A^[1bJd2c2
+Z26 !s110 1517325930
 !i10b 1
-Abehavior
+Z27 !s108 1517325930.000000
+Z28 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/dec4to16.vhd|
+Z29 !s107 E:/ECE374_Comp_org/mips-add-vhdl/dec4to16.vhd|
+!i113 0
+R14
+R15
+Astruc_behaviour
 R2
 R3
-DEx4 work 4 trin 0 22 CL9a=Od=BmR^2Lnj@NoK<2
+R4
+R5
+R6
+DEx4 work 8 dec4to16 0 22 0YDY9ROXNa`nXSJLmbm1m0
+l15
+L13
+VCf3d<^6cTMM_i96j:I>J<3
+!s100 G?h^7U`X@@8o91bo@5CTI1
+R9
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R14
+R15
+Efulladd
+R1
+R5
+R6
+R0
+Z30 8E:/ECE374_Comp_org/mips-add-vhdl/fulladd.vhd
+Z31 FE:/ECE374_Comp_org/mips-add-vhdl/fulladd.vhd
+l0
+L6
+VziY8cfTYCVz8^A`EWKZ2^1
+!s100 cXj=L=BeW98zYAJRLH9@j1
+R9
+31
+R20
+!i10b 1
+R21
+Z32 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/fulladd.vhd|
+Z33 !s107 E:/ECE374_Comp_org/mips-add-vhdl/fulladd.vhd|
+!i113 0
+R14
+R15
+Alogicfunc
+R5
+R6
+DEx4 work 7 fulladd 0 22 ziY8cfTYCVz8^A`EWKZ2^1
+l12
+L11
+V;4A99eQYCR7B]KEjGZg0E2
+!s100 3Td1GOE:Li?fBdDZM`>ez2
+R9
+31
+R20
+!i10b 1
+R21
+R32
+R33
+!i113 0
+R14
+R15
+Einstruction_decode
+Z34 w1517296086
+R2
+R3
+R4
+R5
+R6
+R0
+Z35 8E:/ECE374_Comp_org/mips-add-vhdl/instruction_decode.vhd
+Z36 FE:/ECE374_Comp_org/mips-add-vhdl/instruction_decode.vhd
+l0
+L6
+VX>iXmLOiklZZZ;][H:PON2
+!s100 N51ILEk3fOKZEoi3T1fFC3
+R9
+31
+R26
+!i10b 1
+Z37 !s108 1517325929.000000
+Z38 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/instruction_decode.vhd|
+Z39 !s107 E:/ECE374_Comp_org/mips-add-vhdl/instruction_decode.vhd|
+!i113 0
+R14
+R15
+Astruc_behaviour
+R2
+R3
+R4
+R5
+R6
+DEx4 work 18 instruction_decode 0 22 X>iXmLOiklZZZ;][H:PON2
+l16
+L12
+VFR5j_[:hCWJPfY3IU7Ni73
+!s100 @kag_PkF^3lolaYz5IMO80
+R9
+31
+R26
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R14
+R15
+Einstruction_memory
+Z40 w1517325736
+R2
+R3
+R4
+Z41 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R5
+R6
+R0
+Z42 8E:/ECE374_Comp_org/mips-add-vhdl/instruction_memory.vhd
+Z43 FE:/ECE374_Comp_org/mips-add-vhdl/instruction_memory.vhd
+l0
+L8
+V<LM=NWoj7SeK`WOZ:ge102
+!s100 FUE5I95cMAaTeae4:ielR2
+R9
+31
+Z44 !s110 1517325929
+!i10b 1
+R37
+Z45 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/instruction_memory.vhd|
+Z46 !s107 E:/ECE374_Comp_org/mips-add-vhdl/instruction_memory.vhd|
+!i113 0
+R14
+R15
+Astruc_behaviour
+R2
+R3
+R4
+R41
+R5
+R6
+DEx4 work 18 instruction_memory 0 22 <LM=NWoj7SeK`WOZ:ge102
+l40
+L14
+VNI_U8iePGeQTn=6FB6KBL3
+!s100 ]`S11KG_GG:MWZEncn?hD1
+R9
+31
+R44
+!i10b 1
+R37
+R45
+R46
+!i113 0
+R14
+R15
+Emux2to1
+R1
+R5
+R6
+R0
+Z47 8E:/ECE374_Comp_org/mips-add-vhdl/mux2to1.vhd
+Z48 FE:/ECE374_Comp_org/mips-add-vhdl/mux2to1.vhd
+l0
+L6
+V]F]hTDio`OR<=VY3ZSjfn2
+!s100 2Y]BJOJ>nfG@D@kF6<KcB0
+R9
+31
+Z49 !s110 1517325925
+!i10b 1
+Z50 !s108 1517325925.000000
+Z51 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/mux2to1.vhd|
+Z52 !s107 E:/ECE374_Comp_org/mips-add-vhdl/mux2to1.vhd|
+!i113 0
+R14
+R15
+Alogicfunc
+R5
+R6
+DEx4 work 7 mux2to1 0 22 ]F]hTDio`OR<=VY3ZSjfn2
+l15
+L13
+Vm2f86Nge<14h;NWU_K>[>1
+!s100 ;W^SCehM[9I;kQINc0CEK0
+R9
+31
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R14
+R15
+Emux4to1
+R1
+R2
+R3
+R4
+R5
+R6
+R0
+Z53 8E:/ECE374_Comp_org/mips-add-vhdl/mux4to1.vhd
+Z54 FE:/ECE374_Comp_org/mips-add-vhdl/mux4to1.vhd
+l0
+L6
+V81WhnCONI:cWkiKH_1fkR1
+!s100 nT:OzDKVMaJZ1zaY`OLXK2
+R9
+31
+Z55 !s110 1517325928
+!i10b 1
+Z56 !s108 1517325928.000000
+Z57 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/mux4to1.vhd|
+Z58 !s107 E:/ECE374_Comp_org/mips-add-vhdl/mux4to1.vhd|
+!i113 0
+R14
+R15
+Astruc_behaviour
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 mux4to1 0 22 81WhnCONI:cWkiKH_1fkR1
+l17
+L13
+VkD?H>aM:]4=h8BFlGTZP00
+!s100 <lJc1_mQ>`X>fQB]PmRX52
+R9
+31
+R44
+!i10b 1
+R56
+R57
+R58
+!i113 0
+R14
+R15
+Eregister_file
+Z59 w1517325002
+R2
+R3
+R4
+R5
+R6
+R0
+Z60 8E:/ECE374_Comp_org/mips-add-vhdl/register_file.vhd
+Z61 FE:/ECE374_Comp_org/mips-add-vhdl/register_file.vhd
+l0
+L6
+Ve7HQgG3ff8;CjnQSG<FQb1
+!s100 [Th0f3?l;UUR2KNP]lJ6a2
+R9
+31
+R55
+!i10b 1
+R56
+Z62 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/register_file.vhd|
+Z63 !s107 E:/ECE374_Comp_org/mips-add-vhdl/register_file.vhd|
+!i113 0
+R14
+R15
+Astruc_behaviour
+R2
+R3
+R4
+R5
+R6
+DEx4 work 13 register_file 0 22 e7HQgG3ff8;CjnQSG<FQb1
+l41
+L12
+V9`MhN>7YVT=cRI`Nc^jlA3
+!s100 6<DgZ3>YkZKfBYe=hfANG0
+R9
+31
+R55
+!i10b 1
+R56
+R62
+R63
+!i113 0
+R14
+R15
+Eregn
+R1
+R5
+R6
+R0
+Z64 8E:/ECE374_Comp_org/mips-add-vhdl/regN.vhd
+Z65 FE:/ECE374_Comp_org/mips-add-vhdl/regN.vhd
+l0
+L5
+V<n2ab<HDD_k2>QBCPM]9>3
+!s100 9WISHEa<GU>hb:hkoFU>l1
+R9
+31
+Z66 !s110 1517325924
+!i10b 1
+Z67 !s108 1517325924.000000
+Z68 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/regN.vhd|
+Z69 !s107 E:/ECE374_Comp_org/mips-add-vhdl/regN.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R5
+R6
+DEx4 work 4 regn 0 22 <n2ab<HDD_k2>QBCPM]9>3
+l13
+L12
+V6fP>odf>[FfYhH6bzlTP=2
+!s100 H_Fd<a^^4ZRKjV6>Zi4<R0
+R9
+31
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 0
+R14
+R15
+Eripple_carry
+Z70 w1517325014
+R2
+R3
+R4
+R5
+R6
+R0
+Z71 8E:/ECE374_Comp_org/mips-add-vhdl/ripple_carry.vhd
+Z72 FE:/ECE374_Comp_org/mips-add-vhdl/ripple_carry.vhd
+l0
+L8
+Vc:T[_OcQda0N;EmHS<fze2
+!s100 NecK9P_@beN7`aT5X@S9T3
+R9
+31
+R16
+!i10b 1
+R17
+Z73 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/ripple_carry.vhd|
+Z74 !s107 E:/ECE374_Comp_org/mips-add-vhdl/ripple_carry.vhd|
+!i113 0
+R14
+R15
+Astruc_behaviour
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 ripple_carry 0 22 c:T[_OcQda0N;EmHS<fze2
+l20
+L15
+V6Ok:7GY1ea>g1F^BkIeKn3
+!s100 KiZf8WDQOWUXDf6a5j[QN3
+R9
+31
+R16
+!i10b 1
+R17
+R73
+R74
+!i113 0
+R14
+R15
+Etrin
+R1
+R5
+R6
+R0
+Z75 8E:/ECE374_Comp_org/mips-add-vhdl/trin.vhd
+Z76 FE:/ECE374_Comp_org/mips-add-vhdl/trin.vhd
+l0
+L6
+V3^=UTL66lAo[Zc29Y`UBR1
+!s100 09[YhPg2Q7CoUYLlSBnMB2
+R9
+31
+R66
+!i10b 1
+Z77 !s108 1517325923.000000
+Z78 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/trin.vhd|
+Z79 !s107 E:/ECE374_Comp_org/mips-add-vhdl/trin.vhd|
+!i113 0
+R14
+R15
+Abehavior
+R5
+R6
+DEx4 work 4 trin 0 22 3^=UTL66lAo[Zc29Y`UBR1
 l14
 L13
-V`n:A?DfAIk_BjZ==3A;PM0
-R7
+VUNPXCA:^CdmT0L>^RH;nj2
+!s100 KkF5k=d^9m5`cKFZjo2Pg0
+R9
 31
-R25
-R26
-R27
-R11
-R12
-!s100 U:[`^0c4BHzzgY3ljDJ]M2
+R66
 !i10b 1
+R77
+R78
+R79
+!i113 0
+R14
+R15

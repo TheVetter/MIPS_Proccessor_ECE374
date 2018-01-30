@@ -54,15 +54,19 @@ Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |add_isa|ripple_carry:addpc
+Cin => g[0].IN0
+Cin => g[1].IN0
+Cin => g[2].IN0
+Cin => g[3].IN0
 Cin => fulladd:stage1.Cin
 x[0] => fulladd:stage1.x
 x[1] => fulladd:stage2.x
 x[2] => fulladd:stage3.x
 x[3] => fulladd:stage4.x
-y[0] => fulladd:stage1.y
-y[1] => fulladd:stage2.y
-y[2] => fulladd:stage3.y
-y[3] => fulladd:stage4.y
+y[0] => g[0].IN1
+y[1] => g[1].IN1
+y[2] => g[2].IN1
+y[3] => g[3].IN1
 s[0] <= fulladd:stage1.s
 s[1] <= fulladd:stage2.s
 s[2] <= fulladd:stage3.s
@@ -6080,10 +6084,10 @@ F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 |add_isa|instruction_decode:id
 instr[0] => Equal1.IN5
-instr[1] => Equal1.IN4
-instr[2] => Equal1.IN3
-instr[3] => Equal1.IN2
-instr[4] => Equal1.IN1
+instr[1] => Equal1.IN1
+instr[2] => Equal1.IN4
+instr[3] => Equal1.IN3
+instr[4] => Equal1.IN2
 instr[5] => Equal1.IN0
 instr[6] => ~NO_FANOUT~
 instr[7] => ~NO_FANOUT~
@@ -8805,15 +8809,19 @@ F[3] <= F[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |add_isa|ripple_carry:add_ins
+Cin => g[0].IN0
+Cin => g[1].IN0
+Cin => g[2].IN0
+Cin => g[3].IN0
 Cin => fulladd:stage1.Cin
 x[0] => fulladd:stage1.x
 x[1] => fulladd:stage2.x
 x[2] => fulladd:stage3.x
 x[3] => fulladd:stage4.x
-y[0] => fulladd:stage1.y
-y[1] => fulladd:stage2.y
-y[2] => fulladd:stage3.y
-y[3] => fulladd:stage4.y
+y[0] => g[0].IN1
+y[1] => g[1].IN1
+y[2] => g[2].IN1
+y[3] => g[3].IN1
 s[0] <= fulladd:stage1.s
 s[1] <= fulladd:stage2.s
 s[2] <= fulladd:stage3.s
