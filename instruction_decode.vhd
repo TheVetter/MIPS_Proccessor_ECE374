@@ -28,7 +28,7 @@ begin
 	RegWrite <= '1' when (opcode = "000000")
 							else '0';
 	
-	add_sub <= '0' when (funct = "100000") 
-						else '1';
+	add_sub <= '1' when (funct = "100010") 
+						else '0';
 
 end struc_behaviour;

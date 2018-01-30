@@ -17,9 +17,9 @@ ARCHITECTURE struc_behaviour OF ripple_carry IS
 
 BEGIN
 	
-	stage1 : fulladd PORT MAP (Cin, x(0), y(0), s(0), carry(1));
-	stage2 : fulladd PORT MAP (carry(1), x(1), y(1), s(1), carry(2));
-	stage3 : fulladd PORT MAP (carry(2), x(2), y(2), s(2), carry(3));
-	stage4 : fulladd PORT MAP (carry(3), x(3), y(3), s(3), Cout);
+	stage1 : fulladd PORT MAP (Cin, x(0), (y(0) xor Cin), s(0), carry(1));
+	stage2 : fulladd PORT MAP (carry(1), x(1), (y(1) xor Cin), s(1), carry(2));
+	stage3 : fulladd PORT MAP (carry(2), x(2), (y(2) xor Cin), s(2), carry(3));
+	stage4 : fulladd PORT MAP (carry(3), x(3), (y(3) xor Cin), s(3), Cout);
 
 END struc_behaviour;

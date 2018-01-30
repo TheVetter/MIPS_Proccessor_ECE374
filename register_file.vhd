@@ -17,8 +17,8 @@ architecture struc_behaviour of register_file is
 	constant reg2 : std_logic_vector(3 downto 0) := "0010";
 	constant reg3 : std_logic_vector(3 downto 0) := "0011";
 	constant reg4 : std_logic_vector(3 downto 0) := "0100";
-	constant reg5 : std_logic_vector(3 downto 0) := "0101";
-	constant reg6 : std_logic_vector(3 downto 0) := "0110";
+	constant reg5 : std_logic_vector(3 downto 0) := zero_value;
+	constant reg6 : std_logic_vector(3 downto 0) := zero_value;
 	constant reg7 : std_logic_vector(3 downto 0) := zero_value;
 	constant reg8 : std_logic_vector(3 downto 0) := zero_value;
 	constant reg9 : std_logic_vector(3 downto 0) := zero_value;
