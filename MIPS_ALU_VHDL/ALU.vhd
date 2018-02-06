@@ -2,48 +2,37 @@ library ieee;
 use ieee.std_logic_1164.all;
 use work.components.all;
 
-
 entity ALU is
-	port( X, Y :in std_logic_vector(3 downto 0);
-			add_sub : in std_logic;
-			ALUOP : in std_logic_vector(1 downto 0);
-			S: out std_logic_vector(3 downto 0);
-			zero2: out std_logic);
+	port( clock, reset : in std_logic;
+	current_pc, result : out std_logic_vector(3 downto 0));
 end ALU;
 
+architecture behaviour of AlU is
+	constant initial_pc : std_logic_vector(3 downto 0) := (others => '0');
+	signal update_pc, read_port1, read_port2, write_port, w_value, src1, src2, aluOut, rout, mout : std_logic_vector(3 downto 0);
+	signal instr_from_im : std_logic_vector(31 downto 0);
+	signal ALUOP : std_logic_vector(1 downto 0);
+	signal MemRead, MemWrite, RegWrite, add_sub, zero2 : std_logic;
+	
+begin
+	pc_mux : mux2to1 generic map (n=>4) port map (reset, update_pc, initial_pc, mout);					--- multiplexer
+	pc	: regN generic map (n=>4) port map (clock, mout, rout);												--- register
+	
+	---------- pc = pc +1 ------------------------------------------
+	addpc : ripple_carry port map ('0', rout, "0001", update_pc);
 
-ARCHITECTURE struc_behaviour OF ALU IS
-	signal tempS0 : std_logic_vector(3 downto 0);
-	signal tempS1 : std_logic_vector(3 downto 0);
-	signal tempS2 : std_logic_vector(3 downto 0);
-	signal tempS3 : std_logic_vector(3 downto 0);
+	----------- IM -------------------------------------------------
+	im : instruction_memory port map (clock, reset, rout, instr_from_im);
 	
+	------------- ID ------------------------------------------------
+	id : instruction_decode port map (instr_from_im, MemRead, MemWrite, RegWrite, add_sub, ALUOP, read_port1, read_port2, write_port);
 	
-BEGIN
+	------------- RF --------------------------------------------------
+	rf : register_file port map (clock, reset, RegWrite, read_port1, read_port2, write_port, aluOut, src1, src2);
 	
-	---4 to 1 mux ---
-	mux : mux4to1 port map ( tempS0, tempS1, tempS2, tempS3, ALUOP, S);
+	alu : aluPart port map ( src1, src2, add_sub, ALUOP, aluOut, zero2);
 	
-	---ripple carry adder 
-	ripCarry : ripple_carry port map (add_sub, X, Y, tempS1);
+	current_pc <= rout;
+	result <= aluOut;
 
-	---mux for jump and SLT ---
-	mux2 : mux2to1 port map ( tempS1(3), "0000", "1111", tempS0 );
-
-	---and x,y ---
-	tempS2(0) <= X(0) and Y(0);
-	tempS2(1) <= X(1) and Y(1);
-	tempS2(2) <= X(2) and Y(2);
-	tempS2(3) <= X(3) and Y(3);
-	
-		--- or x,y ----
-	tempS3(0) <= X(0) or Y(0);
-	tempS3(1) <= X(1) or Y(1);
-	tempS3(2) <= X(2) or Y(2);
-	tempS3(3) <= X(3) or Y(3);
-	
-	
-	--- check if zero bullshit --- 
-	zero2 <= (not (tempS1(0) or tempS1(1) or tempS1(2) or tempS1(3)));
-		
-END struc_behaviour;
+end behaviour;

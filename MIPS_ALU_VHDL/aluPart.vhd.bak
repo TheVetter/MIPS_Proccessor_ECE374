@@ -1,0 +1,49 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.components.all;
+
+
+entity aluPart is
+	port( X, Y :in std_logic_vector(3 downto 0);
+			add_sub : in std_logic;
+			ALUOP : in std_logic_vector(1 downto 0);
+			S: out std_logic_vector(3 downto 0);
+			zero2: out std_logic);
+end aluPart;
+
+
+ARCHITECTURE struc_behaviour OF ALU IS
+	signal tempS0 : std_logic_vector(3 downto 0);
+	signal tempS1 : std_logic_vector(3 downto 0);
+	signal tempS2 : std_logic_vector(3 downto 0);
+	signal tempS3 : std_logic_vector(3 downto 0);
+	
+	
+BEGIN
+	
+	---4 to 1 mux ---
+	mux : mux4to1 port map ( tempS0, tempS1, tempS2, tempS3, ALUOP, S);
+	
+	---ripple carry adder 
+	ripCarry : ripple_carry port map (add_sub, X, Y, tempS1);
+
+	---mux for jump and SLT ---
+	mux2 : mux2to1 port map ( tempS1(3), "0000", "1111", tempS0 );
+
+	---and x,y ---
+	tempS2(0) <= X(0) and Y(0);
+	tempS2(1) <= X(1) and Y(1);
+	tempS2(2) <= X(2) and Y(2);
+	tempS2(3) <= X(3) and Y(3);
+	
+		--- or x,y ----
+	tempS3(0) <= X(0) or Y(0);
+	tempS3(1) <= X(1) or Y(1);
+	tempS3(2) <= X(2) or Y(2);
+	tempS3(3) <= X(3) or Y(3);
+	
+	
+	--- check if zero bullshit --- 
+	zero2 <= (not (tempS1(0) or tempS1(1) or tempS1(2) or tempS1(3)));
+		
+END struc_behaviour;

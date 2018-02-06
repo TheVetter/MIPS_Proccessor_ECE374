@@ -6,7 +6,7 @@ USE work.components.all;
 entity instruction_decode is
 	port(instr : in std_logic_vector(31 downto 0);
 			MemRead, MemWrite, RegWrite, add_sub : out std_logic;
-			ALUOP : out std_logic_vector(1 downto 0);
+			ALUOP: out std_logic_vector(1 downto 0);
 			read_p1, read_p2, write_p : out std_logic_vector(3 downto 0));
 end instruction_decode;
 
@@ -32,19 +32,23 @@ begin
 	add_sub <= '1' when (funct = "100010") or (funct = "101010" ) or (opcode = "000100")
 						else '0';
 	
-	--- alu op code mapping ----
-	--- for jump and slt ---
-	if (funct = "101010") or ( opcode = "000010") then 
-		ALUOP <= "00";
-	--- AND condtion ----
-	elsif ((funct = "100100")) then 
-		ALUOP <= "10";
-	--- Or function ---
-	elsif ((funct = "100101")) then
-		ALUOP <= "11";
-	--- all other funtions --
-	else
-		ALUOP <= "01";
-	end if;
-
+	
+	process (funct, opcode)
+		BEGIN
+		--- alu op code mapping ---
+		--- for jump and slt ---
+		if ((funct = "101010") or (opcode = "000010")) then 
+			ALUOP <= "00";
+		--- AND condtion ----
+		elsif ((funct = "100100")) then 
+			ALUOP <= "10";
+		--- Or function ---
+		elsif ((funct = "100101")) then
+			ALUOP <= "11";
+		--- all other funtions --
+		else
+			ALUOP <= "01";
+		end if;
+	end process;
+	
 end struc_behaviour;

@@ -79,16 +79,7 @@ end component;
 component instruction_decode is
 	port(instr : in std_logic_vector(31 downto 0);
 			MemRead, MemWrite, RegWrite, add_sub : out std_logic;
-			ALUOP : out std_LOGIC_VECTOR(1 downto 0);
 			read_p1, read_p2, write_p : out std_logic_vector(3 downto 0));
-end component;
------------- arthimetic logic unit ___------------------------------
-component aluPart is
-	port( X, Y :in std_logic_vector(3 downto 0);
-			add_sub : in std_logic;
-			ALUOP : in std_logic_vector(1 downto 0);
-			s: out std_logic_vector(3 downto 0);
-			zero2: out std_logic);
 end component;
 
 end components;
