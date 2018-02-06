@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ALU
-Mon Feb  5 21:04:22 2018
+Mon Feb  5 21:56:17 2018
 Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -252,15 +252,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Feb  5 21:04:22 2018      ;
+; Analysis & Synthesis Status        ; Successful - Mon Feb  5 21:56:17 2018      ;
 ; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; ALU                                        ;
 ; Top-level Entity Name              ; ALU                                        ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 89                                         ;
-;     Total combinational functions  ; 72                                         ;
-;     Dedicated logic registers      ; 28                                         ;
-; Total registers                    ; 28                                         ;
+; Total logic elements               ; 37                                         ;
+;     Total combinational functions  ; 37                                         ;
+;     Dedicated logic registers      ; 8                                          ;
+; Total registers                    ; 8                                          ;
 ; Total pins                         ; 10                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
@@ -389,126 +389,116 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 89          ;
-;                                             ;             ;
-; Total combinational functions               ; 72          ;
-; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 40          ;
-;     -- 3 input functions                    ; 14          ;
-;     -- <=2 input functions                  ; 18          ;
-;                                             ;             ;
-; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 72          ;
-;     -- arithmetic mode                      ; 0           ;
-;                                             ;             ;
-; Total registers                             ; 28          ;
-;     -- Dedicated logic registers            ; 28          ;
-;     -- I/O registers                        ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 10          ;
-; Embedded Multiplier 9-bit elements          ; 0           ;
-; Maximum fan-out node                        ; clock~input ;
-; Maximum fan-out                             ; 28          ;
-; Total fan-out                               ; 339         ;
-; Average fan-out                             ; 2.83        ;
-+---------------------------------------------+-------------+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimated Total logic elements              ; 37           ;
+;                                             ;              ;
+; Total combinational functions               ; 37           ;
+; Logic element usage by number of LUT inputs ;              ;
+;     -- 4 input functions                    ; 31           ;
+;     -- 3 input functions                    ; 2            ;
+;     -- <=2 input functions                  ; 4            ;
+;                                             ;              ;
+; Logic elements by mode                      ;              ;
+;     -- normal mode                          ; 37           ;
+;     -- arithmetic mode                      ; 0            ;
+;                                             ;              ;
+; Total registers                             ; 8            ;
+;     -- Dedicated logic registers            ; 8            ;
+;     -- I/O registers                        ; 0            ;
+;                                             ;              ;
+; I/O pins                                    ; 10           ;
+; Embedded Multiplier 9-bit elements          ; 0            ;
+; Maximum fan-out node                        ; regN:pc|Q[0] ;
+; Maximum fan-out                             ; 20           ;
+; Total fan-out                               ; 172          ;
+; Average fan-out                             ; 2.65         ;
++---------------------------------------------+--------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                     ;
-+----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
-; Compilation Hierarchy Node       ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                       ; Library Name ;
-+----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
-; |ALU                             ; 72 (0)            ; 28 (0)       ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |ALU                                                      ;              ;
-;    |aluPart:alu|                 ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu                                          ;              ;
-;       |ripple_carry:ripCarry|    ; 10 (1)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry                    ;              ;
-;          |fulladd:stage1|        ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry|fulladd:stage1     ;              ;
-;          |fulladd:stage2|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry|fulladd:stage2     ;              ;
-;          |fulladd:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry|fulladd:stage3     ;              ;
-;          |fulladd:stage4|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry|fulladd:stage4     ;              ;
-;    |instruction_decode:id|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|instruction_decode:id                                ;              ;
-;    |instruction_memory:im|       ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|instruction_memory:im                                ;              ;
-;    |mux2to1:pc_mux|              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|mux2to1:pc_mux                                       ;              ;
-;    |regN:pc|                     ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|regN:pc                                              ;              ;
-;    |register_file:rf|            ; 52 (36)           ; 24 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf                                     ;              ;
-;       |dec4to16:stage_dec_write| ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|dec4to16:stage_dec_write            ;              ;
-;          |dec2to4:s1|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|dec4to16:stage_dec_write|dec2to4:s1 ;              ;
-;       |mux4to1:m0|               ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m0                          ;              ;
-;          |mux2to1:stage3|        ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m0|mux2to1:stage3           ;              ;
-;       |mux4to1:m1|               ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m1                          ;              ;
-;          |mux2to1:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m1|mux2to1:stage3           ;              ;
-;       |mux4to1:m2|               ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m2                          ;              ;
-;          |mux2to1:stage3|        ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m2|mux2to1:stage3           ;              ;
-;       |mux4to1:m3|               ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m3                          ;              ;
-;          |mux2to1:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m3|mux2to1:stage3           ;              ;
-;       |mux4to1:m4|               ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m4                          ;              ;
-;          |mux2to1:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m4|mux2to1:stage3           ;              ;
-;       |mux4to1:m5|               ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m5                          ;              ;
-;          |mux2to1:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m5|mux2to1:stage3           ;              ;
-;       |regN:r0|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|regN:r0                             ;              ;
-;       |regN:r1|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|regN:r1                             ;              ;
-;       |regN:r2|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|regN:r2                             ;              ;
-;       |regN:r3|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|regN:r3                             ;              ;
-;       |regN:r4|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|regN:r4                             ;              ;
-;       |regN:r5|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|regN:r5                             ;              ;
-;    |ripple_carry:addpc|          ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|ripple_carry:addpc                                   ;              ;
-;       |fulladd:stage2|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|ripple_carry:addpc|fulladd:stage2                    ;              ;
-;       |fulladd:stage3|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|ripple_carry:addpc|fulladd:stage3                    ;              ;
-;       |fulladd:stage4|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|ripple_carry:addpc|fulladd:stage4                    ;              ;
-+----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                 ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------+--------------+
+; Compilation Hierarchy Node    ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                      ; Library Name ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------+--------------+
+; |ALU                          ; 37 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |ALU                                                     ;              ;
+;    |aluPart:alu|              ; 17 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu                                         ;              ;
+;       |mux4to1:mux|           ; 13 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|mux4to1:mux                             ;              ;
+;          |mux2to1:stage2|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|mux4to1:mux|mux2to1:stage2              ;              ;
+;          |mux2to1:stage3|     ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|mux4to1:mux|mux2to1:stage3              ;              ;
+;       |ripple_carry:ripCarry| ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry                   ;              ;
+;          |fulladd:stage2|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry|fulladd:stage2    ;              ;
+;          |fulladd:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry|fulladd:stage3    ;              ;
+;          |fulladd:stage4|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|aluPart:alu|ripple_carry:ripCarry|fulladd:stage4    ;              ;
+;    |instruction_decode:id|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|instruction_decode:id                               ;              ;
+;    |instruction_memory:im|    ; 6 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|instruction_memory:im                               ;              ;
+;       |dec4to16:stage_dec|    ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|instruction_memory:im|dec4to16:stage_dec            ;              ;
+;          |dec2to4:s1|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|instruction_memory:im|dec4to16:stage_dec|dec2to4:s1 ;              ;
+;    |mux2to1:pc_mux|           ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|mux2to1:pc_mux                                      ;              ;
+;    |regN:pc|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|regN:pc                                             ;              ;
+;    |register_file:rf|         ; 6 (1)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf                                    ;              ;
+;       |dec4to16:stage_dec1|   ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|dec4to16:stage_dec1                ;              ;
+;          |dec2to4:s2|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|dec4to16:stage_dec1|dec2to4:s2     ;              ;
+;       |mux4to1:m1|            ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m1                         ;              ;
+;          |mux2to1:stage3|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|mux4to1:m1|mux2to1:stage3          ;              ;
+;       |regN:r1|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|register_file:rf|regN:r1                            ;              ;
+;    |ripple_carry:addpc|       ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|ripple_carry:addpc                                  ;              ;
+;       |fulladd:stage4|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU|ripple_carry:addpc|fulladd:stage4                   ;              ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                       ;
-+-------------------------------------------------------------------------+------------------------------------------------+
-; Register name                                                           ; Reason for Removal                             ;
-+-------------------------------------------------------------------------+------------------------------------------------+
-; instruction_memory:im|regN:r15|Q[0..5,11..14,16..19,21..24,26..31]      ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r14|Q[0..5,11..14,16..19,21..24,26..31]      ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r13|Q[0..5,11..14,16..19,21..24,26..31]      ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r12|Q[0..5,11..14,16..19,21..24,26..31]      ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r11|Q[0..5,11..14,16..19,21..24,26..31]      ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r10|Q[0..5,11..14,16..19,21..24,26..31]      ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r9|Q[0..5,11..14,16..19,21..24,26..31]       ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r8|Q[0..5,11..14,16..19,21..24,26..31]       ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r7|Q[0..5,11..14,16..19,21..24,26..31]       ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r6|Q[0..5,11..14,16..19,21..24,26..31]       ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r5|Q[1,5,11,13,18,21,23]                     ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r4|Q[5,13,16,17,23]                          ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r3|Q[1,5,11,12,16,21,22]                     ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r2|Q[1,5,12,16,22]                           ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r1|Q[5,11,21]                                ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r0|Q[0..5,11..14,16..19,21..24,26..31]       ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r1|Q[1..4,12..14,16..19,22..24,26..31]       ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r2|Q[0,2..4,11,13,14,17..19,21,23,24,26..31] ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r3|Q[0,2..4,13,14,17..19,23,24,26..31]       ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r4|Q[0..4,11,12,14,18,19,21,22,24,26..31]    ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r5|Q[0,2..4,12,14,16,17,19,22,24,26..31]     ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r1|Q[0]                                      ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r15|Q[0..3]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r14|Q[0..3]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r13|Q[0..3]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r12|Q[0..3]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r11|Q[0..3]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r10|Q[0..3]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r9|Q[0..3]                                        ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r8|Q[0..3]                                        ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r6|Q[0]                                           ; Lost fanout                                    ;
-; register_file:rf|regN:r7|Q[0]                                           ; Lost fanout                                    ;
-; register_file:rf|regN:r6|Q[1]                                           ; Lost fanout                                    ;
-; register_file:rf|regN:r7|Q[1]                                           ; Lost fanout                                    ;
-; register_file:rf|regN:r6|Q[2]                                           ; Lost fanout                                    ;
-; register_file:rf|regN:r7|Q[2]                                           ; Lost fanout                                    ;
-; register_file:rf|regN:r6|Q[3]                                           ; Lost fanout                                    ;
-; register_file:rf|regN:r7|Q[3]                                           ; Lost fanout                                    ;
-; Total Number of Removed Registers = 424                                 ;                                                ;
-+-------------------------------------------------------------------------+------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                     ;
++-----------------------------------------------------------------------+------------------------------------------------+
+; Register name                                                         ; Reason for Removal                             ;
++-----------------------------------------------------------------------+------------------------------------------------+
+; instruction_memory:im|regN:r15|Q[0..5,11..14,16..19,21..24,26..31]    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r14|Q[0..5,11..14,16..19,21..24,26..31]    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r13|Q[0..5,11..14,16..19,21..24,26..31]    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r12|Q[0..5,11..14,16..19,21..24,26..31]    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r11|Q[0..5,11..14,16..19,21..24,26..31]    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r10|Q[0..5,11..14,16..19,21..24,26..31]    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r9|Q[0..5,11..14,16..19,21..24,26..31]     ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r8|Q[0..5,11..14,16..19,21..24,26..31]     ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r7|Q[0..5,11..14,16..19,21..24,26..31]     ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r6|Q[0,2,5,11,16,17,22]                    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r5|Q[2,5,11,16,17,22]                      ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r4|Q[1,5,11,16,17,21]                      ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r3|Q[5,11,16,17,22]                        ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r2|Q[1,3,5,11,17,21,22]                    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r1|Q[1,3,5,11,16,17,22]                    ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r0|Q[0..5,11..14,16..19,21..24,26..31]     ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r1|Q[2,4,12..14,18,19,21,23,24,26..31]     ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r2|Q[0,2,4,12..14,16,18,19,23,24,26..31]   ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r3|Q[0..4,12..14,18,19,21,23,24,26..31]    ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r4|Q[0,2..4,12..14,18,19,22..24,26..31]    ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r5|Q[0,1,3,4,12..14,18,19,21,23,24,26..31] ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r6|Q[1,3,4,12..14,18,19,21,23,24,26..31]   ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r0|Q[0..3]                                      ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r10|Q[0..3]                                     ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r12|Q[0..3]                                     ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r14|Q[0..3]                                     ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r2|Q[0,2,3]                                     ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r4|Q[0,1,3]                                     ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r6|Q[0..3]                                      ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r8|Q[0..3]                                      ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; register_file:rf|regN:r4|Q[2]                                         ; Merged with register_file:rf|regN:r2|Q[1]      ;
+; register_file:rf|regN:r2|Q[1]                                         ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r1|Q[0]                                    ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r15|Q[0..3]                                     ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r13|Q[0..3]                                     ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r11|Q[0..3]                                     ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r9|Q[0..3]                                      ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r7|Q[0..3]                                      ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r5|Q[0..3]                                      ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r3|Q[0,1]                                       ; Stuck at VCC due to stuck port data_in         ;
+; register_file:rf|regN:r3|Q[2,3]                                       ; Stuck at GND due to stuck port data_in         ;
+; Total Number of Removed Registers = 444                               ;                                                ;
++-----------------------------------------------------------------------+------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
@@ -516,22 +506,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------+---------------------------+-----------------------------------------------------------------+
 ; Register name                       ; Reason for Removal        ; Registers Removed due to This Register                          ;
 +-------------------------------------+---------------------------+-----------------------------------------------------------------+
-; instruction_memory:im|regN:r15|Q[0] ; Stuck at VCC              ; register_file:rf|regN:r15|Q[0], register_file:rf|regN:r15|Q[1], ;
-;                                     ; due to stuck port data_in ; register_file:rf|regN:r15|Q[2], register_file:rf|regN:r15|Q[3], ;
-;                                     ;                           ; register_file:rf|regN:r14|Q[0], register_file:rf|regN:r14|Q[1], ;
-;                                     ;                           ; register_file:rf|regN:r14|Q[2], register_file:rf|regN:r14|Q[3], ;
-;                                     ;                           ; register_file:rf|regN:r13|Q[0], register_file:rf|regN:r13|Q[1], ;
-;                                     ;                           ; register_file:rf|regN:r13|Q[2], register_file:rf|regN:r13|Q[3], ;
-;                                     ;                           ; register_file:rf|regN:r12|Q[0], register_file:rf|regN:r12|Q[1], ;
-;                                     ;                           ; register_file:rf|regN:r12|Q[2], register_file:rf|regN:r12|Q[3], ;
-;                                     ;                           ; register_file:rf|regN:r11|Q[0], register_file:rf|regN:r11|Q[1], ;
-;                                     ;                           ; register_file:rf|regN:r11|Q[2], register_file:rf|regN:r11|Q[3], ;
-;                                     ;                           ; register_file:rf|regN:r10|Q[0], register_file:rf|regN:r10|Q[1], ;
-;                                     ;                           ; register_file:rf|regN:r10|Q[2], register_file:rf|regN:r10|Q[3], ;
-;                                     ;                           ; register_file:rf|regN:r9|Q[0], register_file:rf|regN:r9|Q[1],   ;
-;                                     ;                           ; register_file:rf|regN:r9|Q[2], register_file:rf|regN:r9|Q[3],   ;
-;                                     ;                           ; register_file:rf|regN:r8|Q[0], register_file:rf|regN:r8|Q[1],   ;
-;                                     ;                           ; register_file:rf|regN:r8|Q[2], register_file:rf|regN:r8|Q[3]    ;
+; instruction_memory:im|regN:r15|Q[0] ; Stuck at VCC              ; register_file:rf|regN:r2|Q[1], register_file:rf|regN:r15|Q[0],  ;
+;                                     ; due to stuck port data_in ; register_file:rf|regN:r15|Q[1], register_file:rf|regN:r15|Q[2], ;
+;                                     ;                           ; register_file:rf|regN:r15|Q[3], register_file:rf|regN:r13|Q[0], ;
+;                                     ;                           ; register_file:rf|regN:r13|Q[1], register_file:rf|regN:r13|Q[2], ;
+;                                     ;                           ; register_file:rf|regN:r13|Q[3], register_file:rf|regN:r11|Q[0], ;
+;                                     ;                           ; register_file:rf|regN:r11|Q[1], register_file:rf|regN:r11|Q[2], ;
+;                                     ;                           ; register_file:rf|regN:r11|Q[3], register_file:rf|regN:r9|Q[0],  ;
+;                                     ;                           ; register_file:rf|regN:r9|Q[1], register_file:rf|regN:r9|Q[2],   ;
+;                                     ;                           ; register_file:rf|regN:r9|Q[3], register_file:rf|regN:r7|Q[0],   ;
+;                                     ;                           ; register_file:rf|regN:r7|Q[1], register_file:rf|regN:r7|Q[2],   ;
+;                                     ;                           ; register_file:rf|regN:r7|Q[3], register_file:rf|regN:r5|Q[0],   ;
+;                                     ;                           ; register_file:rf|regN:r5|Q[1], register_file:rf|regN:r5|Q[2],   ;
+;                                     ;                           ; register_file:rf|regN:r5|Q[3], register_file:rf|regN:r3|Q[0],   ;
+;                                     ;                           ; register_file:rf|regN:r3|Q[1], register_file:rf|regN:r3|Q[2],   ;
+;                                     ;                           ; register_file:rf|regN:r3|Q[3]                                   ;
 +-------------------------------------+---------------------------+-----------------------------------------------------------------+
 
 
@@ -540,24 +529,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 28    ;
-; Number of registers using Synchronous Clear  ; 3     ;
+; Total registers                              ; 8     ;
+; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 24    ;
+; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output      ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
-; 7:1                ; 4 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |ALU|register_file:rf|value2[0] ;
-; 9:1                ; 4 bits    ; 24 LEs        ; 20 LEs               ; 4 LEs                  ; No         ; |ALU|register_file:rf|value1[0] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |ALU|aluPart:alu|mux4to1:mux|mux2to1:stage3|f[0] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
 
 
 +-------------------------------------------------------------+
@@ -2541,11 +2529,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +--------------------------------------------------------------+
 ; Port Connectivity Checks: "instruction_memory:im|mux2to1:m6" ;
-+------+-------+----------+------------------------------------+
-; Port ; Type  ; Severity ; Details                            ;
-+------+-------+----------+------------------------------------+
-; b    ; Input ; Info     ; Stuck at VCC                       ;
-+------+-------+----------+------------------------------------+
++-----------+-------+----------+-------------------------------+
+; Port      ; Type  ; Severity ; Details                       ;
++-----------+-------+----------+-------------------------------+
+; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
+; b[31..23] ; Input ; Info     ; Stuck at GND                  ;
+; b[21..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[15..12] ; Input ; Info     ; Stuck at GND                  ;
+; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
+; b[4..3]   ; Input ; Info     ; Stuck at GND                  ;
+; b[22]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[2]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[1]      ; Input ; Info     ; Stuck at GND                  ;
+; b[0]      ; Input ; Info     ; Stuck at VCC                  ;
++-----------+-------+----------+-------------------------------+
 
 
 +--------------------------------------------------------------+
@@ -2553,21 +2552,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
-; b[31..24] ; Input ; Info     ; Stuck at GND                  ;
-; b[20..19] ; Input ; Info     ; Stuck at GND                  ;
-; b[17..14] ; Input ; Info     ; Stuck at GND                  ;
+; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
+; b[31..23] ; Input ; Info     ; Stuck at GND                  ;
+; b[21..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[15..12] ; Input ; Info     ; Stuck at GND                  ;
 ; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
-; b[4..2]   ; Input ; Info     ; Stuck at GND                  ;
-; b[23]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[22]     ; Input ; Info     ; Stuck at GND                  ;
-; b[21]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[18]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[13]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[12]     ; Input ; Info     ; Stuck at GND                  ;
+; b[4..3]   ; Input ; Info     ; Stuck at GND                  ;
+; b[1..0]   ; Input ; Info     ; Stuck at GND                  ;
+; b[22]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
-; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
-; b[0]      ; Input ; Info     ; Stuck at GND                  ;
+; b[2]      ; Input ; Info     ; Stuck at VCC                  ;
 +-----------+-------+----------+-------------------------------+
 
 
@@ -2577,14 +2572,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
 ; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
-; b[31..24] ; Input ; Info     ; Stuck at GND                  ;
-; b[22..18] ; Input ; Info     ; Stuck at GND                  ;
-; b[15..14] ; Input ; Info     ; Stuck at GND                  ;
-; b[12..6]  ; Input ; Info     ; Stuck at GND                  ;
-; b[4..0]   ; Input ; Info     ; Stuck at GND                  ;
-; b[23]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[13]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[31..22] ; Input ; Info     ; Stuck at GND                  ;
+; b[20..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[15..12] ; Input ; Info     ; Stuck at GND                  ;
+; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
+; b[4..2]   ; Input ; Info     ; Stuck at GND                  ;
+; b[21]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[0]      ; Input ; Info     ; Stuck at GND                  ;
 +-----------+-------+----------+-------------------------------+
 
 
@@ -2593,17 +2590,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
-; b[22..21] ; Input ; Info     ; Stuck at VCC                  ;
-; b[12..11] ; Input ; Info     ; Stuck at VCC                  ;
+; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
 ; b[31..23] ; Input ; Info     ; Stuck at GND                  ;
-; b[20..17] ; Input ; Info     ; Stuck at GND                  ;
-; b[15..13] ; Input ; Info     ; Stuck at GND                  ;
+; b[21..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[15..12] ; Input ; Info     ; Stuck at GND                  ;
 ; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
-; b[4..2]   ; Input ; Info     ; Stuck at GND                  ;
-; b[16]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[4..0]   ; Input ; Info     ; Stuck at GND                  ;
+; b[22]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
-; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
-; b[0]      ; Input ; Info     ; Stuck at GND                  ;
 +-----------+-------+----------+-------------------------------+
 
 
@@ -2612,15 +2607,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
+; b[22..21] ; Input ; Info     ; Stuck at VCC                  ;
 ; b[31..23] ; Input ; Info     ; Stuck at GND                  ;
-; b[21..17] ; Input ; Info     ; Stuck at GND                  ;
-; b[15..13] ; Input ; Info     ; Stuck at GND                  ;
-; b[11..6]  ; Input ; Info     ; Stuck at GND                  ;
-; b[4..2]   ; Input ; Info     ; Stuck at GND                  ;
-; b[22]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[16]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[12]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[20..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[16..12] ; Input ; Info     ; Stuck at GND                  ;
+; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
+; b[17]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[4]      ; Input ; Info     ; Stuck at GND                  ;
+; b[3]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[2]      ; Input ; Info     ; Stuck at GND                  ;
 ; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
 ; b[0]      ; Input ; Info     ; Stuck at GND                  ;
 +-----------+-------+----------+-------------------------------+
@@ -2631,13 +2628,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
-; b[31..22] ; Input ; Info     ; Stuck at GND                  ;
-; b[20..12] ; Input ; Info     ; Stuck at GND                  ;
+; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
+; b[31..23] ; Input ; Info     ; Stuck at GND                  ;
+; b[21..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[15..12] ; Input ; Info     ; Stuck at GND                  ;
 ; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
-; b[4..0]   ; Input ; Info     ; Stuck at GND                  ;
-; b[21]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[22]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[4]      ; Input ; Info     ; Stuck at GND                  ;
+; b[3]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[2]      ; Input ; Info     ; Stuck at GND                  ;
+; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[0]      ; Input ; Info     ; Stuck at GND                  ;
 +-----------+-------+----------+-------------------------------+
 
 
@@ -2685,7 +2688,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -2695,7 +2698,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Mon Feb  5 21:04:18 2018
+    Info: Processing started: Mon Feb  5 21:56:14 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file aluPart.vhd
@@ -2793,17 +2796,16 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13048): Converted tri-state node "instruction_memory:im|output[1]" into a selector
     Warning (13048): Converted tri-state node "instruction_memory:im|output[0]" into a selector
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 105 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 47 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 95 logic cells
+    Info (21061): Implemented 37 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 38 warnings
-    Info: Peak virtual memory: 371 megabytes
-    Info: Processing ended: Mon Feb  5 21:04:22 2018
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 365 megabytes
+    Info: Processing ended: Mon Feb  5 21:56:17 2018
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
 
