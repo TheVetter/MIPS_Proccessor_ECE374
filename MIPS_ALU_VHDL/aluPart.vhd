@@ -28,7 +28,7 @@ BEGIN
 	ripCarry : ripple_carry port map (add_sub, X, Y, tempS1);
 
 	---mux for jump and SLT ---
-	mux2 : mux2to1 port map ( tempS1(3), "0000", "1111", tempS0 );
+	mux2 : mux2to1 port map ( tempS1(3), "0000", "0001", tempS0 );
 
 	---and x,y ---
 	tempS2(0) <= X(0) and Y(0);

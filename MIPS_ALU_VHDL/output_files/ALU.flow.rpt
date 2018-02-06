@@ -1,6 +1,6 @@
 Flow report for ALU
-Mon Feb  5 21:56:57 2018
-Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Tue Feb 06 08:39:56 2018
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Mon Feb  5 21:56:57 2018      ;
-; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Flow Status                        ; Successful - Tue Feb 06 08:39:56 2018      ;
+; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; ALU                                        ;
 ; Top-level Entity Name              ; ALU                                        ;
 ; Family                             ; Cyclone IV E                               ;
 ; Device                             ; EP4CE115F29C7                              ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 37 / 114,480 ( < 1 % )                     ;
-;     Total combinational functions  ; 37 / 114,480 ( < 1 % )                     ;
+; Total logic elements               ; 21 / 114,480 ( < 1 % )                     ;
+;     Total combinational functions  ; 21 / 114,480 ( < 1 % )                     ;
 ;     Dedicated logic registers      ; 8 / 114,480 ( < 1 % )                      ;
 ; Total registers                    ; 8                                          ;
 ; Total pins                         ; 10 / 529 ( 2 % )                           ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/05/2018 21:56:14 ;
+; Start date & time ; 02/06/2018 08:38:03 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ALU                 ;
 +-------------------+---------------------+
@@ -75,9 +75,9 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 0.151788937402928                     ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 147329039259.151792788208128          ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
+; EDA_SIMULATION_TOOL                 ; ModelSim (VHDL)                       ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top            ;
@@ -94,26 +94,26 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 363 MB              ; 00:00:03                           ;
-; Fitter                    ; 00:00:23     ; 1.0                     ; 630 MB              ; 00:00:22                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 338 MB              ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 405 MB              ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 313 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:37     ; --                      ; --                  ; 00:00:35                           ;
+; Analysis & Synthesis      ; 00:00:17     ; 1.0                     ; 487 MB              ; 00:00:03                           ;
+; Fitter                    ; 00:00:35     ; 1.0                     ; 900 MB              ; 00:00:20                           ;
+; Assembler                 ; 00:00:22     ; 1.0                     ; 435 MB              ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:17     ; 1.0                     ; 519 MB              ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:12     ; 1.0                     ; 386 MB              ; 00:00:01                           ;
+; Total                     ; 00:01:43     ; --                      ; --                  ; 00:00:32                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                          ;
-+---------------------------+------------------+-------------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name     ; OS Version ; Processor type ;
-+---------------------------+------------------+-------------+------------+----------------+
-; Analysis & Synthesis      ; solusandrew      ; solusandrew ; 0          ; x86_64         ;
-; Fitter                    ; solusandrew      ; solusandrew ; 0          ; x86_64         ;
-; Assembler                 ; solusandrew      ; solusandrew ; 0          ; x86_64         ;
-; TimeQuest Timing Analyzer ; solusandrew      ; solusandrew ; 0          ; x86_64         ;
-; EDA Netlist Writer        ; solusandrew      ; solusandrew ; 0          ; x86_64         ;
-+---------------------------+------------------+-------------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; stm228190069     ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; stm228190069     ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; stm228190069     ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; stm228190069     ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; stm228190069     ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
 
 
 ------------
