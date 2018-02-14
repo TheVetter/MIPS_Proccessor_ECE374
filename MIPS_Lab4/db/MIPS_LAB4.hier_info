@@ -11,10 +11,10 @@ current_pc[0] <= regN:pc.Q[0]
 current_pc[1] <= regN:pc.Q[1]
 current_pc[2] <= regN:pc.Q[2]
 current_pc[3] <= regN:pc.Q[3]
-result[0] <= mux2to1:DmemMux.f[0]
-result[1] <= mux2to1:DmemMux.f[1]
-result[2] <= mux2to1:DmemMux.f[2]
-result[3] <= mux2to1:DmemMux.f[3]
+result[0] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MIPS_LAB4|mux2to1:pc_mux
@@ -6085,18 +6085,22 @@ F[31] <= F[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MIPS_LAB4|instruction_decode:id
+instr[0] => address_offset[0].DATAIN
 instr[0] => Equal3.IN3
 instr[0] => Equal4.IN2
 instr[0] => Equal7.IN3
 instr[0] => Equal8.IN5
+instr[1] => address_offset[1].DATAIN
 instr[1] => Equal3.IN5
 instr[1] => Equal4.IN5
 instr[1] => Equal7.IN2
 instr[1] => Equal8.IN2
+instr[2] => address_offset[2].DATAIN
 instr[2] => Equal3.IN2
 instr[2] => Equal4.IN1
 instr[2] => Equal7.IN5
 instr[2] => Equal8.IN4
+instr[3] => address_offset[3].DATAIN
 instr[3] => Equal3.IN1
 instr[3] => Equal4.IN4
 instr[3] => Equal7.IN1
@@ -6163,6 +6167,8 @@ MemRead <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 MemWrite <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
 RegWrite <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
 add_sub <= add_sub.DB_MAX_OUTPUT_PORT_TYPE
+alusrc <= alusrc.DB_MAX_OUTPUT_PORT_TYPE
+regdst <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 ALUOP[0] <= ALUOP.DB_MAX_OUTPUT_PORT_TYPE
 ALUOP[1] <= ALUOP.DB_MAX_OUTPUT_PORT_TYPE
 read_p1[0] <= instr[21].DB_MAX_OUTPUT_PORT_TYPE
@@ -6177,6 +6183,33 @@ write_p[0] <= instr[11].DB_MAX_OUTPUT_PORT_TYPE
 write_p[1] <= instr[12].DB_MAX_OUTPUT_PORT_TYPE
 write_p[2] <= instr[13].DB_MAX_OUTPUT_PORT_TYPE
 write_p[3] <= instr[14].DB_MAX_OUTPUT_PORT_TYPE
+address_offset[0] <= instr[0].DB_MAX_OUTPUT_PORT_TYPE
+address_offset[1] <= instr[1].DB_MAX_OUTPUT_PORT_TYPE
+address_offset[2] <= instr[2].DB_MAX_OUTPUT_PORT_TYPE
+address_offset[3] <= instr[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MIPS_LAB4|mux2to1:mx_redst
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MIPS_LAB4|register_file:rf
@@ -8854,6 +8887,29 @@ F[2] <= F[2].DB_MAX_OUTPUT_PORT_TYPE
 F[3] <= F[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
+|MIPS_LAB4|mux2to1:mux_alu
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |MIPS_LAB4|alu:alup
 X[0] => tempS2[0].IN0
 X[0] => tempS3[0].IN0
@@ -9107,16 +9163,19 @@ reset => mux4to1:m7.s[1]
 reset => mux4to1:m8.s[1]
 reset => mux4to1:m9.s[1]
 reset => mux4to1:m10.s[1]
-MemWrite => dec4to16:stage_dec_write.En
-MemRead => ~NO_FANOUT~
-address[0] => dec4to16:stage_dec1.w[0]
-address[0] => dec4to16:stage_dec_write.w[0]
-address[1] => dec4to16:stage_dec1.w[1]
-address[1] => dec4to16:stage_dec_write.w[1]
-address[2] => dec4to16:stage_dec1.w[2]
-address[2] => dec4to16:stage_dec_write.w[2]
-address[3] => dec4to16:stage_dec1.w[3]
-address[3] => dec4to16:stage_dec_write.w[3]
+memWrite => dec4to16:stage_dec_write.En
+read_port1[0] => dec4to16:stage_dec1.w[0]
+read_port1[0] => dec4to16:stage_dec_write.w[0]
+read_port1[1] => dec4to16:stage_dec1.w[1]
+read_port1[1] => dec4to16:stage_dec_write.w[1]
+read_port1[2] => dec4to16:stage_dec1.w[2]
+read_port1[2] => dec4to16:stage_dec_write.w[2]
+read_port1[3] => dec4to16:stage_dec1.w[3]
+read_port1[3] => dec4to16:stage_dec_write.w[3]
+write_port[0] => ~NO_FANOUT~
+write_port[1] => ~NO_FANOUT~
+write_port[2] => ~NO_FANOUT~
+write_port[3] => ~NO_FANOUT~
 write_value[0] => mux4to1:m0.w1[0]
 write_value[0] => mux4to1:m1.w1[0]
 write_value[0] => mux4to1:m2.w1[0]
@@ -9161,10 +9220,10 @@ write_value[3] => mux4to1:m7.w1[3]
 write_value[3] => mux4to1:m8.w1[3]
 write_value[3] => mux4to1:m9.w1[3]
 write_value[3] => mux4to1:m10.w1[3]
-readData[0] <= readData[0].DB_MAX_OUTPUT_PORT_TYPE
-readData[1] <= readData[1].DB_MAX_OUTPUT_PORT_TYPE
-readData[2] <= readData[2].DB_MAX_OUTPUT_PORT_TYPE
-readData[3] <= readData[3].DB_MAX_OUTPUT_PORT_TYPE
+value1[0] <= value1[0].DB_MAX_OUTPUT_PORT_TYPE
+value1[1] <= value1[1].DB_MAX_OUTPUT_PORT_TYPE
+value1[2] <= value1[2].DB_MAX_OUTPUT_PORT_TYPE
+value1[3] <= value1[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |MIPS_LAB4|data_memory:dm|dec4to16:stage_dec1
@@ -10752,7 +10811,7 @@ F[2] <= F[2].DB_MAX_OUTPUT_PORT_TYPE
 F[3] <= F[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|MIPS_LAB4|mux2to1:DmemMux
+|MIPS_LAB4|mux2to1:mx_wb
 s => f.IN0
 s => f.IN0
 s => f.IN0

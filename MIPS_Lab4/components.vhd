@@ -78,9 +78,9 @@ end component;
 ------------- instrcution decode ----------------------------
 component instruction_decode is
 	port(instr : in std_logic_vector(31 downto 0);
-			MemRead, MemWrite, RegWrite, add_sub : out std_logic;
+			MemRead, MemWrite, RegWrite, add_sub, alusrc, regdst : out std_logic;
 			ALUOP : out std_LOGIC_VECTOR(1 downto 0);
-			read_p1, read_p2, write_p : out std_logic_vector(3 downto 0));
+			read_p1, read_p2, write_p, address_offset: out std_logic_vector(3 downto 0));
 end component;
 
 ------------ arthimetic logic unit ___------------------------------
@@ -94,9 +94,9 @@ end component;
 
 ------------ data memory guy_______======-------------
 component data_memory is 
-	port(clock, reset, MemWrite, MemRead : in std_logic;
-			address, write_value : in std_logic_vector(3 downto 0);
-			readData : out std_logic_vector(3 downto 0));
+	port(clock, reset, MemWrite : in std_logic;
+			read_port1,  write_port, write_value : in std_logic_vector(3 downto 0);
+			value1 : out std_logic_vector(3 downto 0));
 end component;
 
 

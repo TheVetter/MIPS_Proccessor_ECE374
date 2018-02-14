@@ -13,10 +13,10 @@
 -- applicable agreement for further details.
 
 -- VENDOR "Altera"
--- PROGRAM "Quartus II 32-bit"
+-- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.0 Build 156 04/24/2013 SJ Web Edition"
 
--- DATE "02/11/2018 17:40:16"
+-- DATE "02/13/2018 09:00:12"
 
 -- 
 -- Device: Altera EP4CE115F29C7 Package FBGA780

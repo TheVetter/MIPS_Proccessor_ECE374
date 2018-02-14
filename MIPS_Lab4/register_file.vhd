@@ -13,10 +13,10 @@ architecture struc_behaviour of register_file is
 
 	constant zero_value : std_logic_vector(3 downto 0) := (others => '0');
 	constant reg0 : std_logic_vector(3 downto 0) := zero_value;
-	constant reg1 : std_logic_vector(3 downto 0) := "0001";
-	constant reg2 : std_logic_vector(3 downto 0) := "0010";
-	constant reg3 : std_logic_vector(3 downto 0) := "0011";
-	constant reg4 : std_logic_vector(3 downto 0) := "0100";
+	constant reg1 : std_logic_vector(3 downto 0) := zero_value;
+	constant reg2 : std_logic_vector(3 downto 0) := zero_value;
+	constant reg3 : std_logic_vector(3 downto 0) := zero_value;
+	constant reg4 : std_logic_vector(3 downto 0) := zero_value;
 	constant reg5 : std_logic_vector(3 downto 0) := zero_value;
 	constant reg6 : std_logic_vector(3 downto 0) := zero_value;
 	constant reg7 : std_logic_vector(3 downto 0) := zero_value;
