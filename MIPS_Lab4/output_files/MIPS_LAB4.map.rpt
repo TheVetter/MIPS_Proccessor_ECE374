@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MIPS_LAB4
-Tue Feb 13 09:44:48 2018
+Tue Feb 27 08:45:02 2018
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -266,50 +266,49 @@ Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 258. Port Connectivity Checks: "data_memory:dm|mux4to1:m0"
 259. Port Connectivity Checks: "data_memory:dm|dec4to16:stage_dec_write"
 260. Port Connectivity Checks: "data_memory:dm|dec4to16:stage_dec1"
-261. Port Connectivity Checks: "data_memory:dm"
-262. Port Connectivity Checks: "alu:alup|mux2to1:mux2"
-263. Port Connectivity Checks: "alu:alup|ripple_carry:ripCarry"
-264. Port Connectivity Checks: "alu:alup"
-265. Port Connectivity Checks: "register_file:rf|mux4to1:m15"
-266. Port Connectivity Checks: "register_file:rf|mux4to1:m14"
-267. Port Connectivity Checks: "register_file:rf|mux4to1:m13"
-268. Port Connectivity Checks: "register_file:rf|mux4to1:m12"
-269. Port Connectivity Checks: "register_file:rf|mux4to1:m11"
-270. Port Connectivity Checks: "register_file:rf|mux4to1:m10"
-271. Port Connectivity Checks: "register_file:rf|mux4to1:m9"
-272. Port Connectivity Checks: "register_file:rf|mux4to1:m8"
-273. Port Connectivity Checks: "register_file:rf|mux4to1:m7"
-274. Port Connectivity Checks: "register_file:rf|mux4to1:m6"
-275. Port Connectivity Checks: "register_file:rf|mux4to1:m5"
-276. Port Connectivity Checks: "register_file:rf|mux4to1:m4"
-277. Port Connectivity Checks: "register_file:rf|mux4to1:m3"
-278. Port Connectivity Checks: "register_file:rf|mux4to1:m2"
-279. Port Connectivity Checks: "register_file:rf|mux4to1:m1"
-280. Port Connectivity Checks: "register_file:rf|mux4to1:m0"
-281. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec2"
-282. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec1"
-283. Port Connectivity Checks: "instruction_decode:id"
-284. Port Connectivity Checks: "instruction_memory:im|mux2to1:m15"
-285. Port Connectivity Checks: "instruction_memory:im|mux2to1:m14"
-286. Port Connectivity Checks: "instruction_memory:im|mux2to1:m13"
-287. Port Connectivity Checks: "instruction_memory:im|mux2to1:m12"
-288. Port Connectivity Checks: "instruction_memory:im|mux2to1:m11"
-289. Port Connectivity Checks: "instruction_memory:im|mux2to1:m10"
-290. Port Connectivity Checks: "instruction_memory:im|mux2to1:m9"
-291. Port Connectivity Checks: "instruction_memory:im|mux2to1:m8"
-292. Port Connectivity Checks: "instruction_memory:im|mux2to1:m7"
-293. Port Connectivity Checks: "instruction_memory:im|mux2to1:m6"
-294. Port Connectivity Checks: "instruction_memory:im|mux2to1:m5"
-295. Port Connectivity Checks: "instruction_memory:im|mux2to1:m4"
-296. Port Connectivity Checks: "instruction_memory:im|mux2to1:m3"
-297. Port Connectivity Checks: "instruction_memory:im|mux2to1:m2"
-298. Port Connectivity Checks: "instruction_memory:im|mux2to1:m1"
-299. Port Connectivity Checks: "instruction_memory:im|mux2to1:m0"
-300. Port Connectivity Checks: "instruction_memory:im|dec4to16:stage_dec"
-301. Port Connectivity Checks: "ripple_carry:addpc"
-302. Port Connectivity Checks: "mux2to1:pc_mux"
-303. Elapsed Time Per Partition
-304. Analysis & Synthesis Messages
+261. Port Connectivity Checks: "alu:alup|mux2to1:mux2"
+262. Port Connectivity Checks: "alu:alup|ripple_carry:ripCarry"
+263. Port Connectivity Checks: "alu:alup"
+264. Port Connectivity Checks: "register_file:rf|mux4to1:m15"
+265. Port Connectivity Checks: "register_file:rf|mux4to1:m14"
+266. Port Connectivity Checks: "register_file:rf|mux4to1:m13"
+267. Port Connectivity Checks: "register_file:rf|mux4to1:m12"
+268. Port Connectivity Checks: "register_file:rf|mux4to1:m11"
+269. Port Connectivity Checks: "register_file:rf|mux4to1:m10"
+270. Port Connectivity Checks: "register_file:rf|mux4to1:m9"
+271. Port Connectivity Checks: "register_file:rf|mux4to1:m8"
+272. Port Connectivity Checks: "register_file:rf|mux4to1:m7"
+273. Port Connectivity Checks: "register_file:rf|mux4to1:m6"
+274. Port Connectivity Checks: "register_file:rf|mux4to1:m5"
+275. Port Connectivity Checks: "register_file:rf|mux4to1:m4"
+276. Port Connectivity Checks: "register_file:rf|mux4to1:m3"
+277. Port Connectivity Checks: "register_file:rf|mux4to1:m2"
+278. Port Connectivity Checks: "register_file:rf|mux4to1:m1"
+279. Port Connectivity Checks: "register_file:rf|mux4to1:m0"
+280. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec2"
+281. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec1"
+282. Port Connectivity Checks: "instruction_decode:id"
+283. Port Connectivity Checks: "instruction_memory:im|mux2to1:m15"
+284. Port Connectivity Checks: "instruction_memory:im|mux2to1:m14"
+285. Port Connectivity Checks: "instruction_memory:im|mux2to1:m13"
+286. Port Connectivity Checks: "instruction_memory:im|mux2to1:m12"
+287. Port Connectivity Checks: "instruction_memory:im|mux2to1:m11"
+288. Port Connectivity Checks: "instruction_memory:im|mux2to1:m10"
+289. Port Connectivity Checks: "instruction_memory:im|mux2to1:m9"
+290. Port Connectivity Checks: "instruction_memory:im|mux2to1:m8"
+291. Port Connectivity Checks: "instruction_memory:im|mux2to1:m7"
+292. Port Connectivity Checks: "instruction_memory:im|mux2to1:m6"
+293. Port Connectivity Checks: "instruction_memory:im|mux2to1:m5"
+294. Port Connectivity Checks: "instruction_memory:im|mux2to1:m4"
+295. Port Connectivity Checks: "instruction_memory:im|mux2to1:m3"
+296. Port Connectivity Checks: "instruction_memory:im|mux2to1:m2"
+297. Port Connectivity Checks: "instruction_memory:im|mux2to1:m1"
+298. Port Connectivity Checks: "instruction_memory:im|mux2to1:m0"
+299. Port Connectivity Checks: "instruction_memory:im|dec4to16:stage_dec"
+300. Port Connectivity Checks: "ripple_carry:addpc"
+301. Port Connectivity Checks: "mux2to1:pc_mux"
+302. Elapsed Time Per Partition
+303. Analysis & Synthesis Messages
 
 
 
@@ -335,15 +334,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Feb 13 09:44:48 2018      ;
+; Analysis & Synthesis Status        ; Successful - Tue Feb 27 08:45:01 2018      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; MIPS_LAB4                                  ;
 ; Top-level Entity Name              ; MIPS_LAB4                                  ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 19                                         ;
-;     Total combinational functions  ; 19                                         ;
-;     Dedicated logic registers      ; 8                                          ;
-; Total registers                    ; 8                                          ;
+; Total logic elements               ; 219                                        ;
+;     Total combinational functions  ; 177                                        ;
+;     Dedicated logic registers      ; 56                                         ;
+; Total registers                    ; 56                                         ;
 ; Total pins                         ; 10                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
@@ -473,55 +472,106 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
 
 
-+------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                ;
-+---------------------------------------------+--------------+
-; Resource                                    ; Usage        ;
-+---------------------------------------------+--------------+
-; Estimated Total logic elements              ; 19           ;
-;                                             ;              ;
-; Total combinational functions               ; 19           ;
-; Logic element usage by number of LUT inputs ;              ;
-;     -- 4 input functions                    ; 7            ;
-;     -- 3 input functions                    ; 5            ;
-;     -- <=2 input functions                  ; 7            ;
-;                                             ;              ;
-; Logic elements by mode                      ;              ;
-;     -- normal mode                          ; 19           ;
-;     -- arithmetic mode                      ; 0            ;
-;                                             ;              ;
-; Total registers                             ; 8            ;
-;     -- Dedicated logic registers            ; 8            ;
-;     -- I/O registers                        ; 0            ;
-;                                             ;              ;
-; I/O pins                                    ; 10           ;
-; Embedded Multiplier 9-bit elements          ; 0            ;
-; Maximum fan-out node                        ; regN:pc|Q[0] ;
-; Maximum fan-out                             ; 11           ;
-; Total fan-out                               ; 98           ;
-; Average fan-out                             ; 2.09         ;
-+---------------------------------------------+--------------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 219         ;
+;                                             ;             ;
+; Total combinational functions               ; 177         ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 140         ;
+;     -- 3 input functions                    ; 22          ;
+;     -- <=2 input functions                  ; 15          ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 177         ;
+;     -- arithmetic mode                      ; 0           ;
+;                                             ;             ;
+; Total registers                             ; 56          ;
+;     -- Dedicated logic registers            ; 56          ;
+;     -- I/O registers                        ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 10          ;
+; Embedded Multiplier 9-bit elements          ; 0           ;
+; Maximum fan-out node                        ; clock~input ;
+; Maximum fan-out                             ; 56          ;
+; Total fan-out                               ; 841         ;
+; Average fan-out                             ; 3.32        ;
++---------------------------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                           ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                   ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------+--------------+
-; |MIPS_LAB4                 ; 19 (5)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |MIPS_LAB4                                            ;              ;
-;    |mux2to1:pc_mux|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|mux2to1:pc_mux                             ;              ;
-;    |regN:pc|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|regN:pc                                    ;              ;
-;    |register_file:rf|      ; 10 (0)            ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf                           ;              ;
-;       |mux4to1:m1|         ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m1                ;              ;
-;          |mux2to1:stage3|  ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m1|mux2to1:stage3 ;              ;
-;       |mux4to1:m2|         ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m2                ;              ;
-;          |mux2to1:stage3|  ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m2|mux2to1:stage3 ;              ;
-;       |regN:r2|            ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|regN:r2                   ;              ;
-;    |ripple_carry:addpc|    ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|ripple_carry:addpc                         ;              ;
-;       |fulladd:stage2|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|ripple_carry:addpc|fulladd:stage2          ;              ;
-;       |fulladd:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|ripple_carry:addpc|fulladd:stage3          ;              ;
-;       |fulladd:stage4|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|ripple_carry:addpc|fulladd:stage4          ;              ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                          ;
++----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node       ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                            ; Library Name ;
++----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
+; |MIPS_LAB4                       ; 177 (8)           ; 56 (0)       ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |MIPS_LAB4                                                     ;              ;
+;    |alu:alup|                    ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|alu:alup                                            ;              ;
+;       |ripple_carry:ripCarry|    ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|alu:alup|ripple_carry:ripCarry                      ;              ;
+;          |fulladd:stage1|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|alu:alup|ripple_carry:ripCarry|fulladd:stage1       ;              ;
+;          |fulladd:stage2|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|alu:alup|ripple_carry:ripCarry|fulladd:stage2       ;              ;
+;          |fulladd:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|alu:alup|ripple_carry:ripCarry|fulladd:stage3       ;              ;
+;          |fulladd:stage4|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|alu:alup|ripple_carry:ripCarry|fulladd:stage4       ;              ;
+;    |data_memory:dm|              ; 47 (24)           ; 44 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm                                      ;              ;
+;       |dec4to16:stage_dec_write| ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|dec4to16:stage_dec_write             ;              ;
+;          |dec2to4:s4|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|dec4to16:stage_dec_write|dec2to4:s4  ;              ;
+;       |mux4to1:m0|               ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m0                           ;              ;
+;          |mux2to1:stage3|        ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m0|mux2to1:stage3            ;              ;
+;       |mux4to1:m10|              ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m10                          ;              ;
+;          |mux2to1:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m10|mux2to1:stage3           ;              ;
+;       |mux4to1:m1|               ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m1                           ;              ;
+;          |mux2to1:stage3|        ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m1|mux2to1:stage3            ;              ;
+;       |mux4to1:m2|               ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m2                           ;              ;
+;          |mux2to1:stage3|        ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m2|mux2to1:stage3            ;              ;
+;       |mux4to1:m3|               ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m3                           ;              ;
+;          |mux2to1:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m3|mux2to1:stage3            ;              ;
+;       |mux4to1:m4|               ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m4                           ;              ;
+;          |mux2to1:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m4|mux2to1:stage3            ;              ;
+;       |mux4to1:m5|               ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m5                           ;              ;
+;          |mux2to1:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m5|mux2to1:stage3            ;              ;
+;       |mux4to1:m6|               ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m6                           ;              ;
+;          |mux2to1:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m6|mux2to1:stage3            ;              ;
+;       |mux4to1:m7|               ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m7                           ;              ;
+;          |mux2to1:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m7|mux2to1:stage3            ;              ;
+;       |mux4to1:m8|               ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m8                           ;              ;
+;          |mux2to1:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m8|mux2to1:stage3            ;              ;
+;       |mux4to1:m9|               ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m9                           ;              ;
+;          |mux2to1:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|mux4to1:m9|mux2to1:stage3            ;              ;
+;       |regN:r0|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r0                              ;              ;
+;       |regN:r10|                 ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r10                             ;              ;
+;       |regN:r1|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r1                              ;              ;
+;       |regN:r2|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r2                              ;              ;
+;       |regN:r3|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r3                              ;              ;
+;       |regN:r4|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r4                              ;              ;
+;       |regN:r5|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r5                              ;              ;
+;       |regN:r6|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r6                              ;              ;
+;       |regN:r7|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r7                              ;              ;
+;       |regN:r8|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r8                              ;              ;
+;       |regN:r9|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|data_memory:dm|regN:r9                              ;              ;
+;    |instruction_decode:id|       ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|instruction_decode:id                               ;              ;
+;    |instruction_memory:im|       ; 5 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|instruction_memory:im                               ;              ;
+;       |dec4to16:stage_dec|       ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|instruction_memory:im|dec4to16:stage_dec            ;              ;
+;          |dec2to4:s2|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|instruction_memory:im|dec4to16:stage_dec|dec2to4:s2 ;              ;
+;    |mux2to1:mux_alu|             ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|mux2to1:mux_alu                                     ;              ;
+;    |mux2to1:mx_wb|               ; 84 (84)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|mux2to1:mx_wb                                       ;              ;
+;    |mux2to1:pc_mux|              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|mux2to1:pc_mux                                      ;              ;
+;    |regN:pc|                     ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|regN:pc                                             ;              ;
+;    |register_file:rf|            ; 16 (9)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf                                    ;              ;
+;       |mux4to1:m1|               ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m1                         ;              ;
+;          |mux2to1:stage3|        ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m1|mux2to1:stage3          ;              ;
+;       |mux4to1:m2|               ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m2                         ;              ;
+;          |mux2to1:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m2|mux2to1:stage3          ;              ;
+;       |mux4to1:m3|               ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m3                         ;              ;
+;          |mux2to1:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|mux4to1:m3|mux2to1:stage3          ;              ;
+;       |regN:r2|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|regN:r2                            ;              ;
+;       |regN:r3|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|register_file:rf|regN:r3                            ;              ;
+;    |ripple_carry:addpc|          ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|ripple_carry:addpc                                  ;              ;
+;       |fulladd:stage2|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|ripple_carry:addpc|fulladd:stage2                   ;              ;
+;       |fulladd:stage3|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|ripple_carry:addpc|fulladd:stage3                   ;              ;
+;       |fulladd:stage4|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_LAB4|ripple_carry:addpc|fulladd:stage4                   ;              ;
++----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -573,18 +623,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; register_file:rf|regN:r13|Q[3]                                       ; Lost fanout                                    ;
 ; register_file:rf|regN:r14|Q[0]                                       ; Stuck at GND due to stuck port data_in         ;
 ; register_file:rf|regN:r15|Q[0]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r1|Q[0]                                        ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r14|Q[1]                                       ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r1|Q[0,1]                                      ; Stuck at GND due to stuck port data_in         ;
 ; register_file:rf|regN:r15|Q[1]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r1|Q[1]                                        ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r14|Q[2]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r15|Q[2]                                       ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r1|Q[2]                                        ; Stuck at GND due to stuck port data_in         ;
 ; register_file:rf|regN:r14|Q[3]                                       ; Stuck at GND due to stuck port data_in         ;
 ; register_file:rf|regN:r15|Q[3]                                       ; Stuck at GND due to stuck port data_in         ;
 ; register_file:rf|regN:r1|Q[3]                                        ; Stuck at GND due to stuck port data_in         ;
-; register_file:rf|regN:r3|Q[0..3]                                     ; Stuck at GND due to stuck port data_in         ;
-; Total Number of Removed Registers = 444                              ;                                                ;
+; register_file:rf|regN:r14|Q[1]                                       ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r1|Q[2]                                        ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r15|Q[2]                                       ; Stuck at GND due to stuck port data_in         ;
+; register_file:rf|regN:r14|Q[2]                                       ; Stuck at GND due to stuck port data_in         ;
+; Total Number of Removed Registers = 440                              ;                                                ;
 +----------------------------------------------------------------------+------------------------------------------------+
 
 
@@ -593,15 +641,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------+---------------------------+-----------------------------------------------------------------+
 ; Register name                        ; Reason for Removal        ; Registers Removed due to This Register                          ;
 +--------------------------------------+---------------------------+-----------------------------------------------------------------+
-; instruction_memory:im|regN:r15|Q[0]  ; Stuck at VCC              ; register_file:rf|regN:r0|Q[0], register_file:rf|regN:r0|Q[3],   ;
-;                                      ; due to stuck port data_in ; register_file:rf|regN:r14|Q[0], register_file:rf|regN:r15|Q[0], ;
-;                                      ;                           ; register_file:rf|regN:r1|Q[0], register_file:rf|regN:r14|Q[1],  ;
-;                                      ;                           ; register_file:rf|regN:r15|Q[1], register_file:rf|regN:r1|Q[1],  ;
-;                                      ;                           ; register_file:rf|regN:r14|Q[2], register_file:rf|regN:r15|Q[2], ;
-;                                      ;                           ; register_file:rf|regN:r1|Q[2], register_file:rf|regN:r14|Q[3],  ;
+; instruction_memory:im|regN:r15|Q[11] ; Stuck at VCC              ; register_file:rf|regN:r14|Q[0], register_file:rf|regN:r15|Q[0], ;
+;                                      ; due to stuck port data_in ; register_file:rf|regN:r1|Q[0], register_file:rf|regN:r1|Q[1],   ;
+;                                      ;                           ; register_file:rf|regN:r15|Q[1], register_file:rf|regN:r14|Q[3], ;
 ;                                      ;                           ; register_file:rf|regN:r15|Q[3], register_file:rf|regN:r1|Q[3],  ;
-;                                      ;                           ; register_file:rf|regN:r3|Q[0], register_file:rf|regN:r3|Q[1],   ;
-;                                      ;                           ; register_file:rf|regN:r3|Q[2], register_file:rf|regN:r3|Q[3]    ;
+;                                      ;                           ; register_file:rf|regN:r14|Q[1], register_file:rf|regN:r1|Q[2],  ;
+;                                      ;                           ; register_file:rf|regN:r15|Q[2], register_file:rf|regN:r14|Q[2]  ;
+; instruction_memory:im|regN:r15|Q[0]  ; Stuck at VCC              ; register_file:rf|regN:r0|Q[0], register_file:rf|regN:r0|Q[3]    ;
+;                                      ; due to stuck port data_in ;                                                                 ;
 ; instruction_memory:im|regN:r15|Q[19] ; Stuck at VCC              ; register_file:rf|regN:r0|Q[1], register_file:rf|regN:r0|Q[2]    ;
 ;                                      ; due to stuck port data_in ;                                                                 ;
 +--------------------------------------+---------------------------+-----------------------------------------------------------------+
@@ -612,12 +659,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 8     ;
+; Total registers                              ; 56    ;
 ; Number of registers using Synchronous Clear  ; 3     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 4     ;
+; Number of registers using Clock Enable       ; 52    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -627,8 +674,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |MIPS_LAB4|register_file:rf|value2[3] ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |MIPS_LAB4|register_file:rf|value2[0] ;
 ; 16:1               ; 4 bits    ; 40 LEs        ; 8 LEs                ; 32 LEs                 ; No         ; |MIPS_LAB4|register_file:rf|value1[1] ;
+; 177:1              ; 4 bits    ; 472 LEs       ; 32 LEs               ; 440 LEs                ; No         ; |MIPS_LAB4|mux2to1:mx_wb|f[0]         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
 
 
@@ -3131,15 +3179,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "data_memory:dm"                                                                       ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                             ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-; value1 ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +---------------------------------------------------+
 ; Port Connectivity Checks: "alu:alup|mux2to1:mux2" ;
 +---------+-------+----------+----------------------+
@@ -3567,7 +3606,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:13     ;
 +----------------+--------------+
 
 
@@ -3577,7 +3616,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Tue Feb 13 09:44:22 2018
+    Info: Processing started: Tue Feb 27 08:44:24 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MIPS_LAB4 -c MIPS_LAB4
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file data_memory.vhd
@@ -3625,9 +3664,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file dec2to4
 Info (12021): Found 1 design units, including 0 entities, in source file components.vhd
     Info (12022): Found design unit 1: components
 Info (12127): Elaborating entity "MIPS_LAB4" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at MIPS_LAB4.vhd(12): used implicit default value for signal "Dmem_out" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Warning (10036): Verilog HDL or VHDL warning at MIPS_LAB4.vhd(15): object "MemRead" assigned a value but never read
-Warning (10541): VHDL Signal Declaration warning at MIPS_LAB4.vhd(15): used implicit default value for signal "MemToReg" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Warning (10036): Verilog HDL or VHDL warning at MIPS_LAB4.vhd(15): object "zero2" assigned a value but never read
 Info (12128): Elaborating entity "mux2to1" for hierarchy "mux2to1:pc_mux"
 Info (12128): Elaborating entity "regN" for hierarchy "regN:pc"
@@ -3647,6 +3684,10 @@ Info (12128): Elaborating entity "trin" for hierarchy "register_file:rf|trin:tri
 Info (12128): Elaborating entity "alu" for hierarchy "alu:alup"
 Info (12128): Elaborating entity "data_memory" for hierarchy "data_memory:dm"
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13048): Converted tri-state node "data_memory:dm|value1[3]" into a selector
+    Warning (13048): Converted tri-state node "data_memory:dm|value1[2]" into a selector
+    Warning (13048): Converted tri-state node "data_memory:dm|value1[1]" into a selector
+    Warning (13048): Converted tri-state node "data_memory:dm|value1[0]" into a selector
     Warning (13048): Converted tri-state node "register_file:rf|value1[3]" into a selector
     Warning (13048): Converted tri-state node "register_file:rf|value1[2]" into a selector
     Warning (13048): Converted tri-state node "register_file:rf|value1[1]" into a selector
@@ -3683,14 +3724,14 @@ Info (286030): Timing-Driven Synthesis is running
 Info (17049): 44 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 29 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 238 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 19 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 40 warnings
-    Info: Peak virtual memory: 487 megabytes
-    Info: Processing ended: Tue Feb 13 09:44:49 2018
-    Info: Elapsed time: 00:00:27
-    Info: Total CPU time (on all processors): 00:00:04
+    Info (21061): Implemented 228 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 42 warnings
+    Info: Peak virtual memory: 552 megabytes
+    Info: Processing ended: Tue Feb 27 08:45:03 2018
+    Info: Elapsed time: 00:00:39
+    Info: Total CPU time (on all processors): 00:00:13
 
 

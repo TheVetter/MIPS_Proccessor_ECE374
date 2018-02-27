@@ -78,7 +78,7 @@ end component;
 ------------- instrcution decode ----------------------------
 component instruction_decode is
 	port(instr : in std_logic_vector(31 downto 0);
-			MemRead, MemWrite, RegWrite, add_sub, alusrc, regdst : out std_logic;
+			MemRead, MemWrite, RegWrite, add_sub, alusrc, regdst, MemToReg : out std_logic;
 			ALUOP : out std_LOGIC_VECTOR(1 downto 0);
 			read_p1, read_p2, write_p, address_offset: out std_logic_vector(3 downto 0));
 end component;
