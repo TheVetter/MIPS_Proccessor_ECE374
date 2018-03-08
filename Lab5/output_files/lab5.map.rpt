@@ -1,6 +1,6 @@
 Analysis & Synthesis report for lab5
-Mon Mar  5 14:07:20 2018
-Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Tue Mar 06 09:17:29 2018
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -255,7 +255,7 @@ Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 247. Parameter Settings for User Entity Instance: mux2to1:mx_wb
 248. Parameter Settings for User Entity Instance: mux2to1:Branch_Mux
 249. Parameter Settings for User Entity Instance: mux2to1:Jump_Mux
-250. Port Connectivity Checks: "mux2to1:Jump_Mux"
+250. Port Connectivity Checks: "ripple_carry:branch_adder"
 251. Port Connectivity Checks: "data_memory:dm|mux4to1:m10"
 252. Port Connectivity Checks: "data_memory:dm|mux4to1:m9"
 253. Port Connectivity Checks: "data_memory:dm|mux4to1:m8"
@@ -271,47 +271,46 @@ Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 263. Port Connectivity Checks: "data_memory:dm|dec4to16:stage_dec1"
 264. Port Connectivity Checks: "alu:alup|mux2to1:mux2"
 265. Port Connectivity Checks: "alu:alup|ripple_carry:ripCarry"
-266. Port Connectivity Checks: "alu:alup"
-267. Port Connectivity Checks: "register_file:rf|mux4to1:m15"
-268. Port Connectivity Checks: "register_file:rf|mux4to1:m14"
-269. Port Connectivity Checks: "register_file:rf|mux4to1:m13"
-270. Port Connectivity Checks: "register_file:rf|mux4to1:m12"
-271. Port Connectivity Checks: "register_file:rf|mux4to1:m11"
-272. Port Connectivity Checks: "register_file:rf|mux4to1:m10"
-273. Port Connectivity Checks: "register_file:rf|mux4to1:m9"
-274. Port Connectivity Checks: "register_file:rf|mux4to1:m8"
-275. Port Connectivity Checks: "register_file:rf|mux4to1:m7"
-276. Port Connectivity Checks: "register_file:rf|mux4to1:m6"
-277. Port Connectivity Checks: "register_file:rf|mux4to1:m5"
-278. Port Connectivity Checks: "register_file:rf|mux4to1:m4"
-279. Port Connectivity Checks: "register_file:rf|mux4to1:m3"
-280. Port Connectivity Checks: "register_file:rf|mux4to1:m2"
-281. Port Connectivity Checks: "register_file:rf|mux4to1:m1"
-282. Port Connectivity Checks: "register_file:rf|mux4to1:m0"
-283. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec2"
-284. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec1"
-285. Port Connectivity Checks: "instruction_decode:id"
-286. Port Connectivity Checks: "instruction_memory:im|mux2to1:m15"
-287. Port Connectivity Checks: "instruction_memory:im|mux2to1:m14"
-288. Port Connectivity Checks: "instruction_memory:im|mux2to1:m13"
-289. Port Connectivity Checks: "instruction_memory:im|mux2to1:m12"
-290. Port Connectivity Checks: "instruction_memory:im|mux2to1:m11"
-291. Port Connectivity Checks: "instruction_memory:im|mux2to1:m10"
-292. Port Connectivity Checks: "instruction_memory:im|mux2to1:m9"
-293. Port Connectivity Checks: "instruction_memory:im|mux2to1:m8"
-294. Port Connectivity Checks: "instruction_memory:im|mux2to1:m7"
-295. Port Connectivity Checks: "instruction_memory:im|mux2to1:m6"
-296. Port Connectivity Checks: "instruction_memory:im|mux2to1:m5"
-297. Port Connectivity Checks: "instruction_memory:im|mux2to1:m4"
-298. Port Connectivity Checks: "instruction_memory:im|mux2to1:m3"
-299. Port Connectivity Checks: "instruction_memory:im|mux2to1:m2"
-300. Port Connectivity Checks: "instruction_memory:im|mux2to1:m1"
-301. Port Connectivity Checks: "instruction_memory:im|mux2to1:m0"
-302. Port Connectivity Checks: "instruction_memory:im|dec4to16:stage_dec"
-303. Port Connectivity Checks: "ripple_carry:addpc"
-304. Port Connectivity Checks: "mux2to1:pc_mux"
-305. Elapsed Time Per Partition
-306. Analysis & Synthesis Messages
+266. Port Connectivity Checks: "register_file:rf|mux4to1:m15"
+267. Port Connectivity Checks: "register_file:rf|mux4to1:m14"
+268. Port Connectivity Checks: "register_file:rf|mux4to1:m13"
+269. Port Connectivity Checks: "register_file:rf|mux4to1:m12"
+270. Port Connectivity Checks: "register_file:rf|mux4to1:m11"
+271. Port Connectivity Checks: "register_file:rf|mux4to1:m10"
+272. Port Connectivity Checks: "register_file:rf|mux4to1:m9"
+273. Port Connectivity Checks: "register_file:rf|mux4to1:m8"
+274. Port Connectivity Checks: "register_file:rf|mux4to1:m7"
+275. Port Connectivity Checks: "register_file:rf|mux4to1:m6"
+276. Port Connectivity Checks: "register_file:rf|mux4to1:m5"
+277. Port Connectivity Checks: "register_file:rf|mux4to1:m4"
+278. Port Connectivity Checks: "register_file:rf|mux4to1:m3"
+279. Port Connectivity Checks: "register_file:rf|mux4to1:m2"
+280. Port Connectivity Checks: "register_file:rf|mux4to1:m1"
+281. Port Connectivity Checks: "register_file:rf|mux4to1:m0"
+282. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec2"
+283. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec1"
+284. Port Connectivity Checks: "instruction_decode:id"
+285. Port Connectivity Checks: "instruction_memory:im|mux2to1:m15"
+286. Port Connectivity Checks: "instruction_memory:im|mux2to1:m14"
+287. Port Connectivity Checks: "instruction_memory:im|mux2to1:m13"
+288. Port Connectivity Checks: "instruction_memory:im|mux2to1:m12"
+289. Port Connectivity Checks: "instruction_memory:im|mux2to1:m11"
+290. Port Connectivity Checks: "instruction_memory:im|mux2to1:m10"
+291. Port Connectivity Checks: "instruction_memory:im|mux2to1:m9"
+292. Port Connectivity Checks: "instruction_memory:im|mux2to1:m8"
+293. Port Connectivity Checks: "instruction_memory:im|mux2to1:m7"
+294. Port Connectivity Checks: "instruction_memory:im|mux2to1:m6"
+295. Port Connectivity Checks: "instruction_memory:im|mux2to1:m5"
+296. Port Connectivity Checks: "instruction_memory:im|mux2to1:m4"
+297. Port Connectivity Checks: "instruction_memory:im|mux2to1:m3"
+298. Port Connectivity Checks: "instruction_memory:im|mux2to1:m2"
+299. Port Connectivity Checks: "instruction_memory:im|mux2to1:m1"
+300. Port Connectivity Checks: "instruction_memory:im|mux2to1:m0"
+301. Port Connectivity Checks: "instruction_memory:im|dec4to16:stage_dec"
+302. Port Connectivity Checks: "ripple_carry:addpc"
+303. Port Connectivity Checks: "mux2to1:pc_mux"
+304. Elapsed Time Per Partition
+305. Analysis & Synthesis Messages
 
 
 
@@ -337,13 +336,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Mar  5 14:07:20 2018      ;
-; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Analysis & Synthesis Status        ; Successful - Tue Mar 06 09:17:29 2018      ;
+; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; lab5                                       ;
 ; Top-level Entity Name              ; lab5                                       ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 131                                        ;
-;     Total combinational functions  ; 110                                        ;
+; Total logic elements               ; 140                                        ;
+;     Total combinational functions  ; 119                                        ;
 ;     Dedicated logic registers      ; 32                                         ;
 ; Total registers                    ; 32                                         ;
 ; Total pins                         ; 10                                         ;
@@ -452,57 +451,57 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                               ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                        ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------+---------+
-; lab5.vhd                         ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd               ;         ;
-; alu.vhd                          ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/alu.vhd                ;         ;
-; components.vhd                   ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/components.vhd         ;         ;
-; data_memory.vhd                  ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd        ;         ;
-; dec2to4.vhd                      ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/dec2to4.vhd            ;         ;
-; dec4to16.vhd                     ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd           ;         ;
-; fulladd.vhd                      ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd            ;         ;
-; instruction_decode.vhd           ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd ;         ;
-; instruction_memory.vhd           ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd ;         ;
-; mux2to1.vhd                      ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd            ;         ;
-; mux4to1.vhd                      ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd            ;         ;
-; regN.vhd                         ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd               ;         ;
-; register_file.vhd                ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd      ;         ;
-; ripple_carry.vhd                 ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd       ;         ;
-; trin.vhd                         ; yes             ; User VHDL File  ; /run/media/vetter/Avetter/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd               ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                        ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                 ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------+---------+
+; lab5.vhd                         ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd               ;         ;
+; alu.vhd                          ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/alu.vhd                ;         ;
+; components.vhd                   ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/components.vhd         ;         ;
+; data_memory.vhd                  ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd        ;         ;
+; dec2to4.vhd                      ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec2to4.vhd            ;         ;
+; dec4to16.vhd                     ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd           ;         ;
+; fulladd.vhd                      ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd            ;         ;
+; instruction_decode.vhd           ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd ;         ;
+; instruction_memory.vhd           ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd ;         ;
+; mux2to1.vhd                      ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd            ;         ;
+; mux4to1.vhd                      ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd            ;         ;
+; regN.vhd                         ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd               ;         ;
+; register_file.vhd                ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd      ;         ;
+; ripple_carry.vhd                 ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd       ;         ;
+; trin.vhd                         ; yes             ; User VHDL File  ; E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd               ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 131         ;
-;                                             ;             ;
-; Total combinational functions               ; 110         ;
-; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 80          ;
-;     -- 3 input functions                    ; 12          ;
-;     -- <=2 input functions                  ; 18          ;
-;                                             ;             ;
-; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 110         ;
-;     -- arithmetic mode                      ; 0           ;
-;                                             ;             ;
-; Total registers                             ; 32          ;
-;     -- Dedicated logic registers            ; 32          ;
-;     -- I/O registers                        ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 10          ;
-; Embedded Multiplier 9-bit elements          ; 0           ;
-; Maximum fan-out node                        ; clock~input ;
-; Maximum fan-out                             ; 32          ;
-; Total fan-out                               ; 505         ;
-; Average fan-out                             ; 3.12        ;
-+---------------------------------------------+-------------+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimated Total logic elements              ; 140          ;
+;                                             ;              ;
+; Total combinational functions               ; 119          ;
+; Logic element usage by number of LUT inputs ;              ;
+;     -- 4 input functions                    ; 88           ;
+;     -- 3 input functions                    ; 11           ;
+;     -- <=2 input functions                  ; 20           ;
+;                                             ;              ;
+; Logic elements by mode                      ;              ;
+;     -- normal mode                          ; 119          ;
+;     -- arithmetic mode                      ; 0            ;
+;                                             ;              ;
+; Total registers                             ; 32           ;
+;     -- Dedicated logic registers            ; 32           ;
+;     -- I/O registers                        ; 0            ;
+;                                             ;              ;
+; I/O pins                                    ; 10           ;
+; Embedded Multiplier 9-bit elements          ; 0            ;
+; Maximum fan-out node                        ; regN:pc|Q[1] ;
+; Maximum fan-out                             ; 32           ;
+; Total fan-out                               ; 539          ;
+; Average fan-out                             ; 3.15         ;
++---------------------------------------------+--------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -510,20 +509,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node       ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                        ; Library Name ;
 +----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------+--------------+
-; |lab5                            ; 110 (0)           ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |lab5                                                      ;              ;
+; |lab5                            ; 119 (2)           ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |lab5                                                      ;              ;
 ;    |alu:alup|                    ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup                                             ;              ;
 ;       |ripple_carry:ripCarry|    ; 10 (1)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry                       ;              ;
 ;          |fulladd:stage1|        ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage1        ;              ;
 ;          |fulladd:stage2|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage2        ;              ;
 ;          |fulladd:stage3|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage3        ;              ;
 ;          |fulladd:stage4|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage4        ;              ;
-;    |data_memory:dm|              ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|data_memory:dm                                       ;              ;
+;    |data_memory:dm|              ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|data_memory:dm                                       ;              ;
 ;    |instruction_decode:id|       ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_decode:id                                ;              ;
-;    |instruction_memory:im|       ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_memory:im                                ;              ;
-;    |mux2to1:mux_alu|             ; 19 (19)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:mux_alu                                      ;              ;
+;    |instruction_memory:im|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_memory:im                                ;              ;
+;    |mux2to1:Jump_Mux|            ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:Jump_Mux                                     ;              ;
+;    |mux2to1:mux_alu|             ; 21 (21)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:mux_alu                                      ;              ;
 ;    |mux2to1:mx_redst|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:mx_redst                                     ;              ;
-;    |mux2to1:mx_wb|               ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:mx_wb                                        ;              ;
-;    |mux2to1:pc_mux|              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:pc_mux                                       ;              ;
+;    |mux2to1:mx_wb|               ; 35 (35)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:mx_wb                                        ;              ;
 ;    |regN:pc|                     ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:pc                                              ;              ;
 ;    |register_file:rf|            ; 33 (17)           ; 28 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf                                     ;              ;
 ;       |dec4to16:stage_dec_write| ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|dec4to16:stage_dec_write            ;              ;
@@ -549,9 +548,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |regN:r4|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r4                             ;              ;
 ;       |regN:r6|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r6                             ;              ;
 ;       |regN:r7|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r7                             ;              ;
-;    |ripple_carry:addpc|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc                                   ;              ;
+;    |ripple_carry:addpc|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc                                   ;              ;
 ;       |fulladd:stage3|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc|fulladd:stage3                    ;              ;
-;       |fulladd:stage4|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc|fulladd:stage4                    ;              ;
+;    |ripple_carry:branch_adder|   ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:branch_adder                            ;              ;
+;       |fulladd:stage2|           ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:branch_adder|fulladd:stage2             ;              ;
 +----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -698,7 +698,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 32    ;
-; Number of registers using Synchronous Clear  ; 3     ;
+; Number of registers using Synchronous Clear  ; 4     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -712,8 +712,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |lab5|mux2to1:Jump_Mux|f[1]      ;
 ; 8:1                ; 4 bits    ; 20 LEs        ; 12 LEs               ; 8 LEs                  ; No         ; |lab5|register_file:rf|value1[3] ;
-; 9:1                ; 4 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; No         ; |lab5|mux2to1:mux_alu|f[0]       ;
+; 9:1                ; 4 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; No         ; |lab5|mux2to1:mux_alu|f[2]       ;
 ; 182:1              ; 3 bits    ; 363 LEs       ; 306 LEs              ; 57 LEs                 ; No         ; |lab5|mux2to1:mx_wb|f[0]         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------+
 
@@ -3099,11 +3100,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "mux2to1:Jump_Mux"                                                                   ;
+; Port Connectivity Checks: "ripple_carry:branch_adder"                                                          ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                             ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
-; f    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; cin  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 
 
@@ -3288,15 +3290,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+--------+----------+-------------------------------------------------------------------------------------+
 ; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:alup"                                                                            ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
-; Port  ; Type   ; Severity ; Details                                                                             ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
-; zero2 ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------+
@@ -3713,9 +3706,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Analysis & Synthesis
+Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Mon Mar  5 14:07:14 2018
+    Info: Processing started: Tue Mar 06 09:17:07 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab5 -c lab5
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file lab5.vhd
@@ -3750,7 +3743,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file mux2to1
 Info (12021): Found 2 design units, including 1 entities, in source file mux4to1.vhd
     Info (12022): Found design unit 1: mux4to1-struc_behaviour
     Info (12023): Found entity 1: mux4to1
-Info (12021): Found 2 design units, including 1 entities, in source file regN.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file regn.vhd
     Info (12022): Found design unit 1: regN-behavior
     Info (12023): Found entity 1: regN
 Info (12021): Found 2 design units, including 1 entities, in source file register_file.vhd
@@ -3763,9 +3756,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file trin.vh
     Info (12022): Found design unit 1: trin-Behavior
     Info (12023): Found entity 1: trin
 Info (12127): Elaborating entity "lab5" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(12): object "Jump_out" assigned a value but never read
 Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(15): object "MemRead" assigned a value but never read
-Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(15): object "zero2" assigned a value but never read
 Info (12128): Elaborating entity "mux2to1" for hierarchy "mux2to1:pc_mux"
 Info (12128): Elaborating entity "regN" for hierarchy "regN:pc"
 Info (12128): Elaborating entity "ripple_carry" for hierarchy "ripple_carry:addpc"
@@ -3824,14 +3815,14 @@ Info (286030): Timing-Driven Synthesis is running
 Info (17049): 32 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 147 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 155 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 137 logic cells
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 42 warnings
-    Info: Peak virtual memory: 371 megabytes
-    Info: Processing ended: Mon Mar  5 14:07:20 2018
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:05
+    Info (21061): Implemented 145 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 41 warnings
+    Info: Peak virtual memory: 486 megabytes
+    Info: Processing ended: Tue Mar 06 09:17:30 2018
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:04
 
 

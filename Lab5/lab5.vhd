@@ -9,13 +9,13 @@ end lab5;
 
 architecture behaviour of lab5 is
 	constant initial_pc : std_logic_vector(3 downto 0) := (others => '0');
-	signal update_pc, read_port1, read_port2, write_port, w_value, src1, src2, aluOut, Dmem_out,rout, mout, mem_alu_out, address_offset, regdst_mx_out, alu_mux_out, Branch_out, Jump_out : std_logic_vector(3 downto 0);
+	signal update_pc, read_port1, read_port2, write_port, w_value, src1, src2, aluOut, Dmem_out,rout, mout, mem_alu_out, address_offset, regdst_mx_out, alu_mux_out, Branch_out, Jump_out, branchAdder_out : std_logic_vector(3 downto 0);
 	signal instr_from_im : std_logic_vector(31 downto 0);
 	signal ALUOP : std_logic_vector(1 downto 0);
-	signal MemRead, MemWrite, RegWrite, MemToReg, add_sub, alusrc, regdst, zero2, Branch, Jump : std_logic;
+	signal MemRead, MemWrite, RegWrite, MemToReg, add_sub, alusrc, regdst, zero2, Branch, Jump, and_out : std_logic;
 	
 begin
-	pc_mux : mux2to1 generic map (n=>4) port map (reset, update_pc, initial_pc, mout);					--- multiplexer
+	pc_mux : mux2to1 generic map (n=>4) port map (reset, Jump_out, initial_pc, mout);					--- multiplexer
 	pc	: regN generic map (n=>4) port map (clock, mout, rout);												--- register
 	
 	---------- pc = pc +1 ------------------------------------------
@@ -44,11 +44,17 @@ begin
 	
 	mx_wb : mux2to1 port map( MemToReg, aluOut, Dmem_out, mem_alu_out);
 	
+	-----and thingy
+	and_out <= Branch and zero2;
+	
+	---branch adder-----
+	branch_adder: ripple_carry port map('0', update_pc, address_offset, branchAdder_out );
+
 	-------------Branch Mux----------------------------------
-	Branch_Mux : mux2to1 port map (Branch, update_pc, update_pc, Branch_out);
+	Branch_Mux : mux2to1 port map (and_out, update_pc, branchAdder_out , Branch_out);
 	
 	-------------Jump Mux-----------------------------------
-	Jump_Mux : mux2to1 port map (Jump, update_pc, Branch_out, Jump_out);
+	Jump_Mux : mux2to1 port map (Jump, Branch_out, address_offset, Jump_out);
 	
 	current_pc <= rout;
 	result <= src2 when (MemWrite ='1') else mem_alu_out;

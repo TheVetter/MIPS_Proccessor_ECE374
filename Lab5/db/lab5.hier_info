@@ -10843,6 +10843,83 @@ f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
 f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|lab5|ripple_carry:branch_adder
+Cin => g[0].IN0
+Cin => g[1].IN0
+Cin => g[2].IN0
+Cin => g[3].IN0
+Cin => fulladd:stage1.Cin
+x[0] => fulladd:stage1.x
+x[1] => fulladd:stage2.x
+x[2] => fulladd:stage3.x
+x[3] => fulladd:stage4.x
+y[0] => g[0].IN1
+y[1] => g[1].IN1
+y[2] => g[2].IN1
+y[3] => g[3].IN1
+s[0] <= fulladd:stage1.s
+s[1] <= fulladd:stage2.s
+s[2] <= fulladd:stage3.s
+s[3] <= fulladd:stage4.s
+Cout <= fulladd:stage4.Cout
+
+
+|lab5|ripple_carry:branch_adder|fulladd:stage1
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|ripple_carry:branch_adder|fulladd:stage2
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|ripple_carry:branch_adder|fulladd:stage3
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|ripple_carry:branch_adder|fulladd:stage4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |lab5|mux2to1:Branch_Mux
 s => f.IN0
 s => f.IN0
