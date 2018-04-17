@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.components.all;
+
+entity forwardingUnit is
+	port( ex/mem_WB, mem/wb_WB: in std_logic;
+	id/ex_rs, id/ex_rt, ex/mem_rd, mem/wb_rd : in std_logic_vector(3 downto 0);
+	forwordA, forwardB: out std_logic);
+end forwardingUnit;

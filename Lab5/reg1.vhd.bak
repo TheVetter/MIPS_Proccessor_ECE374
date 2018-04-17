@@ -1,0 +1,22 @@
+--------- This is 1-bit register circuit -----------
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity reg1 is
+port (clock : in std_logic;
+	  D, reset : in std_logic;
+	  Q : out std_logic;
+end regN;
+
+architecture behavior of reg1 is
+begin
+	process (clock)
+	begin
+		if clock'event and clock = '1' then
+				Q <= D;
+		end if;
+		if reset = '1' then 
+			Q <= '0';
+		end if;
+	end process;
+end behavior;

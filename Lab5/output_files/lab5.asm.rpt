@@ -1,5 +1,5 @@
 Assembler report for lab5
-Tue Mar 06 09:18:38 2018
+Tue Apr 10 09:03:07 2018
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Mar 06 09:18:38 2018 ;
+; Assembler Status      ; Successful - Tue Apr 10 09:03:07 2018 ;
 ; Revision Name         ; lab5                                  ;
 ; Top-level Entity Name ; lab5                                  ;
 ; Family                ; Cyclone IV E                          ;
@@ -92,8 +92,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                              ;
 +----------------+----------------------------------------------------------------------+
 ; Device         ; EP4CE115F29C7                                                        ;
-; JTAG usercode  ; 0x00578DD2                                                           ;
-; Checksum       ; 0x00578DD2                                                           ;
+; JTAG usercode  ; 0x0058B2C2                                                           ;
+; Checksum       ; 0x0058B2C2                                                           ;
 +----------------+----------------------------------------------------------------------+
 
 
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Tue Mar 06 09:18:17 2018
+    Info: Processing started: Tue Apr 10 09:02:34 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off lab5 -c lab5
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 437 megabytes
-    Info: Processing ended: Tue Mar 06 09:18:40 2018
-    Info: Elapsed time: 00:00:23
+    Info: Peak virtual memory: 452 megabytes
+    Info: Processing ended: Tue Apr 10 09:03:12 2018
+    Info: Elapsed time: 00:00:38
     Info: Total CPU time (on all processors): 00:00:05
 
 

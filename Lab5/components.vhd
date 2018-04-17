@@ -59,14 +59,20 @@ component regN is
 	port (clock : in std_logic;
 	  D : in std_logic_vector(N-1 downto 0);
 	  Q : out std_logic_vector(N-1 downto 0));
-end component;
+END component;
+----------------- 1 bit register ------------------------------------------------------------------------
+component reg1 is
+	port (clock : in std_logic;
+	  reset, D : in std_logic;
+	  Q : out std_logic);
+END component;
 
 -------------- instruction memeory --------------------------
 component instruction_memory is
 	port(clock, reset : in std_logic;
 			input : in std_logic_vector(3 downto 0);
 			output : out std_logic_vector(31 downto 0));
-end component;
+END component;
 
 --------------- register file -------------------------------
 component register_file is
@@ -97,6 +103,12 @@ component data_memory is
 	port(clock, reset, MemWrite : in std_logic;
 			read_port1,  write_port, write_value : in std_logic_vector(3 downto 0);
 			value1 : out std_logic_vector(3 downto 0));
+end component;
+--------------------------------------------------------------------------------------------------------------------------forwarding unit
+component forwardingUnit is
+	port( EX_MEM_RegWrite, MEM_WB_RegWrite: in std_logic;
+	ID_EX_RegisterRs, ID_EX_RegisterRt, EX_MEM_RegisterRd, MEM_WB_RegisterRd  : in std_logic_vector(3 downto 0);
+	ForwardA, ForwardB: out std_logic_vector(1 downto 0));
 end component;
 
 end components;
