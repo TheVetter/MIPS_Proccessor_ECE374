@@ -49,7 +49,7 @@
 # 
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/components.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:42 on Apr 10,2018
+# Start time: 08:43:54 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -57,77 +57,77 @@
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_SIGNED
 # -- Compiling package components
-# End time: 08:47:42 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:54 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec2to4.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:42 on Apr 10,2018
+# Start time: 08:43:54 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec2to4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity dec2to4
 # -- Compiling architecture LogicFunc of dec2to4
-# End time: 08:47:43 on Apr 10,2018, Elapsed time: 0:00:01
+# End time: 08:43:55 on May 01,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:43 on Apr 10,2018
+# Start time: 08:43:55 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity fulladd
 # -- Compiling architecture LogicFunc of fulladd
-# End time: 08:47:43 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:55 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:43 on Apr 10,2018
+# Start time: 08:43:55 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux2to1
 # -- Compiling architecture LogicFunc of mux2to1
-# End time: 08:47:43 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:55 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:44 on Apr 10,2018
+# Start time: 08:43:55 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity regN
 # -- Compiling architecture behavior of regN
-# End time: 08:47:44 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:56 on May 01,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:44 on Apr 10,2018
+# Start time: 08:43:56 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity trin
 # -- Compiling architecture Behavior of trin
-# End time: 08:47:44 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:56 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:44 on Apr 10,2018
+# Start time: 08:43:56 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity reg1
 # -- Compiling architecture behavior of reg1
-# End time: 08:47:45 on Apr 10,2018, Elapsed time: 0:00:01
+# End time: 08:43:56 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:45 on Apr 10,2018
+# Start time: 08:43:56 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -137,11 +137,11 @@
 # -- Loading package components
 # -- Compiling entity lab5
 # -- Compiling architecture behaviour of lab5
-# End time: 08:47:45 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:57 on May 01,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/alu.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:45 on Apr 10,2018
+# Start time: 08:43:57 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/alu.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -151,11 +151,11 @@
 # -- Loading package components
 # -- Compiling entity alu
 # -- Compiling architecture struc_behaviour of alu
-# End time: 08:47:45 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:57 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:45 on Apr 10,2018
+# Start time: 08:43:57 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -165,11 +165,11 @@
 # -- Loading package components
 # -- Compiling entity data_memory
 # -- Compiling architecture struc_behaviour of data_memory
-# End time: 08:47:46 on Apr 10,2018, Elapsed time: 0:00:01
+# End time: 08:43:57 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:46 on Apr 10,2018
+# Start time: 08:43:57 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -179,11 +179,11 @@
 # -- Loading package components
 # -- Compiling entity dec4to16
 # -- Compiling architecture struc_behaviour of dec4to16
-# End time: 08:47:46 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:58 on May 01,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:46 on Apr 10,2018
+# Start time: 08:43:58 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -193,11 +193,11 @@
 # -- Loading package components
 # -- Compiling entity instruction_decode
 # -- Compiling architecture struc_behaviour of instruction_decode
-# End time: 08:47:47 on Apr 10,2018, Elapsed time: 0:00:01
+# End time: 08:43:58 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:47 on Apr 10,2018
+# Start time: 08:43:58 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -208,11 +208,11 @@
 # -- Loading package components
 # -- Compiling entity instruction_memory
 # -- Compiling architecture struc_behaviour of instruction_memory
-# End time: 08:47:47 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:59 on May 01,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:47 on Apr 10,2018
+# Start time: 08:43:59 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -222,11 +222,11 @@
 # -- Loading package components
 # -- Compiling entity mux4to1
 # -- Compiling architecture struc_behaviour of mux4to1
-# End time: 08:47:47 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:43:59 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:47 on Apr 10,2018
+# Start time: 08:43:59 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -236,11 +236,11 @@
 # -- Loading package components
 # -- Compiling entity register_file
 # -- Compiling architecture struc_behaviour of register_file
-# End time: 08:47:48 on Apr 10,2018, Elapsed time: 0:00:01
+# End time: 08:43:59 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd}
 # Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
-# Start time: 08:47:48 on Apr 10,2018
+# Start time: 08:43:59 on May 01,2018
 # vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -250,12 +250,26 @@
 # -- Loading package components
 # -- Compiling entity ripple_carry
 # -- Compiling architecture struc_behaviour of ripple_carry
-# End time: 08:47:48 on Apr 10,2018, Elapsed time: 0:00:00
+# End time: 08:44:00 on May 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/forwardingUnit.vhd}
+# Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 08:44:00 on May 01,2018
+# vcom -reportprogress 300 -93 -work work E:/ECE374_Comp_org/mips-add-vhdl/Lab5/forwardingUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package components
+# -- Compiling entity forwardingUnit
+# -- Compiling architecture behaviour of forwardingUnit
+# End time: 08:44:00 on May 01,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim work.lab5
 # vsim work.lab5 
-# Start time: 08:47:59 on Apr 10,2018
+# Start time: 08:44:44 on May 01,2018
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading std.standard
 # Loading std.textio(body)
@@ -273,18 +287,20 @@ do E:/ECE374_Comp_org/mips-add-vhdl/Lab5/simulation/modelsim/wave.do
 # .main_pane.wave.interior.cs.body.pw.wf
 # Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
 # 0
-wave modify -driver freeze -pattern clock -initialvalue 1 -period 100ns -dutycycle 50 -starttime 0ns -endtime 10000ns Edit:/lab5/clock
-wave modify -driver freeze -pattern constant -value 0 -starttime 100ns -endtime 10000ns Edit:/lab5/reset
-# lab5
+add wave -position insertpoint  \
+sim:/lab5/current_pc
 add wave -position insertpoint  \
 sim:/lab5/result
+restart
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
 add wave -position insertpoint  \
-sim:/lab5/wb_pc
+sim:/lab5/if_pc
 restart
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 run
-restart
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-run
-# End time: 09:11:17 on Apr 10,2018, Elapsed time: 0:23:18
+# End time: 08:51:37 on May 01,2018, Elapsed time: 0:06:53
 # Errors: 0, Warnings: 0
+wave editwrite -file E:/ECE374_Comp_org/mips-add-vhdl/Lab5/simulation/modelsim/wave.do

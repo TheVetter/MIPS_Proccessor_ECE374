@@ -19,6 +19,7 @@ clock => regN:id_ex_pc.clock
 clock => regN:id_ex_ALUop.clock
 clock => regN:id_ex_RT.clock
 clock => regN:id_ex_RS.clock
+clock => regN:id_ex_Rd.clock
 clock => regN:ex_mem_result.clock
 clock => reg1:ex_mem_zero.clock
 clock => regN:ex_mem_src2.clock
@@ -28,6 +29,7 @@ clock => reg1:ex_mem_MemWrite.clock
 clock => reg1:ex_mem_Branch.clock
 clock => regN:ex_mem_pc.clock
 clock => reg1:ex_mem_regdst.clock
+clock => regN:ex_Mem_Rd.clock
 clock => data_memory:dm.clock
 clock => regN:mem_wb_dmem.clock
 clock => regN:mem_wb_result.clock
@@ -35,6 +37,7 @@ clock => reg1:mem_wb_regdst.clock
 clock => reg1:mem_wb_memtoReg.clock
 clock => reg1:mem_wb_regWrite.clock
 clock => regN:mem_wb_pc.clock
+clock => regN:Mem_wb_Rd.clock
 reset => mux2to1:pc_mux.s
 reset => instruction_memory:im.reset
 reset => register_file:rf.reset
@@ -56,10 +59,10 @@ reset => data_memory:dm.reset
 reset => reg1:mem_wb_regdst.reset
 reset => reg1:mem_wb_memtoReg.reset
 reset => reg1:mem_wb_regWrite.reset
-current_pc[0] <= regN:mem_wb_pc.Q[0]
-current_pc[1] <= regN:mem_wb_pc.Q[1]
-current_pc[2] <= regN:mem_wb_pc.Q[2]
-current_pc[3] <= regN:mem_wb_pc.Q[3]
+current_pc[0] <= ripple_carry:addpc.s[0]
+current_pc[1] <= ripple_carry:addpc.s[1]
+current_pc[2] <= ripple_carry:addpc.s[2]
+current_pc[3] <= ripple_carry:addpc.s[3]
 result[0] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[1] <= result.DB_MAX_OUTPUT_PORT_TYPE
 result[2] <= result.DB_MAX_OUTPUT_PORT_TYPE
@@ -9222,6 +9225,234 @@ Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|lab5|regN:id_ex_Rd
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|mux4to1:forA_MUX
+w0[0] => mux2to1:stage1.a[0]
+w0[1] => mux2to1:stage1.a[1]
+w0[2] => mux2to1:stage1.a[2]
+w0[3] => mux2to1:stage1.a[3]
+w1[0] => mux2to1:stage1.b[0]
+w1[1] => mux2to1:stage1.b[1]
+w1[2] => mux2to1:stage1.b[2]
+w1[3] => mux2to1:stage1.b[3]
+w2[0] => mux2to1:stage2.a[0]
+w2[1] => mux2to1:stage2.a[1]
+w2[2] => mux2to1:stage2.a[2]
+w2[3] => mux2to1:stage2.a[3]
+w3[0] => mux2to1:stage2.b[0]
+w3[1] => mux2to1:stage2.b[1]
+w3[2] => mux2to1:stage2.b[2]
+w3[3] => mux2to1:stage2.b[3]
+s[0] => mux2to1:stage1.s
+s[0] => mux2to1:stage2.s
+s[1] => mux2to1:stage3.s
+f[0] <= mux2to1:stage3.f[0]
+f[1] <= mux2to1:stage3.f[1]
+f[2] <= mux2to1:stage3.f[2]
+f[3] <= mux2to1:stage3.f[3]
+
+
+|lab5|mux4to1:forA_MUX|mux2to1:stage1
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|mux4to1:forA_MUX|mux2to1:stage2
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|mux4to1:forA_MUX|mux2to1:stage3
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|mux4to1:forB_mux
+w0[0] => mux2to1:stage1.a[0]
+w0[1] => mux2to1:stage1.a[1]
+w0[2] => mux2to1:stage1.a[2]
+w0[3] => mux2to1:stage1.a[3]
+w1[0] => mux2to1:stage1.b[0]
+w1[1] => mux2to1:stage1.b[1]
+w1[2] => mux2to1:stage1.b[2]
+w1[3] => mux2to1:stage1.b[3]
+w2[0] => mux2to1:stage2.a[0]
+w2[1] => mux2to1:stage2.a[1]
+w2[2] => mux2to1:stage2.a[2]
+w2[3] => mux2to1:stage2.a[3]
+w3[0] => mux2to1:stage2.b[0]
+w3[1] => mux2to1:stage2.b[1]
+w3[2] => mux2to1:stage2.b[2]
+w3[3] => mux2to1:stage2.b[3]
+s[0] => mux2to1:stage1.s
+s[0] => mux2to1:stage2.s
+s[1] => mux2to1:stage3.s
+f[0] <= mux2to1:stage3.f[0]
+f[1] <= mux2to1:stage3.f[1]
+f[2] <= mux2to1:stage3.f[2]
+f[3] <= mux2to1:stage3.f[3]
+
+
+|lab5|mux4to1:forB_mux|mux2to1:stage1
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|mux4to1:forB_mux|mux2to1:stage2
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|mux4to1:forB_mux|mux2to1:stage3
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|mux2to1:mux_alu
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+s => f.IN0
+a[0] => f.IN1
+a[1] => f.IN1
+a[2] => f.IN1
+a[3] => f.IN1
+b[0] => f.IN1
+b[1] => f.IN1
+b[2] => f.IN1
+b[3] => f.IN1
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |lab5|alu:alup
 X[0] => tempS2[0].IN0
 X[0] => tempS3[0].IN0
@@ -9452,29 +9683,6 @@ f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
 f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab5|mux2to1:mux_alu
-s => f.IN0
-s => f.IN0
-s => f.IN0
-s => f.IN0
-s => f.IN0
-s => f.IN0
-s => f.IN0
-s => f.IN0
-a[0] => f.IN1
-a[1] => f.IN1
-a[2] => f.IN1
-a[3] => f.IN1
-b[0] => f.IN1
-b[1] => f.IN1
-b[2] => f.IN1
-b[3] => f.IN1
-f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
-f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
-
-
 |lab5|regN:ex_mem_result
 clock => Q[0]~reg0.CLK
 clock => Q[1]~reg0.CLK
@@ -9566,6 +9774,21 @@ clock => Q~reg0.CLK
 reset => process_0.IN1
 D => Q~reg0.DATAIN
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|regN:ex_Mem_Rd
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |lab5|forwardingUnit:forward
@@ -11343,6 +11566,21 @@ Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |lab5|regN:mem_wb_pc
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|regN:Mem_wb_Rd
 clock => Q[0]~reg0.CLK
 clock => Q[1]~reg0.CLK
 clock => Q[2]~reg0.CLK

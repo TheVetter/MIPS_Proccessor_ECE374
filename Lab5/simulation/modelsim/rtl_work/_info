@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 dE:/ECE374_Comp_org/mips-add-vhdl/Lab5/simulation/modelsim
 T_opt
-!s110 1523368080
-Vm^K;ZWV7GmSiiHm::8E1_2
+!s110 1525182285
+V<Qk<_B_e3hB3oef4TMP_Y3
 04 4 9 work lab5 behaviour 1
-=1-00224d7ede02-5accc08f-306-20c
+=1-00224d7ede02-5ae86f4c-383-2200
 o-quiet -auto_acc_if_foreign -work work
 tCvgOpt 0
 n@_opt
@@ -21,7 +21,7 @@ Ealu
 Z1 w1520298086
 Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z3 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
-Z4 DPx4 work 10 components 0 22 @G?_oN=CJ_RL0f@Rj:Q7L0
+Z4 DPx4 work 10 components 0 22 kM8O]0<O6o0Rz963CdDak2
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -33,9 +33,9 @@ VoTZ0=GOQTajSXFDGC4l`10
 !s100 PYB1`lW3O?_b8H]Q6lIQ;0
 Z9 OL;C;10.5c;63
 31
-Z10 !s110 1523368065
+Z10 !s110 1525182237
 !i10b 1
-Z11 !s108 1523368065.000000
+Z11 !s108 1525182237.000000
 Z12 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/alu.vhd|
 Z13 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/alu.vhd|
 !i113 0
@@ -67,41 +67,41 @@ R2
 R3
 R5
 R6
-w1522763448
+w1523975070
 R0
 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/components.vhd
 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/components.vhd
 l0
 L5
-V@G?_oN=CJ_RL0f@Rj:Q7L0
-!s100 eFL7O5en0jSV_B4aQHNf11
+VkM8O]0<O6o0Rz963CdDak2
+!s100 ^TUKI9V=jbSe4ZQPCXG:X2
 R9
 31
-!s110 1523368062
+Z16 !s110 1525182234
 !i10b 1
-Z16 !s108 1523368062.000000
+Z17 !s108 1525182234.000000
 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/components.vhd|
 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/components.vhd|
 !i113 0
 R14
 R15
 Edata_memory
-Z17 w1520298084
+Z18 w1520298084
 R2
 R3
 R4
 R5
 R6
 R0
-Z18 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd
-Z19 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd
+Z19 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd
+Z20 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd
 l0
 L6
 VShllAW5I8[jOQTRRY4NRD1
 !s100 Fl9flkdI0nBoGMjz^]1992
 R9
 31
-Z20 !s110 1523368066
+R10
 !i10b 1
 R11
 Z21 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/data_memory.vhd|
@@ -122,7 +122,7 @@ VnLQl7nR:Q@hVDaYP6nhZI2
 !s100 ?P:PnYIP77=U@Ln>?`EiC3
 R9
 31
-R20
+R10
 !i10b 1
 R11
 R21
@@ -131,7 +131,7 @@ R22
 R14
 R15
 Edec2to4
-R17
+R18
 R5
 R6
 R0
@@ -143,11 +143,11 @@ V7obXTbi9S>EeXNbj1:@Bf2
 !s100 NbZK8dGF6nXNm>[=`JC>_0
 R9
 31
-Z25 !s110 1523368063
-!i10b 1
 R16
-Z26 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec2to4.vhd|
-Z27 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec2to4.vhd|
+!i10b 1
+R17
+Z25 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec2to4.vhd|
+Z26 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec2to4.vhd|
 !i113 0
 R14
 R15
@@ -161,35 +161,35 @@ VhN8DPKlKgnC?VE[1n^h@G0
 !s100 LmmfXEm2d@d@EW5E?AC=j3
 R9
 31
-R25
-!i10b 1
 R16
+!i10b 1
+R17
+R25
 R26
-R27
 !i113 0
 R14
 R15
 Edec4to16
-R17
+R18
 R2
 R3
 R4
 R5
 R6
 R0
-Z28 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd
-Z29 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd
+Z27 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd
+Z28 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd
 l0
 L7
 V0YDY9ROXNa`nXSJLmbm1m0
 !s100 :9aj>2=0mEkm@@Obl_l_h0
 R9
 31
-R20
+Z29 !s110 1525182238
 !i10b 1
-Z30 !s108 1523368066.000000
-Z31 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd|
-Z32 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd|
+R11
+Z30 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd|
+Z31 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/dec4to16.vhd|
 !i113 0
 R14
 R15
@@ -206,32 +206,77 @@ VCf3d<^6cTMM_i96j:I>J<3
 !s100 G?h^7U`X@@8o91bo@5CTI1
 R9
 31
-R20
+R29
 !i10b 1
+R11
 R30
 R31
-R32
+!i113 0
+R14
+R15
+Eforwardingunit
+Z32 w1523976022
+R2
+R3
+R4
+R5
+R6
+R0
+Z33 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/forwardingUnit.vhd
+Z34 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/forwardingUnit.vhd
+l0
+L5
+VkX]Hedz]m]3SWH:CbWEzi1
+!s100 flmi29D:@1]`6Z5eXS@RB1
+R9
+31
+Z35 !s110 1525182240
+!i10b 1
+Z36 !s108 1525182240.000000
+Z37 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/forwardingUnit.vhd|
+Z38 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/forwardingUnit.vhd|
+!i113 0
+R14
+R15
+Abehaviour
+R2
+R3
+R4
+R5
+R6
+DEx4 work 14 forwardingunit 0 22 kX]Hedz]m]3SWH:CbWEzi1
+l14
+L11
+V?olfA2AJmXREd:8zleUJ61
+!s100 2BczjjHIeDh1k:VZPC>?Y3
+R9
+31
+R35
+!i10b 1
+R36
+R37
+R38
 !i113 0
 R14
 R15
 Efulladd
-R17
+R18
 R5
 R6
 R0
-Z33 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd
-Z34 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd
+Z39 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd
+Z40 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd
 l0
 L5
 VC1D`>YeRi`IPL2ijc8X8o0
 !s100 F9ehn=S5@S1lb7QZAZaW:0
 R9
 31
-R25
+Z41 !s110 1525182235
 !i10b 1
-Z35 !s108 1523368063.000000
-Z36 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd|
-Z37 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd|
+Z42 !s108 1525182235.000000
+Z43 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd|
+Z44 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/fulladd.vhd|
 !i113 0
 R14
 R15
@@ -245,11 +290,11 @@ V5cb1[F?:MRdiU7OCzj1mB2
 !s100 OS[fSPAzHIagd9`PdVZ][3
 R9
 31
-R25
+R41
 !i10b 1
-R35
-R36
-R37
+R42
+R43
+R44
 !i113 0
 R14
 R15
@@ -261,19 +306,19 @@ R4
 R5
 R6
 R0
-Z38 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd
-Z39 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd
+Z45 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd
+Z46 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd
 l0
 L6
 V3V5[[W5Ak5hgSzFCM9Ybc3
 !s100 l^5l>nOeC2_]k<oS4i4jB3
 R9
 31
-R20
+R29
 !i10b 1
-R30
-Z40 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd|
-Z41 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd|
+Z47 !s108 1525182238.000000
+Z48 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd|
+Z49 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_decode.vhd|
 !i113 0
 R14
 R15
@@ -290,54 +335,7 @@ V2c=Um^So]3iO0JYhGF74X3
 !s100 Zd148VE[P`_Lm==Y8A5ZJ2
 R9
 31
-R20
-!i10b 1
-R30
-R40
-R41
-!i113 0
-R14
-R15
-Einstruction_memory
-Z42 w1522766818
-R2
-R3
-R4
-Z43 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-R5
-R6
-R0
-Z44 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd
-Z45 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd
-l0
-L8
-V<LM=NWoj7SeK`WOZ:ge102
-!s100 FUE5I95cMAaTeae4:ielR2
-R9
-31
-Z46 !s110 1523368067
-!i10b 1
-Z47 !s108 1523368067.000000
-Z48 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd|
-Z49 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd|
-!i113 0
-R14
-R15
-Astruc_behaviour
-R2
-R3
-R4
-R43
-R5
-R6
-DEx4 work 18 instruction_memory 0 22 <LM=NWoj7SeK`WOZ:ge102
-l40
-L14
-VD8[aM0?E5GifZE2Jf=blL0
-!s100 QE9EUYz;SXDlWgc`fSemD1
-R9
-31
-R46
+R29
 !i10b 1
 R47
 R48
@@ -345,27 +343,74 @@ R49
 !i113 0
 R14
 R15
+Einstruction_memory
+Z50 w1524580758
+R2
+R3
+R4
+Z51 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R5
+R6
+R0
+Z52 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd
+Z53 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd
+l0
+L8
+V<LM=NWoj7SeK`WOZ:ge102
+!s100 FUE5I95cMAaTeae4:ielR2
+R9
+31
+R29
+!i10b 1
+R47
+Z54 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd|
+Z55 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vhd|
+!i113 0
+R14
+R15
+Astruc_behaviour
+R2
+R3
+R4
+R51
+R5
+R6
+DEx4 work 18 instruction_memory 0 22 <LM=NWoj7SeK`WOZ:ge102
+l40
+L14
+VKEh2P6B_3TWbY5gQdUi@P2
+!s100 2hbO:i]GQ691`LGaH;1Yj3
+R9
+31
+R29
+!i10b 1
+R47
+R54
+R55
+!i113 0
+R14
+R15
 Elab5
-Z50 w1523367896
+Z56 w1525180786
 R2
 R3
 R4
 R5
 R6
 R0
-Z51 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd
-Z52 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd
+Z57 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd
+Z58 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd
 l0
 L5
 V>29MA^MiElcX[^7PdU2EU1
 !s100 _O>CM75HWWR74MXcXF9IM3
 R9
 31
-R10
+Z59 !s110 1525182236
 !i10b 1
-R11
-Z53 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd|
-Z54 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd|
+Z60 !s108 1525182236.000000
+Z61 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd|
+Z62 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/lab5.vhd|
 !i113 0
 R14
 R15
@@ -378,15 +423,15 @@ R6
 DEx4 work 4 lab5 0 22 >29MA^MiElcX[^7PdU2EU1
 l21
 L10
-VRib;c1`XDmMZ:6HlY0aF`3
-!s100 _?PbI[[dcGOIMHHl99W2X2
+VD081D[<9fi`5^Bh^0<Xmh1
+!s100 96K0zjSPTozVaGQRP<bBZ1
 R9
 31
-R10
+R59
 !i10b 1
-R11
-R53
-R54
+R60
+R61
+R62
 !i113 0
 R14
 R15
@@ -395,19 +440,19 @@ R1
 R5
 R6
 R0
-Z55 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd
-Z56 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd
+Z63 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd
+Z64 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd
 l0
 L5
 VQ1bJ5A_@Km[=i<If=m6FF2
 !s100 ::A9R;z;4Hl8hUc1iheoS1
 R9
 31
-R25
+R41
 !i10b 1
-R35
-Z57 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd|
-Z58 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd|
+R42
+Z65 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd|
+Z66 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux2to1.vhd|
 !i113 0
 R14
 R15
@@ -421,11 +466,11 @@ VT1KNWoBHPj7NUeLVFH1JR1
 !s100 51h2eL@KL^V=gON0P5c4g2
 R9
 31
-R25
+R41
 !i10b 1
-R35
-R57
-R58
+R42
+R65
+R66
 !i113 0
 R14
 R15
@@ -437,19 +482,19 @@ R4
 R5
 R6
 R0
-Z59 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd
-Z60 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd
+Z67 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd
+Z68 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd
 l0
 L6
 V81WhnCONI:cWkiKH_1fkR1
 !s100 nT:OzDKVMaJZ1zaY`OLXK2
 R9
 31
-R46
+Z69 !s110 1525182239
 !i10b 1
-R47
-Z61 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd|
-Z62 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd|
+Z70 !s108 1525182239.000000
+Z71 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd|
+Z72 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd|
 !i113 0
 R14
 R15
@@ -466,32 +511,32 @@ VkD?H>aM:]4=h8BFlGTZP00
 !s100 <lJc1_mQ>`X>fQB]PmRX52
 R9
 31
-R46
+R69
 !i10b 1
-R47
-R61
-R62
+R70
+R71
+R72
 !i113 0
 R14
 R15
 Ereg1
-Z63 w1522763494
+Z73 w1522763494
 R5
 R6
 R0
-Z64 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd
-Z65 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd
+Z74 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd
+Z75 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd
 l0
 L5
 VP_DMbk?[TWkOkJM=69=Un0
 !s100 Eg?9VJof[afdM==1XcN2A1
 R9
 31
-Z66 !s110 1523368064
+R59
 !i10b 1
-Z67 !s108 1523368064.000000
-Z68 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd|
-Z69 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd|
+R60
+Z76 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd|
+Z77 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/reg1.vhd|
 !i113 0
 R14
 R15
@@ -505,35 +550,35 @@ V@Vhdio;zlB5onS9?9n6EX3
 !s100 kBUFEkFJ6R4N<X53z=m2?1
 R9
 31
-R66
+R59
 !i10b 1
-R67
-R68
-R69
+R60
+R76
+R77
 !i113 0
 R14
 R15
 Eregister_file
-Z70 w1522764946
+Z78 w1522764946
 R2
 R3
 R4
 R5
 R6
 R0
-Z71 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd
-Z72 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd
+Z79 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd
+Z80 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd
 l0
 L6
 Ve7HQgG3ff8;CjnQSG<FQb1
 !s100 [Th0f3?l;UUR2KNP]lJ6a2
 R9
 31
-Z73 !s110 1523368068
+R69
 !i10b 1
-R47
-Z74 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd|
-Z75 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd|
+R70
+Z81 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd|
+Z82 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd|
 !i113 0
 R14
 R15
@@ -550,11 +595,11 @@ V@:2F7OoW1RURolcD6@AlG1
 !s100 `;3BR8o57TlT?al6YLOE;3
 R9
 31
-R73
+R69
 !i10b 1
-R47
-R74
-R75
+R70
+R81
+R82
 !i113 0
 R14
 R15
@@ -563,19 +608,19 @@ R1
 R5
 R6
 R0
-Z76 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd
-Z77 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd
+Z83 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd
+Z84 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd
 l0
 L5
 V<n2ab<HDD_k2>QBCPM]9>3
 !s100 9WISHEa<GU>hb:hkoFU>l1
 R9
 31
-R66
+R41
 !i10b 1
-R67
-Z78 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd|
-Z79 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd|
+R42
+Z85 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd|
+Z86 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/regN.vhd|
 !i113 0
 R14
 R15
@@ -589,11 +634,11 @@ V6fP>odf>[FfYhH6bzlTP=2
 !s100 H_Fd<a^^4ZRKjV6>Zi4<R0
 R9
 31
-R66
+R41
 !i10b 1
-R67
-R78
-R79
+R42
+R85
+R86
 !i113 0
 R14
 R15
@@ -605,19 +650,19 @@ R4
 R5
 R6
 R0
-Z80 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd
-Z81 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd
+Z87 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd
+Z88 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd
 l0
 L7
 VgITaFWBShTi<c;;]FlhaA3
 !s100 BhIaDf``RGgaL9aj^08b<1
 R9
 31
-R73
+R35
 !i10b 1
-Z82 !s108 1523368068.000000
-Z83 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd|
-Z84 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd|
+R70
+Z89 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd|
+Z90 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd|
 !i113 0
 R14
 R15
@@ -634,11 +679,11 @@ V[4=:V]:5K?=UYdP7XEMLX1
 !s100 ]Q7Sz5:;@?[zASnUi<5SN0
 R9
 31
-R73
+R35
 !i10b 1
-R82
-R83
-R84
+R70
+R89
+R90
 !i113 0
 R14
 R15
@@ -647,19 +692,19 @@ R1
 R5
 R6
 R0
-Z85 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd
-Z86 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd
+Z91 8E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd
+Z92 FE:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd
 l0
 L6
 V3^=UTL66lAo[Zc29Y`UBR1
 !s100 09[YhPg2Q7CoUYLlSBnMB2
 R9
 31
-R66
+R59
 !i10b 1
-R67
-Z87 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd|
-Z88 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd|
+R60
+Z93 !s90 -reportprogress|300|-93|-work|work|E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd|
+Z94 !s107 E:/ECE374_Comp_org/mips-add-vhdl/Lab5/trin.vhd|
 !i113 0
 R14
 R15
@@ -673,11 +718,11 @@ VUNPXCA:^CdmT0L>^RH;nj2
 !s100 KkF5k=d^9m5`cKFZjo2Pg0
 R9
 31
-R66
+R59
 !i10b 1
-R67
-R87
-R88
+R60
+R93
+R94
 !i113 0
 R14
 R15

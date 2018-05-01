@@ -27,5 +27,4 @@ vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/instruction_memory.vh
 vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/mux4to1.vhd}
 vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/register_file.vhd}
 vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/ripple_carry.vhd}
-vcom -93 -work work {E:/ECE374_Comp_org/mips-add-vhdl/Lab5/forwardingUnit.vhd}
 

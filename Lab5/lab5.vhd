@@ -10,8 +10,8 @@ end lab5;
 architecture behaviour of lab5 is
 	constant initial_pc : std_logic_vector(3 downto 0) := (others => '0');
 	signal if_pc, id_pc, ex_pc, read_port1, read_port2, write_port, w_value, id_src1, wbMux_out,ex_src2, ex_src1, id_src2, mem_Dmem_out,wb_dmem,rout, 
-	wb_result, mout, mem_alu_out, id_address_offset,ex_address_offset, 
-		regdst_mx_out, alu_mux_out, Branch_out, Jump_out, branchAdder_out : std_logic_vector(3 downto 0);
+		wb_result, mout, mem_alu_out, id_address_offset,ex_address_offset, forb_out, forA_out, ex_Rd, mem_Rd, wb_rd,
+		regdst_mx_out, alu_mux_out, Branch_out, Jump_out, branchAdder_out, stupid : std_logic_vector(3 downto 0);
 	signal if_inst,id_inst: std_logic_vector(31 downto 0);
 	signal ex_ALUop, id_ALUop, forwardA, forwardB : std_logic_vector(1 downto 0);
 	signal id_MemRead, ex_MemRead, id_MemWrite, id_RegWrite, ex_RegWrite, wb_regdst,ex_MemWrite, wb_memtoReg, mem_regdst, wb_regwrite, id_memToReg, ex_zero, mem_zero,ex_memToReg, id_add_sub, ex_add_sub, id_alusrc, ex_alusrc, id_regdst,ex_regdst, zero2, id_Branch,ex_Branch, Jump, and_out : std_logic;
@@ -56,13 +56,14 @@ begin
 	id_ex_ALUop : regN generic map (n=>2) port map (clock, id_ALUop, ex_ALUop);
 	id_ex_RT : regN generic map (n=>4) port map (clock, read_port2, ex_RT);
 	id_ex_RS : regN generic map (n=>4) port map (clock, read_port1, ex_RS);
+	id_ex_Rd : regN generic map (n=>4) port map (clock, regdst_mx_out, ex_Rd);
 	
 	--------------ex -----------------
 	
-	forA_MUX : mux4to1 generic map (n=>4) port map( ex_src1, wbMux_out, mem_result, , forwardA, forA_out  ) 
+	forA_MUX : mux4to1 generic map (n=>4) port map( ex_src1, wbMux_out, mem_result, stupid , forwardA, forA_out  ) ;
+	forB_mux : mux4to1 generic map (n=>4) port map(ex_src2, wbmux_out, mem_result, stupid , forwardB, forb_out);
 			
-			
-	mux_alu : mux2to1 port map (ex_alusrc, ex_src2, ex_address_offset, alu_mux_out);		
+	mux_alu : mux2to1 port map (ex_alusrc, forb_out, ex_address_offset, alu_mux_out);		
 	------------ALU-----------------------------------------
 	alup : alu port map ( forA_out, alu_mux_out, ex_add_sub, ex_ALUop, ex_result, ex_zero);
 	
@@ -76,9 +77,10 @@ begin
 	ex_mem_Branch : reg1 port map (clock, reset, ex_Branch, mem_Branch);
 	ex_mem_pc : regN generic map (n=>4) port map (clock, ex_pc, mem_pc);
 	ex_mem_regdst : reg1 port map (clock, reset, ex_regdst, mem_regdst);
+	ex_Mem_Rd : regN generic map (n=>4) port map (clock, ex_Rd, mem_Rd);
 
 	
-	forward : forwardingUnit port map(mem_regdst, wb_regwrite, ex_RS, ex_RT, mem_result, wb_result, forwardA, forwardB );
+	forward : forwardingUnit port map(mem_MemToReg, wb_regwrite, ex_RS, ex_RT, mem_Rd, wb_rd, forwardA, forwardB );
 	
 	--------------DM-------------------
 	---------- data_memory----------------------------------------
@@ -90,6 +92,7 @@ begin
 	mem_wb_memtoReg : reg1 port map (clock, reset, mem_MemToReg, wb_memtoReg);
 	mem_wb_regWrite : reg1 port map (clock, reset, mem_RegWrite, wb_regwrite);
 	mem_wb_pc : regN generic map (n=>4) port map (clock, mem_pc, wb_pc);
+	Mem_wb_Rd : regN generic map (n=>4) port map (clock, mem_Rd, wb_rd);
 	
 	
 	mx_wb : mux2to1 port map( wb_memtoReg, wb_result, mem_Dmem_out, wbMux_out );
@@ -108,7 +111,7 @@ begin
 	-------------Jump Mux-----------------------------------
 	---Jump_Mux : mux2to1 port map (Jump, Branch_out, ex_address_offset, Jump_out);
 	
-	current_pc <= wb_pc;
+	current_pc <= if_pc;
 	result <=  mem_src2 when (ex_MemWrite ='1') else wbMux_out;
 
 end behaviour;

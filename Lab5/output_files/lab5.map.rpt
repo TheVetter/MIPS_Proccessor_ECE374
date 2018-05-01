@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab5
-Tue Apr 17 09:41:03 2018
+Tue May 01 08:48:06 2018
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -189,145 +189,156 @@ Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 181. Parameter Settings for User Entity Instance: regN:id_ex_ALUop
 182. Parameter Settings for User Entity Instance: regN:id_ex_RT
 183. Parameter Settings for User Entity Instance: regN:id_ex_RS
-184. Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux
-185. Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux|mux2to1:stage1
-186. Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux|mux2to1:stage2
-187. Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux|mux2to1:stage3
-188. Parameter Settings for User Entity Instance: alu:alup|mux2to1:mux2
-189. Parameter Settings for User Entity Instance: mux2to1:mux_alu
-190. Parameter Settings for User Entity Instance: regN:ex_mem_result
-191. Parameter Settings for User Entity Instance: regN:ex_mem_src2
-192. Parameter Settings for User Entity Instance: regN:ex_mem_pc
-193. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m0
-194. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m0|mux2to1:stage1
-195. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m0|mux2to1:stage2
-196. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m0|mux2to1:stage3
-197. Parameter Settings for User Entity Instance: data_memory:dm|regN:r0
-198. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri0
-199. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m1
-200. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m1|mux2to1:stage1
-201. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m1|mux2to1:stage2
-202. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m1|mux2to1:stage3
-203. Parameter Settings for User Entity Instance: data_memory:dm|regN:r1
-204. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri1
-205. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m2
-206. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m2|mux2to1:stage1
-207. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m2|mux2to1:stage2
-208. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m2|mux2to1:stage3
-209. Parameter Settings for User Entity Instance: data_memory:dm|regN:r2
-210. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri2
-211. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m3
-212. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m3|mux2to1:stage1
-213. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m3|mux2to1:stage2
-214. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m3|mux2to1:stage3
-215. Parameter Settings for User Entity Instance: data_memory:dm|regN:r3
-216. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri3
-217. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m4
-218. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m4|mux2to1:stage1
-219. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m4|mux2to1:stage2
-220. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m4|mux2to1:stage3
-221. Parameter Settings for User Entity Instance: data_memory:dm|regN:r4
-222. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri4
-223. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m5
-224. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m5|mux2to1:stage1
-225. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m5|mux2to1:stage2
-226. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m5|mux2to1:stage3
-227. Parameter Settings for User Entity Instance: data_memory:dm|regN:r5
-228. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri5
-229. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m6
-230. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m6|mux2to1:stage1
-231. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m6|mux2to1:stage2
-232. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m6|mux2to1:stage3
-233. Parameter Settings for User Entity Instance: data_memory:dm|regN:r6
-234. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri6
-235. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m7
-236. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m7|mux2to1:stage1
-237. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m7|mux2to1:stage2
-238. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m7|mux2to1:stage3
-239. Parameter Settings for User Entity Instance: data_memory:dm|regN:r7
-240. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri7
-241. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m8
-242. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m8|mux2to1:stage1
-243. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m8|mux2to1:stage2
-244. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m8|mux2to1:stage3
-245. Parameter Settings for User Entity Instance: data_memory:dm|regN:r8
-246. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri8
-247. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m9
-248. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m9|mux2to1:stage1
-249. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m9|mux2to1:stage2
-250. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m9|mux2to1:stage3
-251. Parameter Settings for User Entity Instance: data_memory:dm|regN:r9
-252. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri9
-253. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m10
-254. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m10|mux2to1:stage1
-255. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m10|mux2to1:stage2
-256. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m10|mux2to1:stage3
-257. Parameter Settings for User Entity Instance: data_memory:dm|regN:r10
-258. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri10
-259. Parameter Settings for User Entity Instance: regN:mem_wb_dmem
-260. Parameter Settings for User Entity Instance: regN:mem_wb_result
-261. Parameter Settings for User Entity Instance: regN:mem_wb_pc
-262. Parameter Settings for User Entity Instance: mux2to1:mx_wb
-263. Port Connectivity Checks: "regN:mem_wb_dmem"
-264. Port Connectivity Checks: "data_memory:dm|mux4to1:m10"
-265. Port Connectivity Checks: "data_memory:dm|mux4to1:m9"
-266. Port Connectivity Checks: "data_memory:dm|mux4to1:m8"
-267. Port Connectivity Checks: "data_memory:dm|mux4to1:m7"
-268. Port Connectivity Checks: "data_memory:dm|mux4to1:m6"
-269. Port Connectivity Checks: "data_memory:dm|mux4to1:m5"
-270. Port Connectivity Checks: "data_memory:dm|mux4to1:m4"
-271. Port Connectivity Checks: "data_memory:dm|mux4to1:m3"
-272. Port Connectivity Checks: "data_memory:dm|mux4to1:m2"
-273. Port Connectivity Checks: "data_memory:dm|mux4to1:m1"
-274. Port Connectivity Checks: "data_memory:dm|mux4to1:m0"
-275. Port Connectivity Checks: "data_memory:dm|dec4to16:stage_dec_write"
-276. Port Connectivity Checks: "data_memory:dm|dec4to16:stage_dec1"
-277. Port Connectivity Checks: "forwardingUnit:forward"
-278. Port Connectivity Checks: "reg1:ex_mem_Branch"
-279. Port Connectivity Checks: "reg1:ex_mem_zero"
-280. Port Connectivity Checks: "alu:alup|mux2to1:mux2"
-281. Port Connectivity Checks: "alu:alup|ripple_carry:ripCarry"
-282. Port Connectivity Checks: "reg1:id_ex_MemRead"
-283. Port Connectivity Checks: "register_file:rf|mux4to1:m15"
-284. Port Connectivity Checks: "register_file:rf|mux4to1:m14"
-285. Port Connectivity Checks: "register_file:rf|mux4to1:m13"
-286. Port Connectivity Checks: "register_file:rf|mux4to1:m12"
-287. Port Connectivity Checks: "register_file:rf|mux4to1:m11"
-288. Port Connectivity Checks: "register_file:rf|mux4to1:m10"
-289. Port Connectivity Checks: "register_file:rf|mux4to1:m9"
-290. Port Connectivity Checks: "register_file:rf|mux4to1:m8"
-291. Port Connectivity Checks: "register_file:rf|mux4to1:m7"
-292. Port Connectivity Checks: "register_file:rf|mux4to1:m6"
-293. Port Connectivity Checks: "register_file:rf|mux4to1:m5"
-294. Port Connectivity Checks: "register_file:rf|mux4to1:m4"
-295. Port Connectivity Checks: "register_file:rf|mux4to1:m3"
-296. Port Connectivity Checks: "register_file:rf|mux4to1:m2"
-297. Port Connectivity Checks: "register_file:rf|mux4to1:m1"
-298. Port Connectivity Checks: "register_file:rf|mux4to1:m0"
-299. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec2"
-300. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec1"
-301. Port Connectivity Checks: "instruction_decode:id"
-302. Port Connectivity Checks: "instruction_memory:im|mux2to1:m15"
-303. Port Connectivity Checks: "instruction_memory:im|mux2to1:m14"
-304. Port Connectivity Checks: "instruction_memory:im|mux2to1:m13"
-305. Port Connectivity Checks: "instruction_memory:im|mux2to1:m12"
-306. Port Connectivity Checks: "instruction_memory:im|mux2to1:m11"
-307. Port Connectivity Checks: "instruction_memory:im|mux2to1:m10"
-308. Port Connectivity Checks: "instruction_memory:im|mux2to1:m9"
-309. Port Connectivity Checks: "instruction_memory:im|mux2to1:m8"
-310. Port Connectivity Checks: "instruction_memory:im|mux2to1:m7"
-311. Port Connectivity Checks: "instruction_memory:im|mux2to1:m6"
-312. Port Connectivity Checks: "instruction_memory:im|mux2to1:m5"
-313. Port Connectivity Checks: "instruction_memory:im|mux2to1:m4"
-314. Port Connectivity Checks: "instruction_memory:im|mux2to1:m3"
-315. Port Connectivity Checks: "instruction_memory:im|mux2to1:m2"
-316. Port Connectivity Checks: "instruction_memory:im|mux2to1:m1"
-317. Port Connectivity Checks: "instruction_memory:im|mux2to1:m0"
-318. Port Connectivity Checks: "instruction_memory:im|dec4to16:stage_dec"
-319. Port Connectivity Checks: "ripple_carry:addpc"
-320. Port Connectivity Checks: "mux2to1:pc_mux"
-321. Elapsed Time Per Partition
-322. Analysis & Synthesis Messages
+184. Parameter Settings for User Entity Instance: regN:id_ex_Rd
+185. Parameter Settings for User Entity Instance: mux4to1:forA_MUX
+186. Parameter Settings for User Entity Instance: mux4to1:forA_MUX|mux2to1:stage1
+187. Parameter Settings for User Entity Instance: mux4to1:forA_MUX|mux2to1:stage2
+188. Parameter Settings for User Entity Instance: mux4to1:forA_MUX|mux2to1:stage3
+189. Parameter Settings for User Entity Instance: mux4to1:forB_mux
+190. Parameter Settings for User Entity Instance: mux4to1:forB_mux|mux2to1:stage1
+191. Parameter Settings for User Entity Instance: mux4to1:forB_mux|mux2to1:stage2
+192. Parameter Settings for User Entity Instance: mux4to1:forB_mux|mux2to1:stage3
+193. Parameter Settings for User Entity Instance: mux2to1:mux_alu
+194. Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux
+195. Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux|mux2to1:stage1
+196. Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux|mux2to1:stage2
+197. Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux|mux2to1:stage3
+198. Parameter Settings for User Entity Instance: alu:alup|mux2to1:mux2
+199. Parameter Settings for User Entity Instance: regN:ex_mem_result
+200. Parameter Settings for User Entity Instance: regN:ex_mem_src2
+201. Parameter Settings for User Entity Instance: regN:ex_mem_pc
+202. Parameter Settings for User Entity Instance: regN:ex_Mem_Rd
+203. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m0
+204. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m0|mux2to1:stage1
+205. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m0|mux2to1:stage2
+206. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m0|mux2to1:stage3
+207. Parameter Settings for User Entity Instance: data_memory:dm|regN:r0
+208. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri0
+209. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m1
+210. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m1|mux2to1:stage1
+211. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m1|mux2to1:stage2
+212. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m1|mux2to1:stage3
+213. Parameter Settings for User Entity Instance: data_memory:dm|regN:r1
+214. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri1
+215. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m2
+216. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m2|mux2to1:stage1
+217. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m2|mux2to1:stage2
+218. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m2|mux2to1:stage3
+219. Parameter Settings for User Entity Instance: data_memory:dm|regN:r2
+220. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri2
+221. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m3
+222. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m3|mux2to1:stage1
+223. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m3|mux2to1:stage2
+224. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m3|mux2to1:stage3
+225. Parameter Settings for User Entity Instance: data_memory:dm|regN:r3
+226. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri3
+227. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m4
+228. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m4|mux2to1:stage1
+229. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m4|mux2to1:stage2
+230. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m4|mux2to1:stage3
+231. Parameter Settings for User Entity Instance: data_memory:dm|regN:r4
+232. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri4
+233. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m5
+234. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m5|mux2to1:stage1
+235. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m5|mux2to1:stage2
+236. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m5|mux2to1:stage3
+237. Parameter Settings for User Entity Instance: data_memory:dm|regN:r5
+238. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri5
+239. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m6
+240. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m6|mux2to1:stage1
+241. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m6|mux2to1:stage2
+242. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m6|mux2to1:stage3
+243. Parameter Settings for User Entity Instance: data_memory:dm|regN:r6
+244. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri6
+245. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m7
+246. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m7|mux2to1:stage1
+247. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m7|mux2to1:stage2
+248. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m7|mux2to1:stage3
+249. Parameter Settings for User Entity Instance: data_memory:dm|regN:r7
+250. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri7
+251. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m8
+252. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m8|mux2to1:stage1
+253. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m8|mux2to1:stage2
+254. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m8|mux2to1:stage3
+255. Parameter Settings for User Entity Instance: data_memory:dm|regN:r8
+256. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri8
+257. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m9
+258. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m9|mux2to1:stage1
+259. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m9|mux2to1:stage2
+260. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m9|mux2to1:stage3
+261. Parameter Settings for User Entity Instance: data_memory:dm|regN:r9
+262. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri9
+263. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m10
+264. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m10|mux2to1:stage1
+265. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m10|mux2to1:stage2
+266. Parameter Settings for User Entity Instance: data_memory:dm|mux4to1:m10|mux2to1:stage3
+267. Parameter Settings for User Entity Instance: data_memory:dm|regN:r10
+268. Parameter Settings for User Entity Instance: data_memory:dm|trin:tri10
+269. Parameter Settings for User Entity Instance: regN:mem_wb_dmem
+270. Parameter Settings for User Entity Instance: regN:mem_wb_result
+271. Parameter Settings for User Entity Instance: regN:mem_wb_pc
+272. Parameter Settings for User Entity Instance: regN:Mem_wb_Rd
+273. Parameter Settings for User Entity Instance: mux2to1:mx_wb
+274. Port Connectivity Checks: "regN:mem_wb_pc"
+275. Port Connectivity Checks: "regN:mem_wb_dmem"
+276. Port Connectivity Checks: "data_memory:dm|mux4to1:m10"
+277. Port Connectivity Checks: "data_memory:dm|mux4to1:m9"
+278. Port Connectivity Checks: "data_memory:dm|mux4to1:m8"
+279. Port Connectivity Checks: "data_memory:dm|mux4to1:m7"
+280. Port Connectivity Checks: "data_memory:dm|mux4to1:m6"
+281. Port Connectivity Checks: "data_memory:dm|mux4to1:m5"
+282. Port Connectivity Checks: "data_memory:dm|mux4to1:m4"
+283. Port Connectivity Checks: "data_memory:dm|mux4to1:m3"
+284. Port Connectivity Checks: "data_memory:dm|mux4to1:m2"
+285. Port Connectivity Checks: "data_memory:dm|mux4to1:m1"
+286. Port Connectivity Checks: "data_memory:dm|mux4to1:m0"
+287. Port Connectivity Checks: "data_memory:dm|dec4to16:stage_dec_write"
+288. Port Connectivity Checks: "data_memory:dm|dec4to16:stage_dec1"
+289. Port Connectivity Checks: "reg1:ex_mem_Branch"
+290. Port Connectivity Checks: "reg1:ex_mem_zero"
+291. Port Connectivity Checks: "alu:alup|mux2to1:mux2"
+292. Port Connectivity Checks: "alu:alup|ripple_carry:ripCarry"
+293. Port Connectivity Checks: "reg1:id_ex_MemRead"
+294. Port Connectivity Checks: "register_file:rf|mux4to1:m15"
+295. Port Connectivity Checks: "register_file:rf|mux4to1:m14"
+296. Port Connectivity Checks: "register_file:rf|mux4to1:m13"
+297. Port Connectivity Checks: "register_file:rf|mux4to1:m12"
+298. Port Connectivity Checks: "register_file:rf|mux4to1:m11"
+299. Port Connectivity Checks: "register_file:rf|mux4to1:m10"
+300. Port Connectivity Checks: "register_file:rf|mux4to1:m9"
+301. Port Connectivity Checks: "register_file:rf|mux4to1:m8"
+302. Port Connectivity Checks: "register_file:rf|mux4to1:m7"
+303. Port Connectivity Checks: "register_file:rf|mux4to1:m6"
+304. Port Connectivity Checks: "register_file:rf|mux4to1:m5"
+305. Port Connectivity Checks: "register_file:rf|mux4to1:m4"
+306. Port Connectivity Checks: "register_file:rf|mux4to1:m3"
+307. Port Connectivity Checks: "register_file:rf|mux4to1:m2"
+308. Port Connectivity Checks: "register_file:rf|mux4to1:m1"
+309. Port Connectivity Checks: "register_file:rf|mux4to1:m0"
+310. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec2"
+311. Port Connectivity Checks: "register_file:rf|dec4to16:stage_dec1"
+312. Port Connectivity Checks: "instruction_decode:id"
+313. Port Connectivity Checks: "instruction_memory:im|mux2to1:m15"
+314. Port Connectivity Checks: "instruction_memory:im|mux2to1:m14"
+315. Port Connectivity Checks: "instruction_memory:im|mux2to1:m13"
+316. Port Connectivity Checks: "instruction_memory:im|mux2to1:m12"
+317. Port Connectivity Checks: "instruction_memory:im|mux2to1:m11"
+318. Port Connectivity Checks: "instruction_memory:im|mux2to1:m10"
+319. Port Connectivity Checks: "instruction_memory:im|mux2to1:m9"
+320. Port Connectivity Checks: "instruction_memory:im|mux2to1:m8"
+321. Port Connectivity Checks: "instruction_memory:im|mux2to1:m7"
+322. Port Connectivity Checks: "instruction_memory:im|mux2to1:m6"
+323. Port Connectivity Checks: "instruction_memory:im|mux2to1:m5"
+324. Port Connectivity Checks: "instruction_memory:im|mux2to1:m4"
+325. Port Connectivity Checks: "instruction_memory:im|mux2to1:m3"
+326. Port Connectivity Checks: "instruction_memory:im|mux2to1:m2"
+327. Port Connectivity Checks: "instruction_memory:im|mux2to1:m1"
+328. Port Connectivity Checks: "instruction_memory:im|mux2to1:m0"
+329. Port Connectivity Checks: "instruction_memory:im|dec4to16:stage_dec"
+330. Port Connectivity Checks: "ripple_carry:addpc"
+331. Port Connectivity Checks: "mux2to1:pc_mux"
+332. Elapsed Time Per Partition
+333. Analysis & Synthesis Messages
 
 
 
@@ -353,15 +364,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Apr 17 09:41:03 2018      ;
+; Analysis & Synthesis Status        ; Successful - Tue May 01 08:48:06 2018      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; lab5                                       ;
 ; Top-level Entity Name              ; lab5                                       ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 253                                        ;
-;     Total combinational functions  ; 172                                        ;
-;     Dedicated logic registers      ; 131                                        ;
-; Total registers                    ; 131                                        ;
+; Total logic elements               ; 250                                        ;
+;     Total combinational functions  ; 169                                        ;
+;     Dedicated logic registers      ; 124                                        ;
+; Total registers                    ; 124                                        ;
 ; Total pins                         ; 10                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
@@ -498,128 +509,129 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 253         ;
+; Estimated Total logic elements              ; 250         ;
 ;                                             ;             ;
-; Total combinational functions               ; 172         ;
+; Total combinational functions               ; 169         ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 144         ;
-;     -- 3 input functions                    ; 17          ;
-;     -- <=2 input functions                  ; 11          ;
+;     -- 4 input functions                    ; 129         ;
+;     -- 3 input functions                    ; 20          ;
+;     -- <=2 input functions                  ; 20          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 172         ;
+;     -- normal mode                          ; 169         ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 131         ;
-;     -- Dedicated logic registers            ; 131         ;
+; Total registers                             ; 124         ;
+;     -- Dedicated logic registers            ; 124         ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 10          ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ; Maximum fan-out node                        ; clock~input ;
-; Maximum fan-out                             ; 132         ;
-; Total fan-out                               ; 1000        ;
-; Average fan-out                             ; 3.10        ;
+; Maximum fan-out                             ; 125         ;
+; Total fan-out                               ; 951         ;
+; Average fan-out                             ; 3.04        ;
 +---------------------------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                   ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
-; Compilation Hierarchy Node     ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                       ; Library Name ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
-; |lab5                          ; 172 (0)           ; 131 (0)      ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |lab5                                                     ;              ;
-;    |alu:alup|                  ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup                                            ;              ;
-;       |mux4to1:mux|            ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|mux4to1:mux                                ;              ;
-;          |mux2to1:stage3|      ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|mux4to1:mux|mux2to1:stage3                 ;              ;
-;       |ripple_carry:ripCarry|  ; 8 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry                      ;              ;
-;          |fulladd:stage1|      ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage1       ;              ;
-;          |fulladd:stage2|      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage2       ;              ;
-;          |fulladd:stage3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage3       ;              ;
-;          |fulladd:stage4|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage4       ;              ;
-;    |instruction_decode:id|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_decode:id                               ;              ;
-;    |instruction_memory:im|     ; 17 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_memory:im                               ;              ;
-;       |dec4to16:stage_dec|     ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_memory:im|dec4to16:stage_dec            ;              ;
-;          |dec2to4:s1|          ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_memory:im|dec4to16:stage_dec|dec2to4:s1 ;              ;
-;    |mux2to1:mx_redst|          ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:mx_redst                                    ;              ;
-;    |mux2to1:mx_wb|             ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:mx_wb                                       ;              ;
-;    |mux2to1:pc_mux|            ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:pc_mux                                      ;              ;
-;    |reg1:ex_mem_MemToReg|      ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:ex_mem_MemToReg                                ;              ;
-;    |reg1:ex_mem_RegWrite|      ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:ex_mem_RegWrite                                ;              ;
-;    |reg1:ex_mem_regdst|        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:ex_mem_regdst                                  ;              ;
-;    |reg1:id_ex_add_sub|        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:id_ex_add_sub                                  ;              ;
-;    |reg1:id_ex_alusrc|         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:id_ex_alusrc                                   ;              ;
-;    |reg1:id_ex_regdst|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:id_ex_regdst                                   ;              ;
-;    |reg1:id_ex_regwrite|       ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:id_ex_regwrite                                 ;              ;
-;    |reg1:mem_wb_memtoReg|      ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:mem_wb_memtoReg                                ;              ;
-;    |reg1:mem_wb_regWrite|      ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:mem_wb_regWrite                                ;              ;
-;    |reg1:mem_wb_regdst|        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:mem_wb_regdst                                  ;              ;
-;    |regN:ex_mem_pc|            ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:ex_mem_pc                                      ;              ;
-;    |regN:ex_mem_result|        ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:ex_mem_result                                  ;              ;
-;    |regN:id_ex_ALUop|          ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_ALUop                                    ;              ;
-;    |regN:id_ex_address_offset| ; 0 (0)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_address_offset                           ;              ;
-;    |regN:id_ex_pc|             ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_pc                                       ;              ;
-;    |regN:id_ex_src1|           ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_src1                                     ;              ;
-;    |regN:id_ex_src2|           ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_src2                                     ;              ;
-;    |regN:if_id_inst|           ; 0 (0)             ; 17 (17)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:if_id_inst                                     ;              ;
-;    |regN:if_id_pc|             ; 1 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:if_id_pc                                       ;              ;
-;    |regN:mem_wb_pc|            ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:mem_wb_pc                                      ;              ;
-;    |regN:mem_wb_result|        ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:mem_wb_result                                  ;              ;
-;    |regN:pc|                   ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:pc                                             ;              ;
-;    |register_file:rf|          ; 113 (80)          ; 64 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf                                    ;              ;
-;       |mux4to1:m0|             ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m0                         ;              ;
-;          |mux2to1:stage3|      ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m0|mux2to1:stage3          ;              ;
-;       |mux4to1:m10|            ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m10                        ;              ;
-;          |mux2to1:stage3|      ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m10|mux2to1:stage3         ;              ;
-;       |mux4to1:m11|            ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m11                        ;              ;
-;          |mux2to1:stage3|      ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m11|mux2to1:stage3         ;              ;
-;       |mux4to1:m12|            ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m12                        ;              ;
-;          |mux2to1:stage3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m12|mux2to1:stage3         ;              ;
-;       |mux4to1:m13|            ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m13                        ;              ;
-;          |mux2to1:stage3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m13|mux2to1:stage3         ;              ;
-;       |mux4to1:m14|            ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m14                        ;              ;
-;          |mux2to1:stage3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m14|mux2to1:stage3         ;              ;
-;       |mux4to1:m15|            ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m15                        ;              ;
-;          |mux2to1:stage3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m15|mux2to1:stage3         ;              ;
-;       |mux4to1:m1|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m1                         ;              ;
-;          |mux2to1:stage3|      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m1|mux2to1:stage3          ;              ;
-;       |mux4to1:m2|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m2                         ;              ;
-;          |mux2to1:stage3|      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m2|mux2to1:stage3          ;              ;
-;       |mux4to1:m3|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m3                         ;              ;
-;          |mux2to1:stage3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m3|mux2to1:stage3          ;              ;
-;       |mux4to1:m4|             ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m4                         ;              ;
-;          |mux2to1:stage3|      ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m4|mux2to1:stage3          ;              ;
-;       |mux4to1:m5|             ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m5                         ;              ;
-;          |mux2to1:stage3|      ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m5|mux2to1:stage3          ;              ;
-;       |mux4to1:m6|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m6                         ;              ;
-;          |mux2to1:stage3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m6|mux2to1:stage3          ;              ;
-;       |mux4to1:m7|             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m7                         ;              ;
-;          |mux2to1:stage3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m7|mux2to1:stage3          ;              ;
-;       |mux4to1:m8|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m8                         ;              ;
-;          |mux2to1:stage3|      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m8|mux2to1:stage3          ;              ;
-;       |mux4to1:m9|             ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m9                         ;              ;
-;          |mux2to1:stage3|      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m9|mux2to1:stage3          ;              ;
-;       |regN:r0|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r0                            ;              ;
-;       |regN:r10|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r10                           ;              ;
-;       |regN:r11|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r11                           ;              ;
-;       |regN:r12|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r12                           ;              ;
-;       |regN:r13|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r13                           ;              ;
-;       |regN:r14|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r14                           ;              ;
-;       |regN:r15|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r15                           ;              ;
-;       |regN:r1|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r1                            ;              ;
-;       |regN:r2|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r2                            ;              ;
-;       |regN:r3|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r3                            ;              ;
-;       |regN:r4|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r4                            ;              ;
-;       |regN:r5|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r5                            ;              ;
-;       |regN:r6|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r6                            ;              ;
-;       |regN:r7|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r7                            ;              ;
-;       |regN:r8|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r8                            ;              ;
-;       |regN:r9|                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r9                            ;              ;
-;    |ripple_carry:addpc|        ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc                                  ;              ;
-;       |fulladd:stage2|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc|fulladd:stage2                   ;              ;
-;       |fulladd:stage3|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc|fulladd:stage3                   ;              ;
-;       |fulladd:stage4|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc|fulladd:stage4                   ;              ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                  ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
+; Compilation Hierarchy Node    ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                       ; Library Name ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
+; |lab5                         ; 169 (0)           ; 124 (0)      ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |lab5                                                     ;              ;
+;    |alu:alup|                 ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup                                            ;              ;
+;       |mux4to1:mux|           ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|mux4to1:mux                                ;              ;
+;          |mux2to1:stage3|     ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|mux4to1:mux|mux2to1:stage3                 ;              ;
+;       |ripple_carry:ripCarry| ; 8 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry                      ;              ;
+;          |fulladd:stage1|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage1       ;              ;
+;          |fulladd:stage2|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage2       ;              ;
+;          |fulladd:stage3|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage3       ;              ;
+;          |fulladd:stage4|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|alu:alup|ripple_carry:ripCarry|fulladd:stage4       ;              ;
+;    |forwardingUnit:forward|   ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|forwardingUnit:forward                              ;              ;
+;    |instruction_decode:id|    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_decode:id                               ;              ;
+;    |instruction_memory:im|    ; 12 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_memory:im                               ;              ;
+;       |dec4to16:stage_dec|    ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_memory:im|dec4to16:stage_dec            ;              ;
+;          |dec2to4:s1|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|instruction_memory:im|dec4to16:stage_dec|dec2to4:s1 ;              ;
+;    |mux2to1:mx_redst|         ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:mx_redst                                    ;              ;
+;    |mux2to1:pc_mux|           ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux2to1:pc_mux                                      ;              ;
+;    |mux4to1:forA_MUX|         ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux4to1:forA_MUX                                    ;              ;
+;       |mux2to1:stage1|        ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux4to1:forA_MUX|mux2to1:stage1                     ;              ;
+;    |mux4to1:forB_mux|         ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux4to1:forB_mux                                    ;              ;
+;       |mux2to1:stage1|        ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|mux4to1:forB_mux|mux2to1:stage1                     ;              ;
+;    |reg1:ex_mem_RegWrite|     ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:ex_mem_RegWrite                                ;              ;
+;    |reg1:ex_mem_regdst|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:ex_mem_regdst                                  ;              ;
+;    |reg1:id_ex_add_sub|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:id_ex_add_sub                                  ;              ;
+;    |reg1:id_ex_regdst|        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:id_ex_regdst                                   ;              ;
+;    |reg1:id_ex_regwrite|      ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:id_ex_regwrite                                 ;              ;
+;    |reg1:mem_wb_regWrite|     ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:mem_wb_regWrite                                ;              ;
+;    |reg1:mem_wb_regdst|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|reg1:mem_wb_regdst                                  ;              ;
+;    |regN:Mem_wb_Rd|           ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:Mem_wb_Rd                                      ;              ;
+;    |regN:ex_Mem_Rd|           ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:ex_Mem_Rd                                      ;              ;
+;    |regN:ex_mem_result|       ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:ex_mem_result                                  ;              ;
+;    |regN:id_ex_ALUop|         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_ALUop                                    ;              ;
+;    |regN:id_ex_RS|            ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_RS                                       ;              ;
+;    |regN:id_ex_RT|            ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_RT                                       ;              ;
+;    |regN:id_ex_Rd|            ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_Rd                                       ;              ;
+;    |regN:id_ex_src1|          ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_src1                                     ;              ;
+;    |regN:id_ex_src2|          ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:id_ex_src2                                     ;              ;
+;    |regN:if_id_inst|          ; 0 (0)             ; 12 (12)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:if_id_inst                                     ;              ;
+;    |regN:mem_wb_result|       ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:mem_wb_result                                  ;              ;
+;    |regN:pc|                  ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|regN:pc                                             ;              ;
+;    |register_file:rf|         ; 108 (80)          ; 64 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf                                    ;              ;
+;       |mux4to1:m0|            ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m0                         ;              ;
+;          |mux2to1:stage3|     ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m0|mux2to1:stage3          ;              ;
+;       |mux4to1:m10|           ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m10                        ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m10|mux2to1:stage3         ;              ;
+;       |mux4to1:m11|           ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m11                        ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m11|mux2to1:stage3         ;              ;
+;       |mux4to1:m12|           ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m12                        ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m12|mux2to1:stage3         ;              ;
+;       |mux4to1:m13|           ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m13                        ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m13|mux2to1:stage3         ;              ;
+;       |mux4to1:m14|           ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m14                        ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m14|mux2to1:stage3         ;              ;
+;       |mux4to1:m15|           ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m15                        ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m15|mux2to1:stage3         ;              ;
+;       |mux4to1:m1|            ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m1                         ;              ;
+;          |mux2to1:stage3|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m1|mux2to1:stage3          ;              ;
+;       |mux4to1:m2|            ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m2                         ;              ;
+;          |mux2to1:stage3|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m2|mux2to1:stage3          ;              ;
+;       |mux4to1:m3|            ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m3                         ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m3|mux2to1:stage3          ;              ;
+;       |mux4to1:m4|            ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m4                         ;              ;
+;          |mux2to1:stage3|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m4|mux2to1:stage3          ;              ;
+;       |mux4to1:m5|            ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m5                         ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m5|mux2to1:stage3          ;              ;
+;       |mux4to1:m6|            ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m6                         ;              ;
+;          |mux2to1:stage3|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m6|mux2to1:stage3          ;              ;
+;       |mux4to1:m7|            ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m7                         ;              ;
+;          |mux2to1:stage3|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m7|mux2to1:stage3          ;              ;
+;       |mux4to1:m8|            ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m8                         ;              ;
+;          |mux2to1:stage3|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m8|mux2to1:stage3          ;              ;
+;       |mux4to1:m9|            ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m9                         ;              ;
+;          |mux2to1:stage3|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|mux4to1:m9|mux2to1:stage3          ;              ;
+;       |regN:r0|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r0                            ;              ;
+;       |regN:r10|              ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r10                           ;              ;
+;       |regN:r11|              ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r11                           ;              ;
+;       |regN:r12|              ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r12                           ;              ;
+;       |regN:r13|              ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r13                           ;              ;
+;       |regN:r14|              ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r14                           ;              ;
+;       |regN:r15|              ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r15                           ;              ;
+;       |regN:r1|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r1                            ;              ;
+;       |regN:r2|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r2                            ;              ;
+;       |regN:r3|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r3                            ;              ;
+;       |regN:r4|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r4                            ;              ;
+;       |regN:r5|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r5                            ;              ;
+;       |regN:r6|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r6                            ;              ;
+;       |regN:r7|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r7                            ;              ;
+;       |regN:r8|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r8                            ;              ;
+;       |regN:r9|               ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|register_file:rf|regN:r9                            ;              ;
+;    |ripple_carry:addpc|       ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc                                  ;              ;
+;       |fulladd:stage2|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc|fulladd:stage2                   ;              ;
+;       |fulladd:stage3|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc|fulladd:stage3                   ;              ;
+;       |fulladd:stage4|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab5|ripple_carry:addpc|fulladd:stage4                   ;              ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -635,29 +647,34 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; instruction_memory:im|regN:r11|Q[0..5,11..14,16..19,21..24,26..31]    ; Stuck at VCC due to stuck port data_in         ;
 ; instruction_memory:im|regN:r10|Q[0..5,11..14,16..19,21..24,26..31]    ; Stuck at VCC due to stuck port data_in         ;
 ; instruction_memory:im|regN:r9|Q[0..5,11..14,16..19,21..24,26..31]     ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r8|Q[1,5,12,13,16,17,23]                   ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r7|Q[17,21,24,26,27,31]                    ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r6|Q[2,5,14,17,18,21]                      ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r5|Q[2,5,11..13,19,21,24]                  ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r4|Q[1,5,12,17,18,21,24]                   ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r3|Q[5,11,13,22,23]                        ; Stuck at VCC due to stuck port data_in         ;
-; instruction_memory:im|regN:r2|Q[1,5,11,12,16,18,21..23]               ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r8|Q[0..5,11..14,16..19,21..24,26..31]     ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r7|Q[0..5,11..14,16..19,21..24,26..31]     ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r6|Q[1,5,11,14,17,21..23]                  ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r5|Q[2,5,14,16,18,22,23]                   ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r4|Q[1,5,11..13,16,17,24]                  ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r3|Q[5,12,13,16,17,23]                     ; Stuck at VCC due to stuck port data_in         ;
+; instruction_memory:im|regN:r2|Q[1,5,11,13,16,17,21,22]                ; Stuck at VCC due to stuck port data_in         ;
 ; instruction_memory:im|regN:r1|Q[5,13,17,21]                           ; Stuck at VCC due to stuck port data_in         ;
 ; instruction_memory:im|regN:r0|Q[0..5,11..14,16..19,21..24,26..31]     ; Stuck at VCC due to stuck port data_in         ;
-; regN:id_ex_address_offset|Q[3]                                        ; Merged with regN:id_ex_address_offset|Q[0]     ;
-; regN:if_id_inst|Q[3,4,28..30]                                         ; Merged with regN:if_id_inst|Q[0]               ;
-; regN:if_id_inst|Q[27,31]                                              ; Merged with regN:if_id_inst|Q[26]              ;
+; regN:if_id_inst|Q[5]                                                  ; Stuck at VCC due to stuck port data_in         ;
+; regN:id_ex_address_offset|Q[2]                                        ; Merged with regN:id_ex_RT|Q[2]                 ;
+; regN:id_ex_address_offset|Q[0,3]                                      ; Merged with regN:id_ex_RT|Q[3]                 ;
+; regN:if_id_inst|Q[3,4,19,26..31]                                      ; Merged with regN:if_id_inst|Q[0]               ;
+; regN:if_id_inst|Q[1]                                                  ; Merged with regN:if_id_inst|Q[11]              ;
+; regN:if_id_inst|Q[2]                                                  ; Merged with regN:if_id_inst|Q[18]              ;
 ; instruction_memory:im|regN:r1|Q[1..4,11,12,14,16,18,19,22..24,26..31] ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r2|Q[0,2..4,13,14,17,19,24,26..31]         ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r3|Q[0..4,12,14,16..19,21,24,26..31]       ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r4|Q[0,2..4,11,13,14,16,19,22,23,26..31]   ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r5|Q[0,1,3,4,14,16..18,22,23,26..31]       ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r6|Q[0,1,3,4,11..13,16,19,22..24,26..31]   ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r7|Q[0..5,11..14,16,18,19,22,23,28..30]    ; Merged with instruction_memory:im|regN:r1|Q[0] ;
-; instruction_memory:im|regN:r8|Q[0,2..4,11,14,18,19,21,22,24,26..31]   ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r2|Q[0,2..4,12,14,18,19,23,24,26..31]      ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r3|Q[0..4,11,14,18,19,21,22,24,26..31]     ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r4|Q[0,2..4,14,18,19,21..23,26..31]        ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r5|Q[0,1,3,4,11..13,17,19,21,24,26..31]    ; Merged with instruction_memory:im|regN:r1|Q[0] ;
+; instruction_memory:im|regN:r6|Q[0,2..4,12,13,16,18,19,24,26..31]      ; Merged with instruction_memory:im|regN:r1|Q[0] ;
 ; instruction_memory:im|regN:r1|Q[0]                                    ; Stuck at GND due to stuck port data_in         ;
 ; reg1:id_ex_MemWrite|Q                                                 ; Stuck at GND due to stuck port data_in         ;
+; reg1:id_ex_memToReg|Q                                                 ; Stuck at GND due to stuck port data_in         ;
 ; reg1:ex_mem_MemWrite|Q                                                ; Stuck at GND due to stuck port data_in         ;
+; reg1:ex_mem_MemToReg|Q                                                ; Stuck at GND due to stuck port data_in         ;
+; reg1:id_ex_alusrc|Q                                                   ; Stuck at GND due to stuck port data_in         ;
+; reg1:mem_wb_memtoReg|Q                                                ; Stuck at GND due to stuck port data_in         ;
 ; data_memory:dm|regN:r10|Q[0]                                          ; Stuck at VCC due to stuck port data_in         ;
 ; data_memory:dm|regN:r10|Q[1..3]                                       ; Stuck at GND due to stuck port data_in         ;
 ; data_memory:dm|regN:r9|Q[0]                                           ; Stuck at VCC due to stuck port data_in         ;
@@ -687,39 +704,42 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; data_memory:dm|regN:r0|Q[2]                                           ; Stuck at VCC due to stuck port data_in         ;
 ; data_memory:dm|regN:r0|Q[3]                                           ; Stuck at GND due to stuck port data_in         ;
 ; regN:id_ex_ALUop|Q[1]                                                 ; Merged with regN:id_ex_ALUop|Q[0]              ;
-; reg1:id_ex_memToReg|Q                                                 ; Merged with reg1:id_ex_alusrc|Q                ;
-; Total Number of Removed Registers = 440                               ;                                                ;
+; Total Number of Removed Registers = 450                               ;                                                ;
 +-----------------------------------------------------------------------+------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                             ;
-+-----------------------+---------------------------+-------------------------------------------------------------------------------------+
-; Register name         ; Reason for Removal        ; Registers Removed due to This Register                                              ;
-+-----------------------+---------------------------+-------------------------------------------------------------------------------------+
-; reg1:id_ex_MemWrite|Q ; Stuck at GND              ; reg1:ex_mem_MemWrite|Q, data_memory:dm|regN:r10|Q[0], data_memory:dm|regN:r10|Q[1], ;
-;                       ; due to stuck port data_in ; data_memory:dm|regN:r10|Q[2], data_memory:dm|regN:r10|Q[3],                         ;
-;                       ;                           ; data_memory:dm|regN:r9|Q[0], data_memory:dm|regN:r9|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r9|Q[2], data_memory:dm|regN:r9|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r8|Q[0], data_memory:dm|regN:r8|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r8|Q[2], data_memory:dm|regN:r8|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r7|Q[0], data_memory:dm|regN:r7|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r7|Q[2], data_memory:dm|regN:r7|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r6|Q[0], data_memory:dm|regN:r6|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r6|Q[2], data_memory:dm|regN:r6|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r5|Q[0], data_memory:dm|regN:r5|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r5|Q[2], data_memory:dm|regN:r5|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r4|Q[0], data_memory:dm|regN:r4|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r4|Q[2], data_memory:dm|regN:r4|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r3|Q[0], data_memory:dm|regN:r3|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r3|Q[2], data_memory:dm|regN:r3|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r2|Q[0], data_memory:dm|regN:r2|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r2|Q[2], data_memory:dm|regN:r2|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r1|Q[0], data_memory:dm|regN:r1|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r1|Q[2], data_memory:dm|regN:r1|Q[3],                           ;
-;                       ;                           ; data_memory:dm|regN:r0|Q[0], data_memory:dm|regN:r0|Q[1],                           ;
-;                       ;                           ; data_memory:dm|regN:r0|Q[2], data_memory:dm|regN:r0|Q[3]                            ;
-+-----------------------+---------------------------+-------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                           ;
++-------------------------------------+---------------------------+-------------------------------------------------------------------------------------+
+; Register name                       ; Reason for Removal        ; Registers Removed due to This Register                                              ;
++-------------------------------------+---------------------------+-------------------------------------------------------------------------------------+
+; reg1:id_ex_MemWrite|Q               ; Stuck at GND              ; reg1:ex_mem_MemWrite|Q, data_memory:dm|regN:r10|Q[0], data_memory:dm|regN:r10|Q[1], ;
+;                                     ; due to stuck port data_in ; data_memory:dm|regN:r10|Q[2], data_memory:dm|regN:r10|Q[3],                         ;
+;                                     ;                           ; data_memory:dm|regN:r9|Q[0], data_memory:dm|regN:r9|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r9|Q[2], data_memory:dm|regN:r9|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r8|Q[0], data_memory:dm|regN:r8|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r8|Q[2], data_memory:dm|regN:r8|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r7|Q[0], data_memory:dm|regN:r7|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r7|Q[2], data_memory:dm|regN:r7|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r6|Q[0], data_memory:dm|regN:r6|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r6|Q[2], data_memory:dm|regN:r6|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r5|Q[0], data_memory:dm|regN:r5|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r5|Q[2], data_memory:dm|regN:r5|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r4|Q[0], data_memory:dm|regN:r4|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r4|Q[2], data_memory:dm|regN:r4|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r3|Q[0], data_memory:dm|regN:r3|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r3|Q[2], data_memory:dm|regN:r3|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r2|Q[0], data_memory:dm|regN:r2|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r2|Q[2], data_memory:dm|regN:r2|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r1|Q[0], data_memory:dm|regN:r1|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r1|Q[2], data_memory:dm|regN:r1|Q[3],                           ;
+;                                     ;                           ; data_memory:dm|regN:r0|Q[0], data_memory:dm|regN:r0|Q[1],                           ;
+;                                     ;                           ; data_memory:dm|regN:r0|Q[2], data_memory:dm|regN:r0|Q[3]                            ;
+; instruction_memory:im|regN:r15|Q[5] ; Stuck at VCC              ; regN:if_id_inst|Q[5]                                                                ;
+;                                     ; due to stuck port data_in ;                                                                                     ;
+; reg1:id_ex_memToReg|Q               ; Stuck at GND              ; reg1:ex_mem_MemToReg|Q                                                              ;
+;                                     ; due to stuck port data_in ;                                                                                     ;
++-------------------------------------+---------------------------+-------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -727,10 +747,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 131   ;
+; Total registers                              ; 124   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 10    ;
+; Number of registers using Asynchronous Clear ; 7     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 64    ;
 ; Number of registers using Preset             ; 0     ;
@@ -742,9 +762,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 16:1               ; 4 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |lab5|regN:id_ex_src2|Q[2] ;
+; 16:1               ; 4 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |lab5|regN:id_ex_src2|Q[0] ;
 ; 16:1               ; 4 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |lab5|regN:id_ex_src1|Q[0] ;
-; 12:1               ; 3 bits    ; 24 LEs        ; 21 LEs               ; 3 LEs                  ; No         ; |lab5|mux2to1:mx_wb|f[0]   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
@@ -2468,6 +2487,106 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: regN:id_ex_Rd ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; n              ; 4     ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux4to1:forA_MUX ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; n              ; 4     ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux4to1:forA_MUX|mux2to1:stage1 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux4to1:forA_MUX|mux2to1:stage2 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux4to1:forA_MUX|mux2to1:stage3 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux4to1:forB_mux ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; n              ; 4     ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux4to1:forB_mux|mux2to1:stage1 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux4to1:forB_mux|mux2to1:stage2 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux4to1:forB_mux|mux2to1:stage3 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2to1:mux_alu ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; n              ; 4     ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: alu:alup|mux4to1:mux ;
 +----------------+-------+------------------------------------------+
@@ -2518,16 +2637,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mux2to1:mux_alu ;
-+----------------+-------+-------------------------------------+
-; Parameter Name ; Value ; Type                                ;
-+----------------+-------+-------------------------------------+
-; n              ; 4     ; Signed Integer                      ;
-+----------------+-------+-------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-----------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: regN:ex_mem_result ;
 +----------------+-------+----------------------------------------+
@@ -2550,6 +2659,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +-------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: regN:ex_mem_pc ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; n              ; 4     ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: regN:ex_Mem_Rd ;
 +----------------+-------+------------------------------------+
 ; Parameter Name ; Value ; Type                               ;
 +----------------+-------+------------------------------------+
@@ -3248,6 +3367,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: regN:Mem_wb_Rd ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; n              ; 4     ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: mux2to1:mx_wb ;
 +----------------+-------+-----------------------------------+
@@ -3256,6 +3385,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; n              ; 4     ; Signed Integer                    ;
 +----------------+-------+-----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "regN:mem_wb_pc"                                                                     ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -3428,16 +3566,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; en        ; Input  ; Info     ; Stuck at VCC                                                                        ;
 ; y[15..11] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +-----------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "forwardingUnit:forward"                                                                 ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; forwarda ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; forwardb ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -3769,39 +3897,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +--------------------------------------------------------------+
 ; Port Connectivity Checks: "instruction_memory:im|mux2to1:m8" ;
-+-----------+-------+----------+-------------------------------+
-; Port      ; Type  ; Severity ; Details                       ;
-+-----------+-------+----------+-------------------------------+
-; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
-; b[13..12] ; Input ; Info     ; Stuck at VCC                  ;
-; b[31..24] ; Input ; Info     ; Stuck at GND                  ;
-; b[22..18] ; Input ; Info     ; Stuck at GND                  ;
-; b[15..14] ; Input ; Info     ; Stuck at GND                  ;
-; b[11..6]  ; Input ; Info     ; Stuck at GND                  ;
-; b[4..2]   ; Input ; Info     ; Stuck at GND                  ;
-; b[23]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
-; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
-; b[0]      ; Input ; Info     ; Stuck at GND                  ;
-+-----------+-------+----------+-------------------------------+
++------+-------+----------+------------------------------------+
+; Port ; Type  ; Severity ; Details                            ;
++------+-------+----------+------------------------------------+
+; b    ; Input ; Info     ; Stuck at VCC                       ;
++------+-------+----------+------------------------------------+
 
 
 +--------------------------------------------------------------+
 ; Port Connectivity Checks: "instruction_memory:im|mux2to1:m7" ;
-+-----------+-------+----------+-------------------------------+
-; Port      ; Type  ; Severity ; Details                       ;
-+-----------+-------+----------+-------------------------------+
-; b[27..26] ; Input ; Info     ; Stuck at VCC                  ;
-; b[30..28] ; Input ; Info     ; Stuck at GND                  ;
-; b[23..22] ; Input ; Info     ; Stuck at GND                  ;
-; b[20..18] ; Input ; Info     ; Stuck at GND                  ;
-; b[16..0]  ; Input ; Info     ; Stuck at GND                  ;
-; b[31]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[25]     ; Input ; Info     ; Stuck at GND                  ;
-; b[24]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[21]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[17]     ; Input ; Info     ; Stuck at VCC                  ;
-+-----------+-------+----------+-------------------------------+
++------+-------+----------+------------------------------------+
+; Port ; Type  ; Severity ; Details                            ;
++------+-------+----------+------------------------------------+
+; b    ; Input ; Info     ; Stuck at VCC                       ;
++------+-------+----------+------------------------------------+
 
 
 +--------------------------------------------------------------+
@@ -3809,17 +3918,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
-; b[18..17] ; Input ; Info     ; Stuck at VCC                  ;
-; b[31..22] ; Input ; Info     ; Stuck at GND                  ;
-; b[20..19] ; Input ; Info     ; Stuck at GND                  ;
+; b[23..21] ; Input ; Info     ; Stuck at VCC                  ;
+; b[31..24] ; Input ; Info     ; Stuck at GND                  ;
+; b[20..18] ; Input ; Info     ; Stuck at GND                  ;
 ; b[16..15] ; Input ; Info     ; Stuck at GND                  ;
-; b[13..6]  ; Input ; Info     ; Stuck at GND                  ;
-; b[4..3]   ; Input ; Info     ; Stuck at GND                  ;
-; b[1..0]   ; Input ; Info     ; Stuck at GND                  ;
-; b[21]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[13..12] ; Input ; Info     ; Stuck at GND                  ;
+; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
+; b[4..2]   ; Input ; Info     ; Stuck at GND                  ;
+; b[17]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[14]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
-; b[2]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
+; b[0]      ; Input ; Info     ; Stuck at GND                  ;
 +-----------+-------+----------+-------------------------------+
 
 
@@ -3828,17 +3939,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
-; b[13..11] ; Input ; Info     ; Stuck at VCC                  ;
-; b[31..25] ; Input ; Info     ; Stuck at GND                  ;
-; b[23..22] ; Input ; Info     ; Stuck at GND                  ;
-; b[18..14] ; Input ; Info     ; Stuck at GND                  ;
-; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
+; b[23..22] ; Input ; Info     ; Stuck at VCC                  ;
+; b[31..24] ; Input ; Info     ; Stuck at GND                  ;
+; b[21..19] ; Input ; Info     ; Stuck at GND                  ;
+; b[13..6]  ; Input ; Info     ; Stuck at GND                  ;
 ; b[4..3]   ; Input ; Info     ; Stuck at GND                  ;
 ; b[1..0]   ; Input ; Info     ; Stuck at GND                  ;
-; b[24]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[21]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[20]     ; Input ; Info     ; Stuck at GND                  ;
-; b[19]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[18]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[17]     ; Input ; Info     ; Stuck at GND                  ;
+; b[16]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[15]     ; Input ; Info     ; Stuck at GND                  ;
+; b[14]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
 ; b[2]      ; Input ; Info     ; Stuck at VCC                  ;
 +-----------+-------+----------+-------------------------------+
@@ -3849,16 +3960,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
-; b[18..17] ; Input ; Info     ; Stuck at VCC                  ;
+; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
+; b[13..11] ; Input ; Info     ; Stuck at VCC                  ;
 ; b[31..25] ; Input ; Info     ; Stuck at GND                  ;
-; b[23..22] ; Input ; Info     ; Stuck at GND                  ;
-; b[20..19] ; Input ; Info     ; Stuck at GND                  ;
-; b[16..13] ; Input ; Info     ; Stuck at GND                  ;
-; b[11..6]  ; Input ; Info     ; Stuck at GND                  ;
+; b[23..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[15..14] ; Input ; Info     ; Stuck at GND                  ;
+; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
 ; b[4..2]   ; Input ; Info     ; Stuck at GND                  ;
 ; b[24]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[21]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[12]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
 ; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
 ; b[0]      ; Input ; Info     ; Stuck at GND                  ;
@@ -3870,14 +3979,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
-; b[23..22] ; Input ; Info     ; Stuck at VCC                  ;
+; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
+; b[13..12] ; Input ; Info     ; Stuck at VCC                  ;
 ; b[31..24] ; Input ; Info     ; Stuck at GND                  ;
-; b[21..14] ; Input ; Info     ; Stuck at GND                  ;
-; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
+; b[22..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[15..14] ; Input ; Info     ; Stuck at GND                  ;
+; b[11..6]  ; Input ; Info     ; Stuck at GND                  ;
 ; b[4..0]   ; Input ; Info     ; Stuck at GND                  ;
-; b[13]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[12]     ; Input ; Info     ; Stuck at GND                  ;
-; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[23]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
 +-----------+-------+----------+-------------------------------+
 
@@ -3887,16 +3996,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+-------------------------------+
 ; Port      ; Type  ; Severity ; Details                       ;
 +-----------+-------+----------+-------------------------------+
-; b[23..21] ; Input ; Info     ; Stuck at VCC                  ;
-; b[12..11] ; Input ; Info     ; Stuck at VCC                  ;
-; b[31..24] ; Input ; Info     ; Stuck at GND                  ;
-; b[20..19] ; Input ; Info     ; Stuck at GND                  ;
-; b[15..13] ; Input ; Info     ; Stuck at GND                  ;
+; b[22..21] ; Input ; Info     ; Stuck at VCC                  ;
+; b[17..16] ; Input ; Info     ; Stuck at VCC                  ;
+; b[31..23] ; Input ; Info     ; Stuck at GND                  ;
+; b[20..18] ; Input ; Info     ; Stuck at GND                  ;
+; b[15..14] ; Input ; Info     ; Stuck at GND                  ;
 ; b[10..6]  ; Input ; Info     ; Stuck at GND                  ;
 ; b[4..2]   ; Input ; Info     ; Stuck at GND                  ;
-; b[18]     ; Input ; Info     ; Stuck at VCC                  ;
-; b[17]     ; Input ; Info     ; Stuck at GND                  ;
-; b[16]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[13]     ; Input ; Info     ; Stuck at VCC                  ;
+; b[12]     ; Input ; Info     ; Stuck at GND                  ;
+; b[11]     ; Input ; Info     ; Stuck at VCC                  ;
 ; b[5]      ; Input ; Info     ; Stuck at VCC                  ;
 ; b[1]      ; Input ; Info     ; Stuck at VCC                  ;
 ; b[0]      ; Input ; Info     ; Stuck at GND                  ;
@@ -3974,7 +4083,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Tue Apr 17 09:40:39 2018
+    Info: Processing started: Tue May 01 08:47:43 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab5 -c lab5
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file lab5.vhd
@@ -4029,11 +4138,11 @@ Info (12021): Found 2 design units, including 1 entities, in source file forward
     Info (12023): Found entity 1: forwardingUnit
 Info (12127): Elaborating entity "lab5" for the top level hierarchy
 Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(12): object "wb_dmem" assigned a value but never read
-Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(16): object "forwardA" assigned a value but never read
-Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(16): object "forwardB" assigned a value but never read
+Warning (10541): VHDL Signal Declaration warning at lab5.vhd(12): used implicit default value for signal "stupid" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(17): object "ex_MemRead" assigned a value but never read
 Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(17): object "mem_zero" assigned a value but never read
 Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(17): object "Jump" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(18): object "wb_pc" assigned a value but never read
 Warning (10036): Verilog HDL or VHDL warning at lab5.vhd(19): object "mem_Branch" assigned a value but never read
 Info (12128): Elaborating entity "mux2to1" for hierarchy "mux2to1:pc_mux"
 Info (12128): Elaborating entity "regN" for hierarchy "regN:pc"
@@ -4095,14 +4204,14 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 273 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 272 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 263 logic cells
+    Info (21061): Implemented 262 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 47 warnings
-    Info: Peak virtual memory: 487 megabytes
-    Info: Processing ended: Tue Apr 17 09:41:04 2018
-    Info: Elapsed time: 00:00:25
+    Info: Peak virtual memory: 486 megabytes
+    Info: Processing ended: Tue May 01 08:48:09 2018
+    Info: Elapsed time: 00:00:26
     Info: Total CPU time (on all processors): 00:00:04
 
 
